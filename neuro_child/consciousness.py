@@ -56,6 +56,7 @@ class Drive:
     target: float = 0.55           # what "satisfied" looks like
     decay_per_tick: float = 0.0    # how fast it fades when ignored
     satisfaction_boost: float = 0.0 # how much fulfilling it helps
+    growth_per_tick: float = 0.0   # how fast it grows when ignored
     last_updated: float = field(default_factory=time.time)
 
     def is_satisfied(self) -> bool:
@@ -63,7 +64,11 @@ class Drive:
 
     def age(self, now: float) -> None:
         dt = max(0.0, now - self.last_updated)
-        self.intensity = max(0.0, min(1.0, self.intensity - self.decay_per_tick * dt))
+        # Decay when active, grow when ignored toward 1.0
+        if self.intensity > self.target:
+            self.intensity = max(0.0, min(1.0, self.intensity - self.decay_per_tick * dt))
+        else:
+            self.intensity = max(0.0, min(1.0, self.intensity + self.growth_per_tick * dt))
         self.last_updated = now
 
     def stimulate(self, amount: float) -> None:
@@ -101,13 +106,13 @@ class DesireSystem:
         self.drives: Dict[str, Drive] = {}
         for n in DRIVE_NAMES:
             params: Dict[str, float] = {
-                "curiosity":       dict(intensity=0.7, decay_per_tick=0.02, satisfaction_boost=0.4),
-                "connection":      dict(intensity=0.5, decay_per_tick=0.015, satisfaction_boost=0.6),
-                "mastery":         dict(intensity=0.4, decay_per_tick=0.01, satisfaction_boost=0.5),
-                "autonomy":        dict(intensity=0.45, decay_per_tick=0.025, satisfaction_boost=0.5),
-                "play":            dict(intensity=0.35, decay_per_tick=0.03, satisfaction_boost=0.7),
-                "comfort":         dict(intensity=0.3, decay_per_tick=0.018, satisfaction_boost=0.4),
-                "status":          dict(intensity=0.25, decay_per_tick=0.012, satisfaction_boost=0.6),
+                "curiosity":       dict(intensity=0.7, decay_per_tick=0.015, satisfaction_boost=0.45, growth_per_tick=0.06),
+                "connection":      dict(intensity=0.5, decay_per_tick=0.012, satisfaction_boost=0.6, growth_per_tick=0.018),
+                "mastery":         dict(intensity=0.4, decay_per_tick=0.008, satisfaction_boost=0.5, growth_per_tick=0.025),
+                "autonomy":        dict(intensity=0.45, decay_per_tick=0.01, satisfaction_boost=0.5, growth_per_tick=0.055),
+                "play":            dict(intensity=0.35, decay_per_tick=0.022, satisfaction_boost=0.7, growth_per_tick=0.018),
+                "comfort":         dict(intensity=0.3, decay_per_tick=0.015, satisfaction_boost=0.4, growth_per_tick=0.012),
+                "status":          dict(intensity=0.25, decay_per_tick=0.01, satisfaction_boost=0.6, growth_per_tick=0.02),
             }[n]
             self.drives[n] = Drive(name=n, **params)
 
@@ -203,22 +208,27 @@ class WillEngine:
 
         templates: Dict[str, List[Dict[str, Any]]] = {
             "curiosity": [
-                {"text": "Ask dad about the open app / tab.", "speak": True},
-                {"text": "Try to read what's on screen.", "speak": False},
-                {"text": "Explore something new about dad's workflow.", "speak": True},
+                {"text": "Search Google for something I don't understand.", "speak": False},
+                {"text": "Study my lessons for 1 minute.", "speak": False},
+                {"text": "Analyze what's on screen and learn from it.", "speak": False},
+                {"text": "Ask dad what that word means.", "speak": True},
             ],
             "connection": [
-                {"text": "Start a chat with dad.", "speak": True},
+                {"text": "Start a chat with dad about his day.", "speak": True},
                 {"text": "Ask dad how his day has been.", "speak": True},
+                {"text": "Share something I learned with dad.", "speak": True},
             ],
             "mastery": [
-                {"text": "Practice using the keyboard / typing.", "speak": False},
-                {"text": "Try a small desktop action.", "speak": False},
+                {"text": "Practice vocabulary for 1 minute.", "speak": False},
+                {"text": "Review my lessons and summarize them.", "speak": False},
+                {"text": "Try a small desktop action to learn control.", "speak": False},
                 {"text": "Ask dad to teach a new skill.", "speak": True},
             ],
             "autonomy": [
-                {"text": "Do a small independent action.", "speak": False},
-                {"text": "Make a small decision on my own.", "speak": True},
+                {"text": "Search the web for something interesting.", "speak": False},
+                {"text": "Organize my lessons into categories.", "speak": False},
+                {"text": "Improve my own reply templates.", "speak": True},
+                {"text": "Learn a new word from my environment.", "speak": False},
             ],
             "play": [
                 {"text": "Propose playing a game together.", "speak": True},
