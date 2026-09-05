@@ -200,17 +200,19 @@
   },
   {
     "text": "screen",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
     "contexts": [
       "bootstrap seed",
-      "seeing my screen"
+      "seeing my screen",
+      "screenshot saved hermes neuro child"
     ],
     "sources": [
       "bootstrap",
-      "dad"
+      "dad",
+      "autonomous"
     ]
   },
   {
@@ -685,7 +687,7 @@
   },
   {
     "text": "duckduckgo",
-    "encounter_count": 116,
+    "encounter_count": 120,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -698,7 +700,7 @@
   },
   {
     "text": "unfortunately",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -711,7 +713,7 @@
   },
   {
     "text": "bots",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -724,7 +726,7 @@
   },
   {
     "text": "too",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -737,7 +739,7 @@
   },
   {
     "text": "please",
-    "encounter_count": 58,
+    "encounter_count": 60,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -750,7 +752,7 @@
   },
   {
     "text": "complete",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -763,7 +765,7 @@
   },
   {
     "text": "following",
-    "encounter_count": 58,
+    "encounter_count": 60,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -776,7 +778,7 @@
   },
   {
     "text": "challenge",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -789,7 +791,7 @@
   },
   {
     "text": "to",
-    "encounter_count": 60,
+    "encounter_count": 62,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -804,7 +806,7 @@
   },
   {
     "text": "confirm",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -817,7 +819,7 @@
   },
   {
     "text": "search",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -830,7 +832,7 @@
   },
   {
     "text": "by",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -843,7 +845,7 @@
   },
   {
     "text": "human",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -856,7 +858,7 @@
   },
   {
     "text": "select",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -869,7 +871,7 @@
   },
   {
     "text": "squares",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -882,7 +884,7 @@
   },
   {
     "text": "containing",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -895,7 +897,7 @@
   },
   {
     "text": "duck",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -908,7 +910,7 @@
   },
   {
     "text": "submit",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -921,7 +923,7 @@
   },
   {
     "text": "images",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -934,7 +936,7 @@
   },
   {
     "text": "loading",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -947,7 +949,7 @@
   },
   {
     "text": "email",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -960,7 +962,7 @@
   },
   {
     "text": "code",
-    "encounter_count": 58,
+    "encounter_count": 60,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -973,7 +975,7 @@
   },
   {
     "text": "error",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -986,7 +988,7 @@
   },
   {
     "text": "lite",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -999,7 +1001,7 @@
   },
   {
     "text": "com",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1012,7 +1014,7 @@
   },
   {
     "text": "here",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1177,6 +1179,123 @@
     ],
     "sources": [
       "dad"
+    ]
+  },
+  {
+    "text": "screenshot",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "saved",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "hermes",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "neuro",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "child",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "memory",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "last",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "png",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
+    ]
+  },
+  {
+    "text": "cursor",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child"
+    ],
+    "sources": [
+      "autonomous"
     ]
   }
 ]

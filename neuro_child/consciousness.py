@@ -115,12 +115,18 @@ class DesireSystem:
                 "status":          dict(intensity=0.25, decay_per_tick=0.01, satisfaction_boost=0.6, growth_per_tick=0.02),
             }[n]
             self.drives[n] = Drive(name=n, **params)
+        self._last_tick = time.time()
 
-    def tick(self, events: Optional[List[Dict[str, Any]]] = None) -> None:
-        now = time.time()
+    def tick(self, events: Optional[List[Dict[str, Any]]] = None, seconds: float = 1.0) -> None:
         events = events or []
+        now = time.time()
+        elapsed = max(0.0, seconds)
         for d in self.drives.values():
-            d.age(now)
+            if d.intensity > d.target:
+                d.intensity = max(0.0, min(1.0, d.intensity - d.decay_per_tick * elapsed))
+            else:
+                d.intensity = max(0.0, min(1.0, d.intensity + d.growth_per_tick * elapsed))
+            d.last_updated = now
         for ev in events:
             name = ev.get("drive")
             if name in self.drives:
@@ -405,11 +411,11 @@ class ConsciousNova:
 
     def update(self, seconds: float = 1.0) -> Dict[str, Any]:
         now = time.time()
-        # Tick drives
+        # Tick drives using actual elapsed time so ignored drives grow.
         events: List[Dict[str, Any]] = []
         if self.state.current_goal and random.random() < 0.3:
             events.append({"drive": "curiosity", "amount": 0.02, "kind": "stimulate"})
-        self.desires.tick(events)
+        self.desires.tick(events, seconds=seconds)
 
         # Update conscious state from drives
         strongest = self.desires.strongest(1)
