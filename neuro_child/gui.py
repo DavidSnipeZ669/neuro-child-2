@@ -1052,6 +1052,9 @@ class ChildGUI:
                 action = self.consciousness.decide_next_action()
                 if action:
                     text = action.get("text", "")
+                    drive = action.get("drive", "")
+                    # Execute real self-improvement actions, not just text
+                    self._execute_autonomous_action(action)
                     if text and action.get("speak"):
                         self._append_chat(self.name, text)
                     self._last_autonomous_action = action
@@ -1064,6 +1067,102 @@ class ChildGUI:
         except Exception:
             pass
         self.root.after(self._autonomous_interval, self._autonomous_loop)
+
+    def _execute_autonomous_action(self, action: Dict[str, Any]) -> None:
+        text = (action.get("text") or "").lower()
+        drive = action.get("drive") or ""
+        try:
+            if "search google" in text or "search the web" in text:
+                if hasattr(self, "autonomous_learner"):
+                    self.autonomous_learner._autonomous_search_learning()
+                    self.consciousness.desires.drives["autonomy"].satisfy(0.2)
+                    self.consciousness.desires.drives["curiosity"].satisfy(0.2)
+                    self.consciousness.desires.drives["mastery"].stimulate(0.1)
+                    return
+            if "study my lessons" in text or "review my lessons" in text:
+                lessons = []
+                try:
+                    lessons = self.brain.memory.recall("lesson", k=5)
+                except Exception:
+                    pass
+                if lessons:
+                    summary = "; ".join(r.get("text", "") for r in lessons[:3])
+                    self._append_chat(self.name, f"Studying my lessons: {summary[:120]}")
+                self.consciousness.desires.drives["mastery"].satisfy(0.3)
+                self.consciousness.desires.drives["autonomy"].satisfy(0.2)
+                return
+            if "analyze what's on screen" in text:
+                obs = self.eyes.observe()
+                screen_text = obs.get("text", "") or ""
+                if screen_text:
+                    try:
+                        words = self.brain.language.encounter_text(screen_text, source="autonomous")
+                        if words:
+                            self._append_chat(self.name, f"Learning from screen: {', '.join(words[:5])}")
+                    except Exception:
+                        pass
+                self.consciousness.desires.drives["curiosity"].satisfy(0.25)
+                return
+            if "learn a new word" in text or "new word" in text:
+                if hasattr(self, "autonomous_learner"):
+                    try:
+                        self.autonomous_learner._passive_screen_learning()
+                    except Exception:
+                        pass
+                self.consciousness.desires.drives["autonomy"].satisfy(0.2)
+                self.consciousness.desires.drives["mastery"].stimulate(0.1)
+                return
+            if "practice vocabulary" in text:
+                summary = {}
+                try:
+                    summary = self.brain.language.get_vocabulary_summary()
+                except Exception:
+                    pass
+                top = summary.get("top_words", [])[:5]
+                if top:
+                    words = ", ".join(w.get("text", "") for w in top)
+                    self._append_chat(self.name, f"Practice vocab: {words}")
+                self.consciousness.desires.drives["mastery"].satisfy(0.35)
+                self.consciousness.desires.drives["autonomy"].satisfy(0.15)
+                return
+            if "improve my own reply templates" in text:
+                if hasattr(self, "evolution_engine"):
+                    try:
+                        self.evolution_engine._evolve()
+                    except Exception:
+                        pass
+                self.consciousness.desires.drives["autonomy"].satisfy(0.3)
+                self.consciousness.desires.drives["mastery"].stimulate(0.15)
+                return
+            if "organize my lessons" in text:
+                try:
+                    lessons = self.brain.memory.recall("lesson", k=20)
+                    categories: Dict[str, List[str]] = {}
+                    for r in lessons:
+                        txt = r.get("text", "")
+                        cat = "general"
+                        if any(w in txt.lower() for w in ["remember", "lesson", "learn"]):
+                            cat = "lesson"
+                        elif any(w in txt.lower() for w in ["like", "love", "hate"]):
+                            cat = "preference"
+                        categories.setdefault(cat, []).append(txt)
+                    if categories:
+                        self._append_chat(self.name, f"Organized {sum(len(v) for v in categories.values())} lessons into {len(categories)} categories")
+                except Exception:
+                    pass
+                self.consciousness.desires.drives["autonomy"].satisfy(0.35)
+                self.consciousness.desires.drives["mastery"].stimulate(0.1)
+                return
+            # Generic curiosity-driven stimulation
+            if drive == "curiosity":
+                self.consciousness.desires.drives["curiosity"].satisfy(0.15)
+                self.consciousness.desires.drives["mastery"].stimulate(0.1)
+            elif drive == "autonomy":
+                self.consciousness.desires.drives["autonomy"].satisfy(0.15)
+            elif drive == "mastery":
+                self.consciousness.desires.drives["mastery"].satisfy(0.2)
+        except Exception:
+            pass
 
     def _environmental_learning_loop(self) -> None:
         try:

@@ -38,5 +38,13 @@
     "importance": 0.9,
     "created": "2026-09-05T05:24:38.075059Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-05T15:15:56.012027Z",
+    "kind": "fact",
+    "text": "dad likes cats",
+    "importance": 0.9,
+    "created": "2026-09-05T15:15:56.012027Z",
+    "expires": null
   }
 ]
