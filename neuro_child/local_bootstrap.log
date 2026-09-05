@@ -5037,3 +5037,14 @@ Scanning B:\Local AI ...
 [5036000 sentences | 3 files | 44119s] avg_loss=1.8120 stats={'training_steps': 10164000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.8292, 'last_loss': np.float64(2.0214), 'approx_perplexity': 6.23}
 [5037000 sentences | 3 files | 44130s] avg_loss=1.7896 stats={'training_steps': 10166000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7972, 'last_loss': np.float64(1.7257), 'approx_perplexity': 6.03}
 [5038000 sentences | 3 files | 44143s] avg_loss=1.7401 stats={'training_steps': 10168000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7912, 'last_loss': np.float64(1.9572), 'approx_perplexity': 6.0}
+[5039000 sentences | 3 files | 44155s] avg_loss=1.7318 stats={'training_steps': 10170000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7965, 'last_loss': np.float64(1.8261), 'approx_perplexity': 6.03}
+[5040000 sentences | 3 files | 44167s] avg_loss=1.7410 stats={'training_steps': 10172000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7742, 'last_loss': np.float64(2.4027), 'approx_perplexity': 5.9}
+[5041000 sentences | 3 files | 44178s] avg_loss=1.7742 stats={'training_steps': 10174000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.8464, 'last_loss': np.float64(1.3969), 'approx_perplexity': 6.34}
+[5042000 sentences | 3 files | 44190s] avg_loss=1.8193 stats={'training_steps': 10176000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.801, 'last_loss': np.float64(1.6924), 'approx_perplexity': 6.06}
+[5043000 sentences | 3 files | 44201s] avg_loss=1.8083 stats={'training_steps': 10178000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7948, 'last_loss': np.float64(1.9405), 'approx_perplexity': 6.02}
+[5044000 sentences | 3 files | 44213s] avg_loss=1.7881 stats={'training_steps': 10180000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.8488, 'last_loss': np.float64(1.8478), 'approx_perplexity': 6.35}
+[5045000 sentences | 3 files | 44224s] avg_loss=1.7587 stats={'training_steps': 10182000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7341, 'last_loss': np.float64(1.7412), 'approx_perplexity': 5.66}
+[5046000 sentences | 3 files | 44234s] avg_loss=1.7142 stats={'training_steps': 10184000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.8249, 'last_loss': np.float64(1.8503), 'approx_perplexity': 6.2}
+[5047000 sentences | 3 files | 44245s] avg_loss=1.7282 stats={'training_steps': 10186000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7499, 'last_loss': np.float64(1.8607), 'approx_perplexity': 5.75}
+[5048000 sentences | 3 files | 44256s] avg_loss=1.7189 stats={'training_steps': 10188000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.749, 'last_loss': np.float64(2.4993), 'approx_perplexity': 5.75}
+[5049000 sentences | 3 files | 44267s] avg_loss=1.7273 stats={'training_steps': 10190000, 'replay_buffer_size': 5000, 'avg_recent_loss': 1.7461, 'last_loss': np.float64(1.8852), 'approx_perplexity': 5.73}
