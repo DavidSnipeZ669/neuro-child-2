@@ -342,10 +342,13 @@ class Brain:
         self.system_integration = SystemIntegration()
 
     def remember(self, text: str) -> str:
-        self.memory.add(text, kind="fact", importance=0.9)
-        self.consciousness.teach(text)
+        cleaned = text[len("remember "):] if text.lower().startswith("remember ") else text
+        if not cleaned:
+            cleaned = text
+        self.memory.add(cleaned, kind="fact", importance=0.9)
+        self.consciousness.teach(cleaned)
         try:
-            self.knowledge.learn("user lesson", text, category="lesson", importance=0.95, source="dad")
+            self.knowledge.learn("user lesson", cleaned, category="lesson", importance=0.95, source="dad")
         except Exception:
             pass
         return random.choice(["got it, dad.", "stored that.", "i'll remember that."])
@@ -676,12 +679,20 @@ class Brain:
                 "tell me more about that",
             ])
 
-        # Context-aware fallback using screen + mood + memory
+        # Context-aware fallback using screen + mood + memory + knowledge
         memory_hints = ""
+        knowledge_hint = ""
         try:
             recent = self.memory.recall(user_text, k=3)
             if recent:
                 memory_hints = " ".join(r.get("text", "") for r in recent)
+        except Exception:
+            pass
+        try:
+            if hasattr(self, "knowledge"):
+                results = self.knowledge.query(user_text, top_k=2)
+                if results:
+                    knowledge_hint = " ".join(r["node"].get("content", "") for r in results)
         except Exception:
             pass
 
@@ -720,14 +731,19 @@ class Brain:
             "nooo way",
             "that's wild",
         ]
-        # Prefer things that relate to what's on screen
         if screen_hint:
             candidates.extend([
                 f"is that {screen_hint} on your screen? looks fun",
                 f"i see {screen_hint}. are you enjoying it?",
                 f"you're on {screen_hint}? teach me!",
             ])
-        return random.choice(candidates)
+        base = random.choice(candidates)
+        # Lightly enhance with memory/knowledge hints when relevant
+        if knowledge_hint and random.random() < 0.6:
+            base = f"{base} ({knowledge_hint})"
+        elif memory_hints and random.random() < 0.4:
+            base = f"{base} ({memory_hints})"
+        return base
 
 
 
