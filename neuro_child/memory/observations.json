@@ -1,0 +1,262 @@
+[
+  {
+    "text": "Learned pattern: greeting -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.178153,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: negation_slang -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.1826572,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: positive_slang -> ['sick']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.183393,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: gaming_slang -> ['gg']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.185902,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: laughter -> ['lol']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.186908,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Dad said: yo that was so sick lol gg",
+    "source": "user",
+    "category": "speech",
+    "timestamp": 1788493694.1889088,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: greeting -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.1899083,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: negation_slang -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.190909,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: positive_slang -> ['sick']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.1924124,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: gaming_slang -> ['gg']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.1934178,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: laughter -> ['lol']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788493694.1944218,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Dad said: yo that was so sick lol gg",
+    "source": "user",
+    "category": "speech",
+    "timestamp": 1788493694.195423,
+    "context": "yo that was so sick lol gg",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "yo that was so sick lol gg",
+    "source": "user",
+    "category": "general",
+    "timestamp": 1788493694.1964223,
+    "context": "",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: greeting -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3685067,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: negation_slang -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3695114,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: positive_slang -> ['sick']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3790066,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: gaming_slang -> ['gg', 'wp']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3815153,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: laughter -> ['lol']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3825164,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Dad said: yo that was so sick lol gg wp",
+    "source": "user",
+    "category": "speech",
+    "timestamp": 1788494058.3835163,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: greeting -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3845189,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: negation_slang -> ['yo']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3855155,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: positive_slang -> ['sick']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.387022,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: gaming_slang -> ['gg', 'wp']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.388028,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Learned pattern: laughter -> ['lol']",
+    "source": "system",
+    "category": "pattern",
+    "timestamp": 1788494058.3900316,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "Dad said: yo that was so sick lol gg wp",
+    "source": "user",
+    "category": "speech",
+    "timestamp": 1788494058.3910325,
+    "context": "yo that was so sick lol gg wp",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  },
+  {
+    "text": "yo that was so sick lol gg wp",
+    "source": "user",
+    "category": "general",
+    "timestamp": 1788494058.393033,
+    "context": "",
+    "learned": false,
+    "times_used": 0,
+    "times_successful": 0
+  }
+]

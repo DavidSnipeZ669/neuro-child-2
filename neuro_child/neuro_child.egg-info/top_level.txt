@@ -1,0 +1,8 @@
+__init__
+__main__
+brain
+curriculum
+desktop
+memory
+personality
+trainer

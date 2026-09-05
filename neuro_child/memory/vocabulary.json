@@ -1,0 +1,1182 @@
+[
+  {
+    "text": "hi",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "dad",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "hello",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "hey",
+    "encounter_count": 4,
+    "mastery": 1.0,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed",
+      "hey darling"
+    ],
+    "sources": [
+      "bootstrap",
+      "dad"
+    ]
+  },
+  {
+    "text": "yeah",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed",
+      "yeah ready to talk to"
+    ],
+    "sources": [
+      "bootstrap",
+      "dad"
+    ]
+  },
+  {
+    "text": "oh",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "nice",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "cool",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "okay",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "see",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "look",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "play",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "game",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "pizza",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "happy",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "screen",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed",
+      "seeing my screen"
+    ],
+    "sources": [
+      "bootstrap",
+      "dad"
+    ]
+  },
+  {
+    "text": "what",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "no",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed",
+      "i'll as no"
+    ],
+    "sources": [
+      "bootstrap",
+      "dad"
+    ]
+  },
+  {
+    "text": "yes",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "thanks",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "like",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "love",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "bad",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "big",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "small",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "fast",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "slow",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "red",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "blue",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "green",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "eat",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "drink",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "sleep",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "run",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "jump",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "walk",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "stop",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "go",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "home",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "school",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "friend",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "family",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "music",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "movie",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "fun",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "learn",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "teach",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "read",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "write",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "draw",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "sing",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "dance",
+    "encounter_count": 2,
+    "mastery": 0.7,
+    "first_seen": 1788569317.1277153,
+    "last_practiced": 1788569317.1277153,
+    "contexts": [
+      "bootstrap seed"
+    ],
+    "sources": [
+      "bootstrap"
+    ]
+  },
+  {
+    "text": "duckduckgo",
+    "encounter_count": 116,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "unfortunately",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bots",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "too",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "please",
+    "encounter_count": 58,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "complete",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "following",
+    "encounter_count": 58,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "challenge",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "to",
+    "encounter_count": 60,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo",
+      "yeah ready to talk to"
+    ],
+    "sources": [
+      "web_search",
+      "dad"
+    ]
+  },
+  {
+    "text": "confirm",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "search",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "by",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "human",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "select",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "squares",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "containing",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "duck",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "submit",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "images",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "loading",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "email",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "code",
+    "encounter_count": 58,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "error",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "lite",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "com",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "here",
+    "encounter_count": 29,
+    "mastery": 1.0,
+    "first_seen": 1788569317.71179,
+    "last_practiced": 1788569317.71179,
+    "contexts": [
+      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "darling",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788569343.1102898,
+    "last_practiced": 1788569343.1102898,
+    "contexts": [
+      "hey darling"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "really",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569343.9125485,
+    "last_practiced": 1788569343.9125485,
+    "contexts": [
+      "really"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "ready",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569344.2812812,
+    "last_practiced": 1788569344.2812812,
+    "contexts": [
+      "yeah ready to talk to"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "talk",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569344.2812812,
+    "last_practiced": 1788569344.2812812,
+    "contexts": [
+      "yeah ready to talk to"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "me",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569344.2812812,
+    "last_practiced": 1788569344.2812812,
+    "contexts": [
+      "yeah ready to talk to"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "i'll",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569344.6570373,
+    "last_practiced": 1788569344.6570373,
+    "contexts": [
+      "i'll as no"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "as",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569344.6570373,
+    "last_practiced": 1788569344.6570373,
+    "contexts": [
+      "i'll as no"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "that's",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569524.5900097,
+    "last_practiced": 1788569524.5900097,
+    "contexts": [
+      "that's"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "is",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569535.9550002,
+    "last_practiced": 1788569535.9550002,
+    "contexts": [
+      "is it"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "it",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788569535.9550002,
+    "last_practiced": 1788569535.9550002,
+    "contexts": [
+      "is it"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "seeing",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788570307.5758793,
+    "last_practiced": 1788570307.5758793,
+    "contexts": [
+      "seeing my screen"
+    ],
+    "sources": [
+      "dad"
+    ]
+  },
+  {
+    "text": "my",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788570307.5758793,
+    "last_practiced": 1788570307.5758793,
+    "contexts": [
+      "seeing my screen"
+    ],
+    "sources": [
+      "dad"
+    ]
+  }
+]

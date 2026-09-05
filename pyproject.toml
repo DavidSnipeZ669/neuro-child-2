@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuro-child"
+version = "0.2.0"
+description = "A Neuro-sama-style AI daughter that learns and talks locally."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+llm = ["openai>=1.0", "llama-cpp-python"]
+voice = ["edge-tts", "SpeechRecognition", "pyaudio"]
+control = ["mss", "pyautogui", "Pillow"]
+dev = ["pytest"]
+all = [
+    "openai>=1.0",
+    "llama-cpp-python",
+    "edge-tts",
+    "SpeechRecognition",
+    "pyaudio",
+    "mss",
+    "pyautogui",
+    "Pillow",
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

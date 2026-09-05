@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/__main__.py
+src/brain.py
+src/curriculum.py
+src/desktop.py
+src/memory.py
+src/personality.py
+src/trainer.py
+src/neuro_child.egg-info/PKG-INFO
+src/neuro_child.egg-info/SOURCES.txt
+src/neuro_child.egg-info/dependency_links.txt
+src/neuro_child.egg-info/requires.txt
+src/neuro_child.egg-info/top_level.txt
+tests/test_units.py

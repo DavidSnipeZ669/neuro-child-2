@@ -1,0 +1,6 @@
+
+[dev]
+pytest
+
+[llm]
+openai>=1.0
