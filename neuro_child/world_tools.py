@@ -3,6 +3,7 @@ World tools for Nova: file system, browser automation, window focus.
 """
 from __future__ import annotations
 
+import json
 import os
 import re
 import ssl
@@ -103,12 +104,10 @@ class BrowserTools:
     def _http_get(self, url: str, max_chars: int = 5000) -> str:
         try:
             import urllib.request
-            import ssl
             ctx = ssl.create_default_context()
             ctx.check_hostname = False
             ctx.verify_mode = ssl.CERT_NONE
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-            # Try to inject cookies from local Edge/Chrome if available
             try:
                 cookie = self._load_browser_cookie_for_url(url)
                 if cookie:
@@ -131,7 +130,6 @@ class BrowserTools:
             from urllib.parse import urlparse
             parsed = urlparse(url)
             host = parsed.hostname or ""
-            # Edge default path on Windows
             cookie_paths = [
                 Path.home() / "AppData" / "Local" / "Microsoft" / "Edge" / "User Data" / "Default" / "Cookies",
                 Path.home() / "AppData" / "Local" / "Google" / "Chrome" / "User Data" / "Default" / "Cookies",
@@ -149,10 +147,10 @@ class BrowserTools:
                     con = sqlite3.connect(str(tmp))
                     cur = con.cursor()
                     cur.execute(
-                        "SELECT host_key, name, value FROM cookies WHERE host_key LIKE ? OR host_key LIKE ?",
+                        "SELECT name, value FROM cookies WHERE host_key LIKE ? OR host_key LIKE ?",
                         (f"%{host}%", f".{host}%"),
                     )
-                    pairs = [f"{row[1]}={row[2]}" for row in cur.fetchall() if row[1] and row[2]]
+                    pairs = [f"{row[0]}={row[1]}" for row in cur.fetchall() if row[0] and row[1]]
                     con.close()
                     tmp.unlink(missing_ok=True)
                     if pairs:
@@ -166,34 +164,61 @@ class BrowserTools:
             pass
         return None
 
+    def _is_blocked(self, text: str) -> bool:
+        """Detect bot-blocked search responses."""
+        lower = text.lower()
+        blocked_signs = [
+            "captcha", "verify you're human", "confirm you're not a robot",
+            "access denied", "cloudflare", "please complete the challenge",
+            "unusual traffic", "automated requests", "bot detected",
+            "window.google = window.google", "var sctm=",
+        ]
+        return any(sign in lower for sign in blocked_signs)
+
     def search(self, query: str) -> str:
         # Try browser_exec first if available
         if self._has_browser_exec:
             url = f"https://duckduckgo.com/html/?q={query.replace(' ', '+')}"
-            res = self._exec(f"goto_url('{url}')\nwait_for_load()\njs('document.body.innerText')")
+            res = self._exec(f"goto_url('{url}')\\nwait_for_load()\\njs('document.body.innerText')")
             text = str(res.get("result", "")) if isinstance(res, dict) else str(res)
-            if text and text.strip() and "captcha" not in text.lower() and "confirm" not in text.lower():
+            if text and text.strip() and not self._is_blocked(text):
                 return text[:5000]
-        # Fallback chain: Google -> Bing -> Brave -> DuckDuckGo lite
+
+        # Try Wikipedia REST API as a reliable fallback
+        wiki_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{query.replace(' ', '_')}"
+        wiki_text = self._http_get(wiki_url)
+        if wiki_text and not wiki_text.startswith("ERROR:") and len(wiki_text) > 100:
+            try:
+                data = json.loads(wiki_text)
+                extract = data.get("extract", "")
+                if extract and len(extract) > 50:
+                    return f"Wikipedia: {extract}"[:5000]
+            except Exception:
+                pass
+
+        # Fallback chain
         engines = [
-            f"https://www.google.com/search?q={query.replace(' ', '+')}",
+            f"https://en.wikipedia.org/wiki/{query.replace(' ', '_')}",
             f"https://www.bing.com/search?q={query.replace(' ', '+')}",
-            f"https://search.brave.com/search?q={query.replace(' ', '+')}",
+            f"https://html.duckduckgo.com/html/?q={query.replace(' ', '+')}",
             f"https://lite.duckduckgo.com/lite/?q={query.replace(' ', '+')}",
         ]
         for url in engines:
             text = self._http_get(url)
-            if text and not text.startswith("ERROR:") and len(text) > 100:
+            if text and not text.startswith("ERROR:") and len(text) > 100 and not self._is_blocked(text):
                 return text[:5000]
         return "Search failed: all engines blocked or unavailable"
 
     def read_page(self, url: str) -> str:
         if self._has_browser_exec:
-            res = self._exec(f"goto_url('{url}')\nwait_for_load()\njs('document.body.innerText')")
+            res = self._exec(f"goto_url('{url}')\\nwait_for_load()\\njs('document.body.innerText')")
             text = str(res.get("result", "")) if isinstance(res, dict) else str(res)
-            if text and text.strip():
+            if text and text.strip() and not self._is_blocked(text):
                 return text[:8000]
-        return self._http_get(url)
+        text = self._http_get(url)
+        if text and not self._is_blocked(text):
+            return text[:8000]
+        return "Page blocked or unavailable"
 
     def show(self, url: str) -> None:
         """Open a visible browser tab for dad to see."""
@@ -201,7 +226,7 @@ class BrowserTools:
             return
         try:
             from browser_exec import browser_exec
-            browser_exec(code=f"new_tab('{url}')\nwait_for_load()", session=self._visible_session, local=True)
+            browser_exec(code=f"new_tab('{url}')\\nwait_for_load()", session=self._visible_session, local=True)
         except Exception:
             pass
 
