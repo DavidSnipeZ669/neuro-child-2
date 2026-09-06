@@ -1,3 +1,5 @@
+neuro_child/memory/*.txt filter=lfs diff=lfs merge=lfs -text
+neuro_child/memory/smollm_adapter/** filter=lfs diff=lfs merge=lfs -text
 neuro_child/memory/oasst1_dialogues.txt !text !filter !merge !diff
 neuro_child/memory/openorca_dialogues.txt !text !filter !merge !diff
 neuro_child/memory/smollm_adapter/* !text !filter !merge !diff
