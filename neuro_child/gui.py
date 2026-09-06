@@ -872,6 +872,10 @@ class ChildGUI:
         ttk.Button(act_frame, text="Teach Lesson", command=self._teach_prompt).pack(side="left", padx=2)
         ttk.Button(act_frame, text="Think Aloud", command=self._think_aloud).pack(side="left", padx=2)
 
+        ttk.Label(right, text="⚡ Activity Log:", font=("Segoe UI", 9, "bold")).pack(anchor="w", pady=(6, 0))
+        self.activity_box = scrolledtext.ScrolledText(right, wrap="word", width=36, height=8, font=("Segoe UI", 9))
+        self.activity_box.pack(fill="both", expand=True, pady=4)
+
         self.status_var = tk.StringVar(value="ready")
         status_label = ttk.Label(self.root, textvariable=self.status_var)
         status_label.pack(anchor="w", padx=12, pady=(0, 12))
@@ -1001,6 +1005,17 @@ class ChildGUI:
                 self.goals_box.insert("end", f"✓ {g}\n")
         self.goals_box.configure(state="disabled")
 
+        # Activity Log panel
+        self.activity_box.configure(state="normal")
+        self.activity_box.delete("1.0", "end")
+        recent_activity = getattr(self, "_autonomous_activity_log", [])[-40:]
+        if recent_activity:
+            for entry in recent_activity:
+                self.activity_box.insert("end", f"{entry}\n")
+        else:
+            self.activity_box.insert("end", "No autonomous activity yet.\n")
+        self.activity_box.configure(state="disabled")
+
     def _update_screen_loop(self) -> None:
         now = time.time()
         if now - self._last_screen_update >= self._screen_update_interval:
@@ -1074,23 +1089,25 @@ class ChildGUI:
 
     def _autonomous_loop(self) -> None:
         try:
-            if self.consciousness.should_act_autonomously():
+            max_steps = 3
+            steps_done = 0
+            while steps_done < max_steps and self.consciousness.should_act_autonomously():
                 action = self.consciousness.decide_next_action()
-                if action:
-                    text = action.get("text", "")
-                    drive = action.get("drive", "")
-                    # Execute real self-improvement actions, not just text
-                    result = self._execute_autonomous_action(action)
-                    # Log activity
-                    log_msg = f"[{drive}] {text}"
-                    if result:
-                        log_msg += f" -> {result}"
-                    self._autonomous_activity_log.append(log_msg)
-                    if len(self._autonomous_activity_log) > 100:
-                        self._autonomous_activity_log = self._autonomous_activity_log[-100:]
-                    if text and action.get("speak"):
-                        self._append_chat(self.name, text)
-                    self._last_autonomous_action = action
+                if not action:
+                    break
+                text = action.get("text", "")
+                drive = action.get("drive", "")
+                result = self._execute_autonomous_action(action)
+                log_msg = f"[{drive}] {text}"
+                if result:
+                    log_msg += f" -> {result}"
+                self._autonomous_activity_log.append(log_msg)
+                if len(self._autonomous_activity_log) > 200:
+                    self._autonomous_activity_log = self._autonomous_activity_log[-200:]
+                if text and action.get("speak"):
+                    self._append_chat(self.name, text)
+                self._last_autonomous_action = action
+                steps_done += 1
             # Periodic evolution cycle
             if hasattr(self, "evolution_engine") and random.random() < 0.3:
                 try:
