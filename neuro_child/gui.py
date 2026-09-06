@@ -368,6 +368,26 @@ class Brain:
         self.system_integration = SystemIntegration()
         self.autonomous_learner = AutonomousLearner(self.language, self.memory, getattr(self, "smollm", None))
         self.game_player = SimpleGamePlayer()
+        self._first_launch_trained = False
+        self._try_first_launch_train()
+
+    def _try_first_launch_train(self) -> None:
+        if self._first_launch_trained:
+            return
+        self._first_launch_trained = True
+        smollm = getattr(self, "smollm", None)
+        if not smollm or not getattr(smollm, "is_available", lambda: False)():
+            return
+        if getattr(smollm, "_training_steps", 0) > 0:
+            return
+        try:
+            corpus = Path("neuro_child/memory/english_corpus.txt")
+            if corpus.exists():
+                text = corpus.read_text(encoding="utf-8", errors="ignore")[:200_000]
+                if text.strip():
+                    threading.Thread(target=lambda: smollm.train_on_text(text), daemon=True).start()
+        except Exception:
+            pass
 
     def remember(self, text: str) -> str:
         cleaned = text[len("remember "):] if text.lower().startswith("remember ") else text
@@ -624,7 +644,7 @@ class Brain:
             CHAT_LOG_PATH.write_text(json.dumps(self.history, ensure_ascii=False, indent=2), encoding="utf-8")
             # Train on the exchange
             try:
-                if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)():
+                if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)() and getattr(self.smollm, "_training_steps", 0) > 0:
                     self.smollm.train_on_text(f"Dad: {user_text}\nNova: {reply}")
             except Exception:
                 pass
@@ -635,7 +655,7 @@ class Brain:
         CHAT_LOG_PATH.write_text(json.dumps(self.history, ensure_ascii=False, indent=2), encoding="utf-8")
         # Train on the exchange
         try:
-            if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)():
+            if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)() and getattr(self.smollm, "_training_steps", 0) > 0:
                 self.smollm.train_on_text(f"Dad: {user_text}\nNova: {reply}")
         except Exception:
             pass
