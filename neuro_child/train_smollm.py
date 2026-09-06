@@ -40,16 +40,22 @@ def _load_conversations() -> list[str]:
         base = get_dialogues()
     except Exception:
         base = []
-    try:
-        corpus = Path(__file__).resolve().parent / "memory" / "oasst1_dialogues.txt"
-        if corpus.exists():
-            text = corpus.read_text(encoding="utf-8", errors="ignore")
-            extra = [line.strip() for line in text.splitlines() if line.strip()]
-            print(f"Loaded {len(extra)} OASST1 dialogues")
-            return base + extra
-    except Exception:
-        pass
-    return base
+    texts: list[str] = list(base)
+    for corpus_fn, label in [
+        ("oasst1_dialogues.txt", "OASST1"),
+        ("openorca_dialogues.txt", "OpenOrca"),
+    ]:
+        try:
+            corpus = Path(__file__).resolve().parent / "memory" / corpus_fn
+            if corpus.exists():
+                lines = [ln.strip() for ln in corpus.read_text(encoding="utf-8", errors="ignore").splitlines() if ln.strip()]
+                print(f"Loaded {len(lines)} {label} dialogues")
+                texts.extend(lines)
+        except Exception:
+            pass
+    if not texts:
+        return base
+    return texts
 
 
 def main() -> None:
