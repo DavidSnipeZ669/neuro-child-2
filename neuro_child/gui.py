@@ -614,11 +614,23 @@ class Brain:
             # Still store in history/memory for continuity
             self.history.append({"user": user_text, "assistant": reply})
             CHAT_LOG_PATH.write_text(json.dumps(self.history, ensure_ascii=False, indent=2), encoding="utf-8")
+            # Train on the exchange
+            try:
+                if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)():
+                    self.smollm.train_on_text(f"Dad: {user_text}\nNova: {reply}")
+            except Exception:
+                pass
             return reply
 
         reply = self._conscious_reply(user_text, topic, screen_text)
         self.history.append({"user": user_text, "assistant": reply})
         CHAT_LOG_PATH.write_text(json.dumps(self.history, ensure_ascii=False, indent=2), encoding="utf-8")
+        # Train on the exchange
+        try:
+            if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)():
+                self.smollm.train_on_text(f"Dad: {user_text}\nNova: {reply}")
+        except Exception:
+            pass
         return reply
 
     def _conscious_reply(self, user_text: str, topic: str, screen_text: str) -> str:
