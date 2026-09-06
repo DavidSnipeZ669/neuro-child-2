@@ -300,10 +300,10 @@
     "topic": "what is the internet",
     "source": "autonomous",
     "priority": 0.21173753876023665,
-    "status": "pending",
+    "status": "failed",
     "created_at": 1788696025.983419,
     "completed_at": null,
-    "result": null
+    "result": "no content fetched"
   },
   {
     "topic": "how do screens work",
@@ -484,5 +484,59 @@
     "created_at": 1788696069.9484134,
     "completed_at": 1788696074.8385732,
     "result": "learned 0 words"
+  },
+  {
+    "topic": "how computers work",
+    "source": "autonomous",
+    "priority": 0.2521817016474733,
+    "status": "failed",
+    "created_at": 1788696086.4766452,
+    "completed_at": null,
+    "result": "no content fetched"
+  },
+  {
+    "topic": "what is artificial intelligence",
+    "source": "autonomous",
+    "priority": 0.3252567841994848,
+    "status": "failed",
+    "created_at": 1788696086.4786522,
+    "completed_at": null,
+    "result": "no content fetched"
+  },
+  {
+    "topic": "how games are made",
+    "source": "autonomous",
+    "priority": 0.45777920896933927,
+    "status": "failed",
+    "created_at": 1788696086.4796498,
+    "completed_at": null,
+    "result": "no content fetched"
+  },
+  {
+    "topic": "what is the internet",
+    "source": "autonomous",
+    "priority": 0.22122544038139963,
+    "status": "failed",
+    "created_at": 1788696086.48065,
+    "completed_at": null,
+    "result": "no content fetched"
+  },
+  {
+    "topic": "how do screens work",
+    "source": "autonomous",
+    "priority": 0.48446024484957356,
+    "status": "failed",
+    "created_at": 1788696086.48065,
+    "completed_at": null,
+    "result": "no content fetched"
+  },
+  {
+    "topic": "what is programming",
+    "source": "autonomous",
+    "priority": 0.2143818918857537,
+    "status": "pending",
+    "created_at": 1788696086.4816515,
+    "completed_at": null,
+    "result": null
   }
 ]
