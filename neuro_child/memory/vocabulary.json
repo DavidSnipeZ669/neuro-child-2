@@ -1134,15 +1134,17 @@
   },
   {
     "text": "com",
-    "encounter_count": 30,
+    "encounter_count": 31,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
     "contexts": [
-      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+      "duckduckgo duckduckgo unfortunately bots duckduckgo",
+      "youtube video https www youtube"
     ],
     "sources": [
-      "web_search"
+      "web_search",
+      "youtube_fallback"
     ]
   },
   {
@@ -3739,15 +3741,17 @@
   },
   {
     "text": "never",
-    "encounter_count": 238,
+    "encounter_count": 239,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "youtube video rick astley never"
     ],
     "sources": [
-      "file"
+      "file",
+      "youtube_fallback"
     ]
   },
   {
@@ -4350,15 +4354,17 @@
   },
   {
     "text": "watch",
-    "encounter_count": 82,
+    "encounter_count": 83,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "youtube video https www youtube"
     ],
     "sources": [
-      "file"
+      "file",
+      "youtube_fallback"
     ]
   },
   {
@@ -5312,15 +5318,17 @@
   },
   {
     "text": "up",
-    "encounter_count": 844,
+    "encounter_count": 845,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "youtube video rick astley never"
     ],
     "sources": [
-      "file"
+      "file",
+      "youtube_fallback"
     ]
   },
   {
@@ -8991,15 +8999,18 @@
   },
   {
     "text": "video",
-    "encounter_count": 7,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788669295.3828335,
     "last_practiced": 1788669295.3828335,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "youtube video https www youtube",
+      "youtube video rick astley never"
     ],
     "sources": [
-      "file"
+      "file",
+      "youtube_fallback"
     ]
   },
   {
@@ -49304,15 +49315,17 @@
   },
   {
     "text": "gonna",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788669295.4118776,
     "last_practiced": 1788669295.4118776,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "youtube video rick astley never"
     ],
     "sources": [
-      "file"
+      "file",
+      "youtube_fallback"
     ]
   },
   {
@@ -67565,6 +67578,98 @@
     ],
     "sources": [
       "file"
+    ]
+  },
+  {
+    "text": "youtube",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788669389.2864716,
+    "last_practiced": 1788669389.2864716,
+    "contexts": [
+      "youtube video https www youtube",
+      "youtube video rick astley never"
+    ],
+    "sources": [
+      "youtube_fallback"
+    ]
+  },
+  {
+    "text": "https",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669389.2864716,
+    "last_practiced": 1788669389.2864716,
+    "contexts": [
+      "youtube video https www youtube"
+    ],
+    "sources": [
+      "youtube_fallback"
+    ]
+  },
+  {
+    "text": "www",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669389.2864716,
+    "last_practiced": 1788669389.2864716,
+    "contexts": [
+      "youtube video https www youtube"
+    ],
+    "sources": [
+      "youtube_fallback"
+    ]
+  },
+  {
+    "text": "dqw",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669389.2874694,
+    "last_practiced": 1788669389.2874694,
+    "contexts": [
+      "youtube video https www youtube"
+    ],
+    "sources": [
+      "youtube_fallback"
+    ]
+  },
+  {
+    "text": "wgxcq",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669389.2874694,
+    "last_practiced": 1788669389.2874694,
+    "contexts": [
+      "youtube video https www youtube"
+    ],
+    "sources": [
+      "youtube_fallback"
+    ]
+  },
+  {
+    "text": "rick",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669532.5853987,
+    "last_practiced": 1788669532.5853987,
+    "contexts": [
+      "youtube video rick astley never"
+    ],
+    "sources": [
+      "youtube_fallback"
+    ]
+  },
+  {
+    "text": "astley",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669532.5853987,
+    "last_practiced": 1788669532.5853987,
+    "contexts": [
+      "youtube video rick astley never"
+    ],
+    "sources": [
+      "youtube_fallback"
     ]
   }
 ]

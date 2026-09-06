@@ -20,11 +20,29 @@
       "timestamp": 1788669295.5092962,
       "access_count": 0,
       "last_access": 1788669295.5092962
+    },
+    {
+      "topic": "media_youtube_1788669389",
+      "content": "Learned 5 words from youtube: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "category": "experience",
+      "importance": 0.5,
+      "tags": [
+        "https",
+        "watch",
+        "wgxcq",
+        "learned",
+        "youtube",
+        "words"
+      ],
+      "source": "user",
+      "timestamp": 1788669389.3522334,
+      "access_count": 0,
+      "last_access": 1788669389.3522334
     }
   ],
   "meta": {
-    "total_nodes": 1,
+    "total_nodes": 2,
     "categories": {},
-    "last_saved": 1788669295.5092962
+    "last_saved": 1788669389.3528929
   }
 }

@@ -43,7 +43,7 @@ class MediaLearningEngine:
         self._max_recent = 50
 
     def learn_from_youtube(self, url: str) -> MediaLearningResult:
-        """Learn from YouTube video: transcript + audio."""
+        """Learn from YouTube video: transcript + audio + title fallback."""
         result = MediaLearningResult(source_type="youtube", source=url)
         start = time.time()
         try:
@@ -53,11 +53,32 @@ class MediaLearningEngine:
             video_id = learner.extract_video_id(url)
             if video_id:
                 transcript_data = learner.learn_from_video(video_id, url=url)
-                if transcript_data.get("status") == "learned":
+                status = transcript_data.get("status")
+                if status == "learned":
                     result.transcript = " ".join(transcript_data.get("words_learned", []))
                     result.words_learned = transcript_data.get("words_learned", [])
                     result.topics = transcript_data.get("topics", [])
                     result.success = True
+                elif status == "no_transcript":
+                    # Fallback: learn from title/URL keywords
+                    topic_text = f"YouTube video: {url} {video_id}"
+                    try:
+                        page = self._fetch_page_text(url)
+                        if page:
+                            title_match = re.search(r"<title>(.*?)</title>", page, re.IGNORECASE)
+                            if title_match:
+                                title = title_match.group(1).replace(" - YouTube", "").strip()
+                                topic_text = f"YouTube video: {title}. {url}"
+                    except Exception:
+                        pass
+                    words = self.language.encounter_text(topic_text, source="youtube_fallback")
+                    result.words_learned = words
+                    result.topics = ["youtube"]
+                    result.success = bool(words)
+                    result.error = "no transcript, learned from metadata"
+                elif status == "already_learned":
+                    result.success = True
+                    result.transcript = "previously learned"
         except Exception as e:
             result.error = str(e)
         result.duration = time.time() - start
@@ -207,6 +228,23 @@ class MediaLearningEngine:
                 )
         except Exception:
             pass
+
+    def _fetch_page_text(self, url: str, max_chars: int = 4000) -> Optional[str]:
+        try:
+            import urllib.request
+            import ssl
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+            with urllib.request.urlopen(req, timeout=10, context=ctx) as resp:
+                data = resp.read(max_chars * 4)
+            text = data.decode("utf-8", errors="ignore")
+            text = re.sub(r"<[^>]+>", " ", text)
+            text = re.sub(r"\s+", " ", text).strip()
+            return text[:max_chars]
+        except Exception:
+            return None
 
 
 __all__ = ["MediaLearningEngine", "MediaLearningResult"]
