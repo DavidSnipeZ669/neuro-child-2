@@ -859,6 +859,10 @@ class ChildGUI:
         self.vocab_box = scrolledtext.ScrolledText(right, wrap="word", width=36, height=10, font=("Segoe UI", 9))
         self.vocab_box.pack(fill="both", expand=True, pady=4)
 
+        ttk.Label(right, text="🎯 Self-Improvement Goals:", font=("Segoe UI", 9, "bold")).pack(anchor="w", pady=(6, 0))
+        self.goals_box = scrolledtext.ScrolledText(right, wrap="word", width=36, height=8, font=("Segoe UI", 9))
+        self.goals_box.pack(fill="both", expand=True, pady=4)
+
         ttk.Label(right, text="🎮 Actions:", font=("Segoe UI", 9, "bold")).pack(anchor="w", pady=(6, 0))
         act_frame = ttk.Frame(right)
         act_frame.pack(fill="x", pady=4)
@@ -974,6 +978,27 @@ class ChildGUI:
         else:
             self.vocab_box.insert("end", "Baby language engine not active.")
         self.vocab_box.configure(state="disabled")
+
+        # Self-Improvement Goals panel
+        self.goals_box.configure(state="normal")
+        self.goals_box.delete("1.0", "end")
+        goal_state = getattr(self.consciousness, "state", None)
+        current_goal = getattr(goal_state, "current_goal", None) if goal_state else None
+        completed = getattr(self.consciousness, "completed_goals", []) if hasattr(self.consciousness, "completed_goals") else []
+        if current_goal:
+            self.goals_box.insert("end", f"Current: {current_goal}\n")
+            steps = getattr(goal_state, "current_goal_steps", []) if goal_state else []
+            idx = getattr(goal_state, "goal_step_index", 0) if goal_state else 0
+            for i, s in enumerate(steps):
+                marker = "▸" if i == idx else " "
+                self.goals_box.insert("end", f"  {marker} {s}\n")
+        else:
+            self.goals_box.insert("end", "No active goal\n")
+        if completed:
+            self.goals_box.insert("end", "\nCompleted:\n")
+            for g in completed[-5:]:
+                self.goals_box.insert("end", f"✓ {g}\n")
+        self.goals_box.configure(state="disabled")
 
     def _update_screen_loop(self) -> None:
         now = time.time()

@@ -380,6 +380,7 @@ class ConsciousNova:
         self.attention_focus: Optional[str] = None
         self.last_autonomous_ts = 0.0
         self.autonomy_cooldown = 8.0
+        self.completed_goals: List[str] = []
 
     def perceive(self, screen_summary: str, cursor_pos: Optional[Sequence[int]] = None) -> None:
         self.last_screen_summary = screen_summary or ""
@@ -481,9 +482,13 @@ class ConsciousNova:
                     "speak": False,
                 }
             # Goal complete
+            completed_text = self.state.current_goal
             self.desires.drives.get(
                 self._last_goal_drive or "mastery", self.desires.drives["mastery"]
             ).satisfy(0.4)
+            self.completed_goals.append(completed_text or "unknown goal")
+            if len(self.completed_goals) > 50:
+                self.completed_goals = self.completed_goals[-50:]
             self.state.current_goal = None
             self.state.current_goal_steps = []
             self.state.goal_step_index = 0
