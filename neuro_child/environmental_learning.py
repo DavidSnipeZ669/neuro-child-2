@@ -82,14 +82,18 @@ class YouTubeTranscriptLearner:
         if not HAS_YOUTUBE_API:
             return None
         try:
-            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+            api = YouTubeTranscriptApi()
+            transcript_list = api.list(video_id)
             try:
-                transcript = transcript_list.find_generated_transcript(languages)
+                transcript = transcript_list.find_transcript(languages)
             except Exception:
                 try:
-                    transcript = transcript_list.find_manually_created_transcript(languages)
+                    transcript = transcript_list.find_generated_transcript(languages)
                 except Exception:
-                    return None
+                    try:
+                        transcript = transcript_list.find_manually_created_transcript(languages)
+                    except Exception:
+                        return None
             segments = transcript.fetch()
             text = " ".join(segment.text for segment in segments)
             return text

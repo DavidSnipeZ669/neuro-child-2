@@ -60,11 +60,33 @@
       "timestamp": 1788669737.867565,
       "access_count": 0,
       "last_access": 1788669737.867565
+    },
+    {
+      "topic": "python programming",
+      "content": "Wikipedia: Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.",
+      "category": "fact",
+      "importance": 0.6,
+      "tags": [
+        "included",
+        "code",
+        "significant",
+        "object",
+        "batteries",
+        "simplicity",
+        "garbage",
+        "purpose",
+        "writing",
+        "python"
+      ],
+      "source": "user",
+      "timestamp": 1788670434.1501043,
+      "access_count": 0,
+      "last_access": 1788670434.1501043
     }
   ],
   "meta": {
-    "total_nodes": 3,
+    "total_nodes": 4,
     "categories": {},
-    "last_saved": 1788669737.9017801
+    "last_saved": 1788670434.1501043
   }
 }
