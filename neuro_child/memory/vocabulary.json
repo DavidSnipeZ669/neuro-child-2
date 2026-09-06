@@ -234,7 +234,7 @@
   },
   {
     "text": "screen",
-    "encounter_count": 25,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -253,7 +253,7 @@
   },
   {
     "text": "what",
-    "encounter_count": 533,
+    "encounter_count": 581,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -592,7 +592,7 @@
   },
   {
     "text": "home",
-    "encounter_count": 526,
+    "encounter_count": 716,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -666,7 +666,7 @@
   },
   {
     "text": "music",
-    "encounter_count": 42,
+    "encounter_count": 47,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -943,7 +943,7 @@
   },
   {
     "text": "to",
-    "encounter_count": 8542,
+    "encounter_count": 8732,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -988,7 +988,7 @@
   },
   {
     "text": "search",
-    "encounter_count": 215,
+    "encounter_count": 500,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1122,7 +1122,7 @@
   },
   {
     "text": "images",
-    "encounter_count": 122,
+    "encounter_count": 217,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1194,7 +1194,7 @@
   },
   {
     "text": "error",
-    "encounter_count": 369,
+    "encounter_count": 1034,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1359,7 +1359,7 @@
   },
   {
     "text": "as",
-    "encounter_count": 827,
+    "encounter_count": 1407,
     "mastery": 1.0,
     "first_seen": 1788569344.6570373,
     "last_practiced": 1788569344.6570373,
@@ -1403,7 +1403,7 @@
   },
   {
     "text": "is",
-    "encounter_count": 429,
+    "encounter_count": 477,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1426,7 +1426,7 @@
   },
   {
     "text": "it",
-    "encounter_count": 4469,
+    "encounter_count": 4784,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1485,7 +1485,7 @@
   },
   {
     "text": "screenshot",
-    "encounter_count": 19,
+    "encounter_count": 43,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1498,7 +1498,7 @@
   },
   {
     "text": "saved",
-    "encounter_count": 33,
+    "encounter_count": 57,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1513,7 +1513,7 @@
   },
   {
     "text": "hermes",
-    "encounter_count": 19,
+    "encounter_count": 43,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1526,7 +1526,7 @@
   },
   {
     "text": "neuro",
-    "encounter_count": 38,
+    "encounter_count": 86,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1539,7 +1539,7 @@
   },
   {
     "text": "child",
-    "encounter_count": 67,
+    "encounter_count": 115,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1554,21 +1554,6 @@
   },
   {
     "text": "memory",
-    "encounter_count": 20,
-    "mastery": 1.0,
-    "first_seen": 1788622955.8559892,
-    "last_practiced": 1788622955.8559892,
-    "contexts": [
-      "screenshot saved hermes neuro child",
-      "spot saw shiny car wow"
-    ],
-    "sources": [
-      "autonomous",
-      "file"
-    ]
-  },
-  {
-    "text": "last",
     "encounter_count": 44,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
@@ -1583,8 +1568,23 @@
     ]
   },
   {
+    "text": "last",
+    "encounter_count": 68,
+    "mastery": 1.0,
+    "first_seen": 1788622955.8559892,
+    "last_practiced": 1788622955.8559892,
+    "contexts": [
+      "screenshot saved hermes neuro child",
+      "spot saw shiny car wow"
+    ],
+    "sources": [
+      "autonomous",
+      "file"
+    ]
+  },
+  {
     "text": "png",
-    "encounter_count": 19,
+    "encounter_count": 43,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1597,7 +1597,7 @@
   },
   {
     "text": "cursor",
-    "encounter_count": 19,
+    "encounter_count": 43,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1623,7 +1623,7 @@
   },
   {
     "text": "body",
-    "encounter_count": 89,
+    "encounter_count": 244,
     "mastery": 1.0,
     "first_seen": 1788669185.4249008,
     "last_practiced": 1788669185.4249008,
@@ -1681,7 +1681,7 @@
   },
   {
     "text": "var",
-    "encounter_count": 431,
+    "encounter_count": 1436,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1720,7 +1720,7 @@
   },
   {
     "text": "window",
-    "encounter_count": 632,
+    "encounter_count": 1962,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1847,7 +1847,7 @@
   },
   {
     "text": "if",
-    "encounter_count": 1027,
+    "encounter_count": 2659,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1933,7 +1933,7 @@
   },
   {
     "text": "function",
-    "encounter_count": 392,
+    "encounter_count": 1247,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2054,7 +2054,7 @@
   },
   {
     "text": "data",
-    "encounter_count": 188,
+    "encounter_count": 628,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2093,7 +2093,7 @@
   },
   {
     "text": "json",
-    "encounter_count": 166,
+    "encounter_count": 546,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2381,7 +2381,7 @@
   },
   {
     "text": "else",
-    "encounter_count": 169,
+    "encounter_count": 359,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2409,7 +2409,7 @@
   },
   {
     "text": "return",
-    "encounter_count": 355,
+    "encounter_count": 1115,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2463,7 +2463,7 @@
   },
   {
     "text": "break",
-    "encounter_count": 100,
+    "encounter_count": 225,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2491,7 +2491,7 @@
   },
   {
     "text": "try",
-    "encounter_count": 251,
+    "encounter_count": 536,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2558,7 +2558,7 @@
   },
   {
     "text": "catch",
-    "encounter_count": 219,
+    "encounter_count": 504,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2599,7 +2599,7 @@
   },
   {
     "text": "message",
-    "encounter_count": 173,
+    "encounter_count": 553,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2627,7 +2627,7 @@
   },
   {
     "text": "self",
-    "encounter_count": 85,
+    "encounter_count": 275,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2668,7 +2668,7 @@
   },
   {
     "text": "null",
-    "encounter_count": 89,
+    "encounter_count": 279,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2936,7 +2936,7 @@
   },
   {
     "text": "in",
-    "encounter_count": 2282,
+    "encounter_count": 2567,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3005,7 +3005,7 @@
   },
   {
     "text": "true",
-    "encounter_count": 353,
+    "encounter_count": 1113,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3046,7 +3046,7 @@
   },
   {
     "text": "typeof",
-    "encounter_count": 48,
+    "encounter_count": 143,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3072,7 +3072,7 @@
   },
   {
     "text": "length",
-    "encounter_count": 86,
+    "encounter_count": 276,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3154,7 +3154,7 @@
   },
   {
     "text": "src",
-    "encounter_count": 42,
+    "encounter_count": 137,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3265,7 +3265,7 @@
   },
   {
     "text": "tt",
-    "encounter_count": 126,
+    "encounter_count": 411,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -4614,7 +4614,7 @@
   },
   {
     "text": "reached",
-    "encounter_count": 124,
+    "encounter_count": 219,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4736,7 +4736,7 @@
   },
   {
     "text": "name",
-    "encounter_count": 99,
+    "encounter_count": 194,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4776,7 +4776,7 @@
   },
   {
     "text": "max",
-    "encounter_count": 330,
+    "encounter_count": 425,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5078,7 +5078,7 @@
   },
   {
     "text": "do",
-    "encounter_count": 372,
+    "encounter_count": 406,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5122,7 +5122,7 @@
   },
   {
     "text": "be",
-    "encounter_count": 677,
+    "encounter_count": 774,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5892,7 +5892,7 @@
   },
   {
     "text": "escape",
-    "encounter_count": 213,
+    "encounter_count": 688,
     "mastery": 1.0,
     "first_seen": 1788669295.3818347,
     "last_practiced": 1788669295.3818347,
@@ -10890,7 +10890,7 @@
   },
   {
     "text": "open",
-    "encounter_count": 120,
+    "encounter_count": 215,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -10930,7 +10930,7 @@
   },
   {
     "text": "line",
-    "encounter_count": 66,
+    "encounter_count": 161,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -12127,7 +12127,7 @@
   },
   {
     "text": "games",
-    "encounter_count": 36,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -13208,7 +13208,7 @@
   },
   {
     "text": "replace",
-    "encounter_count": 212,
+    "encounter_count": 687,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -14903,7 +14903,7 @@
   },
   {
     "text": "off",
-    "encounter_count": 234,
+    "encounter_count": 329,
     "mastery": 1.0,
     "first_seen": 1788669295.384838,
     "last_practiced": 1788669295.384838,
@@ -16165,7 +16165,7 @@
   },
   {
     "text": "cars",
-    "encounter_count": 16,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -16505,7 +16505,7 @@
   },
   {
     "text": "extra",
-    "encounter_count": 53,
+    "encounter_count": 148,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -18768,7 +18768,7 @@
   },
   {
     "text": "content",
-    "encounter_count": 59,
+    "encounter_count": 154,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -19978,7 +19978,7 @@
   },
   {
     "text": "stage",
-    "encounter_count": 48,
+    "encounter_count": 143,
     "mastery": 1.0,
     "first_seen": 1788669295.3868368,
     "last_practiced": 1788669295.3868368,
@@ -21279,7 +21279,7 @@
   },
   {
     "text": "space",
-    "encounter_count": 11,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788669295.3868368,
     "last_practiced": 1788669295.3868368,
@@ -22646,7 +22646,7 @@
   },
   {
     "text": "fire",
-    "encounter_count": 65,
+    "encounter_count": 160,
     "mastery": 1.0,
     "first_seen": 1788669295.3878362,
     "last_practiced": 1788669295.3878362,
@@ -24545,7 +24545,7 @@
   },
   {
     "text": "image",
-    "encounter_count": 42,
+    "encounter_count": 137,
     "mastery": 1.0,
     "first_seen": 1788669295.388837,
     "last_practiced": 1788669295.388837,
@@ -27952,7 +27952,7 @@
   },
   {
     "text": "send",
-    "encounter_count": 49,
+    "encounter_count": 144,
     "mastery": 1.0,
     "first_seen": 1788669295.3908384,
     "last_practiced": 1788669295.3908384,
@@ -28590,7 +28590,7 @@
   },
   {
     "text": "post",
-    "encounter_count": 45,
+    "encounter_count": 140,
     "mastery": 1.0,
     "first_seen": 1788669295.3913417,
     "last_practiced": 1788669295.3913417,
@@ -29085,15 +29085,17 @@
   },
   {
     "text": "fed",
-    "encounter_count": 4,
+    "encounter_count": 5,
     "mastery": 1.0,
     "first_seen": 1788669295.3913417,
     "last_practiced": 1788669295.3913417,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "what is music search substring"
     ],
     "sources": [
-      "file"
+      "file",
+      "web_search"
     ]
   },
   {
@@ -31204,7 +31206,7 @@
   },
   {
     "text": "stack",
-    "encounter_count": 96,
+    "encounter_count": 286,
     "mastery": 1.0,
     "first_seen": 1788669295.393352,
     "last_practiced": 1788669295.393352,
@@ -33625,7 +33627,7 @@
   },
   {
     "text": "change",
-    "encounter_count": 56,
+    "encounter_count": 151,
     "mastery": 1.0,
     "first_seen": 1788669295.3943498,
     "last_practiced": 1788669295.3943498,
@@ -35771,7 +35773,7 @@
   },
   {
     "text": "slice",
-    "encounter_count": 45,
+    "encounter_count": 140,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -35850,7 +35852,7 @@
   },
   {
     "text": "start",
-    "encounter_count": 59,
+    "encounter_count": 154,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -37660,7 +37662,7 @@
   },
   {
     "text": "event",
-    "encounter_count": 47,
+    "encounter_count": 142,
     "mastery": 1.0,
     "first_seen": 1788669295.398858,
     "last_practiced": 1788669295.398858,
@@ -38311,7 +38313,7 @@
   },
   {
     "text": "match",
-    "encounter_count": 60,
+    "encounter_count": 185,
     "mastery": 1.0,
     "first_seen": 1788669295.399858,
     "last_practiced": 1788669295.399858,
@@ -43332,7 +43334,7 @@
   },
   {
     "text": "failed",
-    "encounter_count": 85,
+    "encounter_count": 275,
     "mastery": 1.0,
     "first_seen": 1788669295.404366,
     "last_practiced": 1788669295.404366,
@@ -45348,7 +45350,7 @@
   },
   {
     "text": "source",
-    "encounter_count": 12,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788669295.4053674,
     "last_practiced": 1788669295.4053674,
@@ -45360,7 +45362,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "file",
@@ -50675,13 +50682,14 @@
   },
   {
     "text": "dee",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788669295.4128776,
     "last_practiced": 1788669295.4128776,
     "contexts": [
       "spot saw shiny car wow",
-      "what is internet search substring"
+      "what is internet search substring",
+      "what is artificial intelligence search"
     ],
     "sources": [
       "file",
@@ -54852,7 +54860,7 @@
   },
   {
     "text": "notebook",
-    "encounter_count": 94,
+    "encounter_count": 284,
     "mastery": 1.0,
     "first_seen": 1788669295.4208937,
     "last_practiced": 1788669295.4208937,
@@ -55308,7 +55316,7 @@
   },
   {
     "text": "button",
-    "encounter_count": 97,
+    "encounter_count": 287,
     "mastery": 1.0,
     "first_seen": 1788669295.421898,
     "last_practiced": 1788669295.421898,
@@ -56011,7 +56019,7 @@
   },
   {
     "text": "warning",
-    "encounter_count": 44,
+    "encounter_count": 139,
     "mastery": 1.0,
     "first_seen": 1788669295.4228992,
     "last_practiced": 1788669295.4228992,
@@ -59912,7 +59920,7 @@
   },
   {
     "text": "conversation",
-    "encounter_count": 83,
+    "encounter_count": 273,
     "mastery": 1.0,
     "first_seen": 1788669295.4288979,
     "last_practiced": 1788669295.4288979,
@@ -64309,7 +64317,7 @@
   },
   {
     "text": "intelligence",
-    "encounter_count": 4,
+    "encounter_count": 17,
     "mastery": 1.0,
     "first_seen": 1788669295.4396284,
     "last_practiced": 1788669295.4396284,
@@ -66131,7 +66139,7 @@
   },
   {
     "text": "bat",
-    "encounter_count": 42,
+    "encounter_count": 137,
     "mastery": 1.0,
     "first_seen": 1788669295.4421356,
     "last_practiced": 1788669295.4421356,
@@ -67523,7 +67531,7 @@
   },
   {
     "text": "type",
-    "encounter_count": 83,
+    "encounter_count": 273,
     "mastery": 1.0,
     "first_seen": 1788669295.4451354,
     "last_practiced": 1788669295.4451354,
@@ -68592,7 +68600,7 @@
   },
   {
     "text": "programming",
-    "encounter_count": 8,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788670434.0965652,
     "last_practiced": 1788670434.0965652,
@@ -68814,7 +68822,7 @@
   },
   {
     "text": "computers",
-    "encounter_count": 4,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68827,7 +68835,7 @@
   },
   {
     "text": "substring",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68852,7 +68860,7 @@
   },
   {
     "text": "ig",
-    "encounter_count": 309,
+    "encounter_count": 1034,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68877,7 +68885,7 @@
   },
   {
     "text": "'ig",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68902,7 +68910,7 @@
   },
   {
     "text": "document",
-    "encounter_count": 145,
+    "encounter_count": 490,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68927,7 +68935,7 @@
   },
   {
     "text": "gpimg",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68952,7 +68960,7 @@
   },
   {
     "text": "gpurl",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68977,7 +68985,7 @@
   },
   {
     "text": "cid",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69002,7 +69010,7 @@
   },
   {
     "text": "ntt",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69027,7 +69035,7 @@
   },
   {
     "text": "rto",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69052,7 +69060,7 @@
   },
   {
     "text": "ctt",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69077,7 +69085,7 @@
   },
   {
     "text": "bnfn",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69102,7 +69110,7 @@
   },
   {
     "text": "default",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69127,7 +69135,7 @@
   },
   {
     "text": "lg",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69152,7 +69160,7 @@
   },
   {
     "text": "cbrsht",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69177,7 +69185,7 @@
   },
   {
     "text": "cbrshtam",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69202,7 +69210,7 @@
   },
   {
     "text": "bdvfy",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69227,7 +69235,7 @@
   },
   {
     "text": "multicbrstype",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69252,7 +69260,7 @@
   },
   {
     "text": "maxmulticbrs",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69277,7 +69285,7 @@
   },
   {
     "text": "rmhgtlog",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69302,7 +69310,7 @@
   },
   {
     "text": "sid",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69327,12 +69335,17 @@
   },
   {
     "text": "df",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "do robots search substring ig",
+      "what is programming search substring",
+      "what is artificial intelligence search",
+      "what is space search substring",
+      "what is science search substring"
     ],
     "sources": [
       "web_search"
@@ -69340,14 +69353,17 @@
   },
   {
     "text": "ae",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
       "do robots search substring ig",
-      "what is programming search substring"
+      "what is programming search substring",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69355,7 +69371,7 @@
   },
   {
     "text": "inpopt",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69380,7 +69396,7 @@
   },
   {
     "text": "enablermsinpopt",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69405,7 +69421,7 @@
   },
   {
     "text": "ajax",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69430,7 +69446,7 @@
   },
   {
     "text": "nav",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69455,7 +69471,7 @@
   },
   {
     "text": "cleartimersopt",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69480,7 +69496,7 @@
   },
   {
     "text": "serp",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69505,7 +69521,7 @@
   },
   {
     "text": "plt",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69530,7 +69546,7 @@
   },
   {
     "text": "optimization",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69555,7 +69571,7 @@
   },
   {
     "text": "searchbox",
-    "encounter_count": 546,
+    "encounter_count": 1766,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69580,7 +69596,7 @@
   },
   {
     "text": "width",
-    "encounter_count": 535,
+    "encounter_count": 1725,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69605,7 +69621,7 @@
   },
   {
     "text": "px",
-    "encounter_count": 568,
+    "encounter_count": 1848,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69630,7 +69646,7 @@
   },
   {
     "text": "hasmic",
-    "encounter_count": 262,
+    "encounter_count": 842,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69655,7 +69671,7 @@
   },
   {
     "text": "hassbi",
-    "encounter_count": 262,
+    "encounter_count": 842,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69680,7 +69696,7 @@
   },
   {
     "text": "header",
-    "encounter_count": 262,
+    "encounter_count": 842,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69705,7 +69721,7 @@
   },
   {
     "text": "searchboxform",
-    "encounter_count": 371,
+    "encounter_count": 1181,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69730,7 +69746,7 @@
   },
   {
     "text": "softkey",
-    "encounter_count": 284,
+    "encounter_count": 924,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69755,7 +69771,7 @@
   },
   {
     "text": "rsform",
-    "encounter_count": 262,
+    "encounter_count": 842,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69780,7 +69796,7 @@
   },
   {
     "text": "sendlog",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69805,7 +69821,7 @@
   },
   {
     "text": "date",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69830,7 +69846,7 @@
   },
   {
     "text": "gettime",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69855,7 +69871,7 @@
   },
   {
     "text": "ci",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69880,7 +69896,7 @@
   },
   {
     "text": "fid",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69905,7 +69921,7 @@
   },
   {
     "text": "text",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69930,7 +69946,7 @@
   },
   {
     "text": "clientinst",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69955,7 +69971,7 @@
   },
   {
     "text": "xmlhttprequest",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69980,7 +69996,7 @@
   },
   {
     "text": "fd",
-    "encounter_count": 41,
+    "encounter_count": 140,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70005,7 +70021,7 @@
   },
   {
     "text": "ls",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70030,7 +70046,7 @@
   },
   {
     "text": "lsp",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70055,7 +70071,7 @@
   },
   {
     "text": "aspx",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70080,7 +70096,7 @@
   },
   {
     "text": "setrequestheader",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70105,7 +70121,7 @@
   },
   {
     "text": "xml",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70130,7 +70146,7 @@
   },
   {
     "text": "jserrorhandler",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70155,7 +70171,7 @@
   },
   {
     "text": "rt",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70180,7 +70196,7 @@
   },
   {
     "text": "ut",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70205,7 +70221,7 @@
   },
   {
     "text": "nomessage",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70230,7 +70246,7 @@
   },
   {
     "text": "ignorecurrenterror",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70255,7 +70271,7 @@
   },
   {
     "text": "erc",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70280,7 +70296,7 @@
   },
   {
     "text": "maxerr",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70305,7 +70321,7 @@
   },
   {
     "text": "loge",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70330,7 +70346,7 @@
   },
   {
     "text": "errors",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70355,7 +70371,7 @@
   },
   {
     "text": "filename",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70380,7 +70396,7 @@
   },
   {
     "text": "lineno",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70405,7 +70421,7 @@
   },
   {
     "text": "colno",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70430,7 +70446,7 @@
   },
   {
     "text": "severity",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70455,7 +70471,7 @@
   },
   {
     "text": "regexp",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70480,7 +70496,7 @@
   },
   {
     "text": "regexesc",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70505,7 +70521,7 @@
   },
   {
     "text": "location",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70530,7 +70546,7 @@
   },
   {
     "text": "href",
-    "encounter_count": 104,
+    "encounter_count": 354,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70555,7 +70571,7 @@
   },
   {
     "text": "nt",
-    "encounter_count": 134,
+    "encounter_count": 449,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70580,7 +70596,7 @@
   },
   {
     "text": "lirab",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70605,7 +70621,7 @@
   },
   {
     "text": "liraa",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70630,7 +70646,7 @@
   },
   {
     "text": "hint",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70655,7 +70671,7 @@
   },
   {
     "text": "exec",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70680,7 +70696,7 @@
   },
   {
     "text": "meta",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70705,7 +70721,7 @@
   },
   {
     "text": "char",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70730,7 +70746,7 @@
   },
   {
     "text": "extrainfo",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70755,7 +70771,7 @@
   },
   {
     "text": "objecttostring",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70780,7 +70796,7 @@
   },
   {
     "text": "tostring",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70805,7 +70821,7 @@
   },
   {
     "text": "stringify",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70830,7 +70846,7 @@
   },
   {
     "text": "hasownproperty",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70855,7 +70871,7 @@
   },
   {
     "text": "js",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70880,7 +70896,7 @@
   },
   {
     "text": "sj",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70905,7 +70921,7 @@
   },
   {
     "text": "evt",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70930,7 +70946,7 @@
   },
   {
     "text": "undefined",
-    "encounter_count": 145,
+    "encounter_count": 490,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70955,7 +70971,7 @@
   },
   {
     "text": "errorinstrumentation",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70980,7 +70996,7 @@
   },
   {
     "text": "ft",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71005,7 +71021,7 @@
   },
   {
     "text": "metajserror",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71030,7 +71046,7 @@
   },
   {
     "text": "execute",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71055,7 +71071,7 @@
   },
   {
     "text": "handler",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71080,7 +71096,7 @@
   },
   {
     "text": "cspeh",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71105,7 +71121,7 @@
   },
   {
     "text": "cspif",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71130,7 +71146,7 @@
   },
   {
     "text": "cspviolation",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71155,7 +71171,7 @@
   },
   {
     "text": "sample",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71180,7 +71196,7 @@
   },
   {
     "text": "addeventlistener",
-    "encounter_count": 164,
+    "encounter_count": 544,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71205,7 +71221,7 @@
   },
   {
     "text": "unhandledrejection",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71230,7 +71246,7 @@
   },
   {
     "text": "securitypolicyviolation",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71255,7 +71271,7 @@
   },
   {
     "text": "bind",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71280,7 +71296,7 @@
   },
   {
     "text": "amd",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71305,7 +71321,7 @@
   },
   {
     "text": "define",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71330,7 +71346,7 @@
   },
   {
     "text": "require",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71355,7 +71371,7 @@
   },
   {
     "text": "dependencies",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71380,7 +71396,7 @@
   },
   {
     "text": "callback",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71405,7 +71421,7 @@
   },
   {
     "text": "sendbeacon",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71430,7 +71446,7 @@
   },
   {
     "text": "navigator",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71455,7 +71471,7 @@
   },
   {
     "text": "cltrco",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71480,7 +71496,7 @@
   },
   {
     "text": "furl",
-    "encounter_count": 52,
+    "encounter_count": 177,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71505,7 +71521,7 @@
   },
   {
     "text": "ctcc",
-    "encounter_count": 52,
+    "encounter_count": 177,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71530,7 +71546,7 @@
   },
   {
     "text": "clc",
-    "encounter_count": 115,
+    "encounter_count": 395,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71555,7 +71571,7 @@
   },
   {
     "text": "serpmode",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71580,7 +71596,7 @@
   },
   {
     "text": "offstage",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71605,7 +71621,7 @@
   },
   {
     "text": "gptcreator",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71630,7 +71646,7 @@
   },
   {
     "text": "gpt",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71655,7 +71671,7 @@
   },
   {
     "text": "creator",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71680,7 +71696,7 @@
   },
   {
     "text": "si",
-    "encounter_count": 123,
+    "encounter_count": 408,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71705,7 +71721,7 @@
   },
   {
     "text": "ct",
-    "encounter_count": 82,
+    "encounter_count": 272,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71730,7 +71746,7 @@
   },
   {
     "text": "sharedclicksuppressed",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71755,7 +71771,7 @@
   },
   {
     "text": "getattribute",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71780,7 +71796,7 @@
   },
   {
     "text": "parentnode",
-    "encounter_count": 63,
+    "encounter_count": 218,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71805,7 +71821,7 @@
   },
   {
     "text": "noct",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71830,7 +71846,7 @@
   },
   {
     "text": "tagname",
-    "encounter_count": 63,
+    "encounter_count": 218,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71855,7 +71871,7 @@
   },
   {
     "text": "clicks",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71880,7 +71896,7 @@
   },
   {
     "text": "cspi",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71905,7 +71921,7 @@
   },
   {
     "text": "ctf",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71930,7 +71946,7 @@
   },
   {
     "text": "keydown",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71955,7 +71971,7 @@
   },
   {
     "text": "ef",
-    "encounter_count": 104,
+    "encounter_count": 357,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71980,7 +71996,7 @@
   },
   {
     "text": "newtabredironclicktracking",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72005,7 +72021,7 @@
   },
   {
     "text": "indexof",
-    "encounter_count": 93,
+    "encounter_count": 313,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72030,7 +72046,7 @@
   },
   {
     "text": "newtabredir",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72055,7 +72071,7 @@
   },
   {
     "text": "url",
-    "encounter_count": 52,
+    "encounter_count": 177,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72080,7 +72096,7 @@
   },
   {
     "text": "encodeuricomponent",
-    "encounter_count": 52,
+    "encounter_count": 177,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72105,7 +72121,7 @@
   },
   {
     "text": "atob",
-    "encounter_count": 41,
+    "encounter_count": 136,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72130,7 +72146,7 @@
   },
   {
     "text": "decodeuricomponent",
-    "encounter_count": 31,
+    "encounter_count": 104,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72145,7 +72161,9 @@
       "what is programming search substring",
       "what is science search substring",
       "do cars search substring ig",
-      "what is internet search substring"
+      "what is internet search substring",
+      "what is artificial intelligence search",
+      "do screens search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72153,12 +72171,16 @@
   },
   {
     "text": "bb",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788670462.6424391,
     "last_practiced": 1788670462.6424391,
     "contexts": [
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "what is space search substring",
+      "do phones search substring ig",
+      "what is music search substring",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72205,7 +72227,7 @@
   },
   {
     "text": "sboxw",
-    "encounter_count": 77,
+    "encounter_count": 287,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72216,7 +72238,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72224,7 +72251,7 @@
   },
   {
     "text": "calc",
-    "encounter_count": 44,
+    "encounter_count": 164,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72235,7 +72262,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72243,7 +72275,7 @@
   },
   {
     "text": "media",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72254,7 +72286,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72262,7 +72299,7 @@
   },
   {
     "text": "min",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72273,7 +72310,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72281,7 +72323,7 @@
   },
   {
     "text": "private",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72292,7 +72334,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72300,7 +72347,7 @@
   },
   {
     "text": "mfurl",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72311,7 +72358,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72319,7 +72371,7 @@
   },
   {
     "text": "abc",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72330,7 +72382,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72338,7 +72395,7 @@
   },
   {
     "text": "mc",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72349,7 +72406,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72357,7 +72419,7 @@
   },
   {
     "text": "clicktodynevent",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72368,7 +72430,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72376,7 +72443,7 @@
   },
   {
     "text": "id",
-    "encounter_count": 22,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72387,7 +72454,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72395,7 +72467,7 @@
   },
   {
     "text": "tolowercase",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72406,7 +72478,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72414,7 +72491,7 @@
   },
   {
     "text": "javascript",
-    "encounter_count": 11,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72425,7 +72502,12 @@
       "what is programming search substring",
       "what is science search substring",
       "what is internet search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "do screens search substring ig",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72433,7 +72515,7 @@
   },
   {
     "text": "robots",
-    "encounter_count": 5,
+    "encounter_count": 14,
     "mastery": 1.0,
     "first_seen": 1788694291.8246381,
     "last_practiced": 1788694291.8246381,
@@ -72446,7 +72528,7 @@
   },
   {
     "text": "cd",
-    "encounter_count": 4,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788694291.8246381,
     "last_practiced": 1788694291.8246381,
@@ -72454,7 +72536,11 @@
       "do robots search substring ig",
       "what is music search substring",
       "do screens search substring ig",
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "do cars search substring ig",
+      "what is artificial intelligence search",
+      "games search substring ig ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72462,13 +72548,15 @@
   },
   {
     "text": "db",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 5,
+    "mastery": 1.0,
     "first_seen": 1788694324.8976374,
     "last_practiced": 1788694324.8976374,
     "contexts": [
       "what is music search substring",
-      "games search substring ig ig"
+      "games search substring ig ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -72476,7 +72564,7 @@
   },
   {
     "text": "bc",
-    "encounter_count": 7,
+    "encounter_count": 10,
     "mastery": 1.0,
     "first_seen": 1788694324.8976374,
     "last_practiced": 1788694324.8976374,
@@ -72486,7 +72574,8 @@
       "what is programming search substring",
       "do cars search substring ig",
       "what is artificial intelligence search",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72494,7 +72583,7 @@
   },
   {
     "text": "phones",
-    "encounter_count": 4,
+    "encounter_count": 13,
     "mastery": 1.0,
     "first_seen": 1788694350.280662,
     "last_practiced": 1788694350.280662,
@@ -72507,13 +72596,16 @@
   },
   {
     "text": "ca",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 7,
+    "mastery": 1.0,
     "first_seen": 1788694350.280662,
     "last_practiced": 1788694350.280662,
     "contexts": [
       "do phones search substring ig",
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "what is internet search substring",
+      "what is artificial intelligence search",
+      "do screens search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72534,13 +72626,16 @@
   },
   {
     "text": "ce",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 7,
+    "mastery": 1.0,
     "first_seen": 1788694353.9790337,
     "last_practiced": 1788694353.9790337,
     "contexts": [
       "do phones search substring ig",
-      "what is internet search substring"
+      "what is internet search substring",
+      "games search substring ig ig",
+      "what is science search substring",
+      "computers search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -72561,7 +72656,7 @@
   },
   {
     "text": "artificial",
-    "encounter_count": 3,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788694356.979361,
     "last_practiced": 1788694356.979361,
@@ -72587,12 +72682,15 @@
   },
   {
     "text": "af",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788694356.979361,
     "last_practiced": 1788694356.979361,
     "contexts": [
-      "what is artificial intelligence search"
+      "what is artificial intelligence search",
+      "do screens search substring ig",
+      "what is programming search substring",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72613,7 +72711,7 @@
   },
   {
     "text": "decod",
-    "encounter_count": 3,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788694356.9803615,
     "last_practiced": 1788694356.9803615,
@@ -72652,7 +72750,7 @@
   },
   {
     "text": "internet",
-    "encounter_count": 3,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
@@ -72665,12 +72763,14 @@
   },
   {
     "text": "ad",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
-      "what is internet search substring"
+      "what is internet search substring",
+      "what is science search substring",
+      "do robots search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72691,14 +72791,17 @@
   },
   {
     "text": "cc",
-    "encounter_count": 3,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
       "what is internet search substring",
       "what is music search substring",
-      "do cars search substring ig"
+      "do cars search substring ig",
+      "what is artificial intelligence search",
+      "what is programming search substring",
+      "do screens search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72706,8 +72809,8 @@
   },
   {
     "text": "decodeuricompone",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
@@ -72745,7 +72848,7 @@
   },
   {
     "text": "decodeuricomponen",
-    "encounter_count": 5,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788694566.6979275,
     "last_practiced": 1788694566.6979275,
@@ -72759,13 +72862,16 @@
   },
   {
     "text": "ed",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 8,
+    "mastery": 1.0,
     "first_seen": 1788694933.6082234,
     "last_practiced": 1788694933.6082234,
     "contexts": [
       "what is music search substring",
-      "what is artificial intelligence search"
+      "what is artificial intelligence search",
+      "do cars search substring ig",
+      "what is programming search substring",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72786,12 +72892,13 @@
   },
   {
     "text": "lo",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694933.6082234,
     "last_practiced": 1788694933.6082234,
     "contexts": [
-      "what is music search substring"
+      "what is music search substring",
+      "what is space search substring"
     ],
     "sources": [
       "web_search"
@@ -72799,8 +72906,8 @@
   },
   {
     "text": "screens",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 9,
+    "mastery": 1.0,
     "first_seen": 1788695987.9082325,
     "last_practiced": 1788695987.9082325,
     "contexts": [
@@ -72812,13 +72919,15 @@
   },
   {
     "text": "ea",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788695987.9082325,
     "last_practiced": 1788695987.9082325,
     "contexts": [
       "do screens search substring ig",
-      "do cars search substring ig"
+      "do cars search substring ig",
+      "what is programming search substring",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -72826,12 +72935,13 @@
   },
   {
     "text": "dac",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788695987.9082325,
     "last_practiced": 1788695987.9082325,
     "contexts": [
-      "do screens search substring ig"
+      "do screens search substring ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -72865,13 +72975,15 @@
   },
   {
     "text": "ac",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788696049.012684,
     "last_practiced": 1788696049.012684,
     "contexts": [
       "games search substring ig ig",
-      "what is science search substring"
+      "what is science search substring",
+      "what is programming search substring",
+      "do screens search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72892,12 +73004,15 @@
   },
   {
     "text": "e'",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788696049.012684,
     "last_practiced": 1788696049.012684,
     "contexts": [
-      "games search substring ig ig"
+      "games search substring ig ig",
+      "what is artificial intelligence search",
+      "computers search substring ig ig",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72905,7 +73020,7 @@
   },
   {
     "text": "fe",
-    "encounter_count": 4,
+    "encounter_count": 10,
     "mastery": 1.0,
     "first_seen": 1788696081.2238166,
     "last_practiced": 1788696081.2238166,
@@ -72913,7 +73028,10 @@
       "computers search substring ig ig",
       "what is science search substring",
       "do robots search substring ig",
-      "what is internet search substring"
+      "what is internet search substring",
+      "do screens search substring ig",
+      "what is space search substring",
+      "what is programming search substring"
     ],
     "sources": [
       "web_search"
@@ -72921,12 +73039,18 @@
   },
   {
     "text": "a'",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 8,
+    "mastery": 1.0,
     "first_seen": 1788696081.2238166,
     "last_practiced": 1788696081.2238166,
     "contexts": [
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "what is programming search substring",
+      "do robots search substring ig",
+      "do cars search substring ig",
+      "games search substring ig ig",
+      "do phones search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72947,14 +73071,15 @@
   },
   {
     "text": "ee",
-    "encounter_count": 3,
+    "encounter_count": 5,
     "mastery": 1.0,
     "first_seen": 1788696112.0314054,
     "last_practiced": 1788696112.0314054,
     "contexts": [
       "what is programming search substring",
       "do robots search substring ig",
-      "do cars search substring ig"
+      "do cars search substring ig",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72962,7 +73087,7 @@
   },
   {
     "text": "d'",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788696112.0314054,
     "last_practiced": 1788696112.0314054,
@@ -72990,7 +73115,7 @@
   },
   {
     "text": "science",
-    "encounter_count": 5,
+    "encounter_count": 14,
     "mastery": 1.0,
     "first_seen": 1788696138.7340095,
     "last_practiced": 1788696138.7340095,
@@ -73003,12 +73128,15 @@
   },
   {
     "text": "ff",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788696143.1739013,
     "last_practiced": 1788696143.1739013,
     "contexts": [
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "do cars search substring ig",
+      "computers search substring ig ig",
+      "what is programming search substring"
     ],
     "sources": [
       "web_search"
@@ -73016,12 +73144,15 @@
   },
   {
     "text": "cb",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788696177.563582,
     "last_practiced": 1788696177.563582,
     "contexts": [
-      "games search substring ig ig"
+      "games search substring ig ig",
+      "do screens search substring ig",
+      "do cars search substring ig",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73055,13 +73186,16 @@
   },
   {
     "text": "c'",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 8,
+    "mastery": 1.0,
     "first_seen": 1788696208.5700922,
     "last_practiced": 1788696208.5700922,
     "contexts": [
       "what is science search substring",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "do cars search substring ig",
+      "games search substring ig ig",
+      "do screens search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73069,12 +73203,14 @@
   },
   {
     "text": "def",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788696239.5531943,
     "last_practiced": 1788696239.5531943,
     "contexts": [
-      "what is science search substring"
+      "what is science search substring",
+      "do robots search substring ig",
+      "what is programming search substring"
     ],
     "sources": [
       "web_search"
@@ -73096,12 +73232,16 @@
   },
   {
     "text": "ba",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 7,
+    "mastery": 1.0,
     "first_seen": 1788696270.4562354,
     "last_practiced": 1788696270.4562354,
     "contexts": [
-      "what is programming search substring"
+      "what is programming search substring",
+      "what is space search substring",
+      "do phones search substring ig",
+      "do robots search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -73109,12 +73249,15 @@
   },
   {
     "text": "da",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788696270.4562354,
     "last_practiced": 1788696270.4562354,
     "contexts": [
-      "what is programming search substring"
+      "what is programming search substring",
+      "do robots search substring ig",
+      "do screens search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -73135,12 +73278,14 @@
   },
   {
     "text": "de",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788696282.0570204,
     "last_practiced": 1788696282.0570204,
     "contexts": [
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is space search substring",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -73161,12 +73306,14 @@
   },
   {
     "text": "bd",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788696295.9038851,
     "last_practiced": 1788696295.9038851,
     "contexts": [
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is programming search substring",
+      "what is science search substring"
     ],
     "sources": [
       "web_search"
@@ -73213,12 +73360,17 @@
   },
   {
     "text": "bf",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 6,
+    "mastery": 1.0,
     "first_seen": 1788696312.111699,
     "last_practiced": 1788696312.111699,
     "contexts": [
-      "what is science search substring"
+      "what is science search substring",
+      "do cars search substring ig",
+      "what is programming search substring",
+      "what is internet search substring",
+      "computers search substring ig ig",
+      "what is artificial intelligence search"
     ],
     "sources": [
       "web_search"
@@ -73226,12 +73378,14 @@
   },
   {
     "text": "f'",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788696312.111699,
     "last_practiced": 1788696312.111699,
     "contexts": [
-      "what is science search substring"
+      "what is science search substring",
+      "computers search substring ig ig",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73252,12 +73406,14 @@
   },
   {
     "text": "fb",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 5,
+    "mastery": 1.0,
     "first_seen": 1788696330.903195,
     "last_practiced": 1788696330.903195,
     "contexts": [
-      "what is programming search substring"
+      "what is programming search substring",
+      "do robots search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -73265,13 +73421,18 @@
   },
   {
     "text": "fc",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 10,
+    "mastery": 1.0,
     "first_seen": 1788696330.903195,
     "last_practiced": 1788696330.903195,
     "contexts": [
       "what is programming search substring",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "do screens search substring ig",
+      "computers search substring ig ig",
+      "what is artificial intelligence search",
+      "games search substring ig ig",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73305,12 +73466,15 @@
   },
   {
     "text": "dc",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 5,
+    "mastery": 1.0,
     "first_seen": 1788696337.930005,
     "last_practiced": 1788696337.930005,
     "contexts": [
-      "do cars search substring ig"
+      "do cars search substring ig",
+      "what is space search substring",
+      "do phones search substring ig",
+      "do screens search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73350,6 +73514,849 @@
     "last_practiced": 1788696395.5012853,
     "contexts": [
       "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "aa",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788696426.4860673,
+    "last_practiced": 1788696426.4860673,
+    "contexts": [
+      "what is space search substring",
+      "what is music search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ccf",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696457.7159946,
+    "last_practiced": 1788696457.7159946,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cf",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788696460.6004763,
+    "last_practiced": 1788696460.6004763,
+    "contexts": [
+      "do cars search substring ig",
+      "what is artificial intelligence search",
+      "what is music search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "edc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696461.1740131,
+    "last_practiced": 1788696461.1740131,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fa",
+    "encounter_count": 6,
+    "mastery": 1.0,
+    "first_seen": 1788696461.1740131,
+    "last_practiced": 1788696461.1740131,
+    "contexts": [
+      "what is programming search substring",
+      "what is music search substring",
+      "do phones search substring ig",
+      "computers search substring ig ig",
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bcc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696574.8324206,
+    "last_practiced": 1788696574.8324206,
+    "contexts": [
+      "what is internet search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dd",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696574.8324206,
+    "last_practiced": 1788696574.8324206,
+    "contexts": [
+      "what is internet search substring",
+      "do screens search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "abb",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696596.6739395,
+    "last_practiced": 1788696596.6739395,
+    "contexts": [
+      "do robots search substring ig",
+      "what is space search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ebb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696596.6739395,
+    "last_practiced": 1788696596.6739395,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "b'",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788696596.6739395,
+    "last_practiced": 1788696596.6739395,
+    "contexts": [
+      "do robots search substring ig",
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "eb",
+    "encounter_count": 8,
+    "mastery": 1.0,
+    "first_seen": 1788696643.5522163,
+    "last_practiced": 1788696643.5522163,
+    "contexts": [
+      "do screens search substring ig",
+      "what is artificial intelligence search",
+      "do robots search substring ig",
+      "computers search substring ig ig",
+      "what is music search substring",
+      "what is internet search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ecb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696669.1353686,
+    "last_practiced": 1788696669.1353686,
+    "contexts": [
+      "what is music search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bfa",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696675.0602016,
+    "last_practiced": 1788696675.0602016,
+    "contexts": [
+      "what is science search substring",
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fbe",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696675.0602016,
+    "last_practiced": 1788696675.0602016,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fd'",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696675.0602016,
+    "last_practiced": 1788696675.0602016,
+    "contexts": [
+      "what is science search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "aebee",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696707.2118487,
+    "last_practiced": 1788696707.2118487,
+    "contexts": [
+      "computers search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ffb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696759.0099187,
+    "last_practiced": 1788696759.0099187,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ca'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696759.0099187,
+    "last_practiced": 1788696759.0099187,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ab",
+    "encounter_count": 6,
+    "mastery": 1.0,
+    "first_seen": 1788696771.065859,
+    "last_practiced": 1788696771.065859,
+    "contexts": [
+      "do robots search substring ig",
+      "computers search substring ig ig",
+      "what is artificial intelligence search",
+      "what is internet search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bfb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696802.097075,
+    "last_practiced": 1788696802.097075,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "abe",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696865.8871696,
+    "last_practiced": 1788696865.8871696,
+    "contexts": [
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cbc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696900.1562784,
+    "last_practiced": 1788696900.1562784,
+    "contexts": [
+      "computers search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dfb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696970.704258,
+    "last_practiced": 1788696970.704258,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fabe",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696970.704258,
+    "last_practiced": 1788696970.704258,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "edee",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697045.186811,
+    "last_practiced": 1788697045.186811,
+    "contexts": [
+      "computers search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fc'",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788697080.7262561,
+    "last_practiced": 1788697080.7262561,
+    "contexts": [
+      "what is artificial intelligence search",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fff",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697116.0398371,
+    "last_practiced": 1788697116.0398371,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "caa",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697116.0398371,
+    "last_practiced": 1788697116.0398371,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cbe",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697173.0538557,
+    "last_practiced": 1788697173.0538557,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ebd",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788697173.0538557,
+    "last_practiced": 1788697173.0538557,
+    "contexts": [
+      "what is artificial intelligence search",
+      "do screens search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bfc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697173.0538557,
+    "last_practiced": 1788697173.0538557,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ede",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697191.5371084,
+    "last_practiced": 1788697191.5371084,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dbc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697192.1139152,
+    "last_practiced": 1788697192.1139152,
+    "contexts": [
+      "do screens search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cab",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697198.6408873,
+    "last_practiced": 1788697198.6408873,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "eaf",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697224.953812,
+    "last_practiced": 1788697224.953812,
+    "contexts": [
+      "what is space search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "de'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697260.7903264,
+    "last_practiced": 1788697260.7903264,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "acb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697300.3331118,
+    "last_practiced": 1788697300.3331118,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ec",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788697335.6139357,
+    "last_practiced": 1788697335.6139357,
+    "contexts": [
+      "what is artificial intelligence search",
+      "what is programming search substring",
+      "do screens search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cdc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697395.8442118,
+    "last_practiced": 1788697395.8442118,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bdff",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697405.2732472,
+    "last_practiced": 1788697405.2732472,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ebbd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697480.5578566,
+    "last_practiced": 1788697480.5578566,
+    "contexts": [
+      "do screens search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dad'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697480.5578566,
+    "last_practiced": 1788697480.5578566,
+    "contexts": [
+      "do screens search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bdd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697481.129626,
+    "last_practiced": 1788697481.129626,
+    "contexts": [
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cea",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697619.0606325,
+    "last_practiced": 1788697619.0606325,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "aea",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697619.0606325,
+    "last_practiced": 1788697619.0606325,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ecf",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697694.0603764,
+    "last_practiced": 1788697694.0603764,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "adf",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697916.1018305,
+    "last_practiced": 1788697916.1018305,
+    "contexts": [
+      "computers search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "eed",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697953.443685,
+    "last_practiced": 1788697953.443685,
+    "contexts": [
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "adad",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788697990.29041,
+    "last_practiced": 1788697990.29041,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fbb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698043.5832622,
+    "last_practiced": 1788698043.5832622,
+    "contexts": [
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ddffeb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698117.0644398,
+    "last_practiced": 1788698117.0644398,
+    "contexts": [
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "acaad",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698144.412761,
+    "last_practiced": 1788698144.412761,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "efc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698146.7091963,
+    "last_practiced": 1788698146.7091963,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ab'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698188.5507598,
+    "last_practiced": 1788698188.5507598,
+    "contexts": [
+      "what is space search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "adef",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698342.685058,
+    "last_practiced": 1788698342.685058,
+    "contexts": [
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ed'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698418.9887147,
+    "last_practiced": 1788698418.9887147,
+    "contexts": [
+      "what is music search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "faec",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698520.3801935,
+    "last_practiced": 1788698520.3801935,
+    "contexts": [
+      "what is music search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fcd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698594.4430473,
+    "last_practiced": 1788698594.4430473,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ebfa",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698736.3318546,
+    "last_practiced": 1788698736.3318546,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ecd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698818.4176419,
+    "last_practiced": 1788698818.4176419,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fffb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698834.4057581,
+    "last_practiced": 1788698834.4057581,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "aebaf",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698859.0211654,
+    "last_practiced": 1788698859.0211654,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fddce",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788698894.2455187,
+    "last_practiced": 1788698894.2455187,
+    "contexts": [
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"

@@ -369,6 +369,11 @@ class Brain:
         self.autonomous_learner = AutonomousLearner(self.language, self.memory, getattr(self, "smollm", None))
         self.game_player = SimpleGamePlayer()
         self._first_launch_trained = False
+        if hasattr(self, "smollm") and hasattr(self.smollm, "start_background_load"):
+            try:
+                self.smollm.start_background_load()
+            except Exception:
+                pass
         self._try_first_launch_train()
 
     def _reply_quality_ok(self, text: str) -> bool:
@@ -378,6 +383,12 @@ class Brain:
         if "nova:" in t or t.count("nova") > 2:
             return False
         if len(t) > 180:
+            return False
+        if t.startswith("dad:") or t.startswith("dad "):
+            return False
+        if any(t.startswith(bad) for bad in ["i don't think so", "ok", "hi", "hello", "yes"]):
+            return False
+        if any(t == s for s in ["ok", "yes", "no", "hi", "hello", "i don't know"]):
             return False
         return True
 
@@ -925,8 +936,13 @@ class ChildGUI:
         self._last_screen_update = 0.0
         self._autonomous_interval = 6000  # ms
         self._last_autonomous_action: Dict[str, Any] = {}
+        self._last_autonomous_chat: Dict[str, float] = {}
         self.audio_capture = SystemAudioCapture()
-        self.audio_capture.start()
+        try:
+            if not getattr(self.audio_capture, "available", True):
+                self.audio_capture = None  # type: ignore
+        except Exception:
+            self.audio_capture = None  # type: ignore
         self.youtube_learner = YouTubeTranscriptLearner()
         self.screen_analyzer = ScreenContentAnalyzer()
         self._last_youtube_video_id: Optional[str] = None
@@ -1158,8 +1174,8 @@ class ChildGUI:
         self.goals_box.delete("1.0", "end")
         goal_state = getattr(self.consciousness, "state", None)
         current_goal = getattr(goal_state, "current_goal", None) if goal_state else None
-        completed = getattr(self.consciousness, "completed_goals", []) if hasattr(self.consciousness, "completed_goals") else []
-        if current_goal:
+        completed = list(dict.fromkeys(getattr(self.consciousness, "completed_goals", []) or []))
+        if current_goal and current_goal not in completed:
             self.goals_box.insert("end", f"Current: {current_goal}\n")
             steps = getattr(goal_state, "current_goal_steps", []) if goal_state else []
             idx = getattr(goal_state, "goal_step_index", 0) if goal_state else 0
@@ -1243,22 +1259,37 @@ class ChildGUI:
     def _update_consciousness_loop(self) -> None:
         try:
             state = self.consciousness.update(seconds=1.0)
-            self.mood_var.set(f"mood: {state.get('mood', 'curious')}")
-            self.goal_var.set(f"goal: {state.get('current_goal') or 'none'}")
-            self.thought_var.set(f"thought: {state.get('last_thought') or state.get('inner_monologue') or ''}")
+            mood = state.get("mood", "curious")
+            goal = state.get("current_goal") or "none"
+            thought = state.get("last_thought") or state.get("inner_monologue") or ""
+            drives = {d["name"]: d for d in state.get("drives", [])}
+            changed = False
+            if getattr(self, "_last_mood", None) != mood:
+                self.mood_var.set(f"mood: {mood}")
+                self._last_mood = mood
+                changed = True
+            if getattr(self, "_last_goal", None) != goal:
+                self.goal_var.set(f"goal: {goal}")
+                self._last_goal = goal
+                changed = True
+            if getattr(self, "_last_thought", None) != thought:
+                self.thought_var.set(f"thought: {thought}")
+                self._last_thought = thought
+                changed = True
             for drive, bar in self.drive_bars.items():
-                for d in state.get("drives", []):
-                    if d["name"] == drive:
-                        bar["value"] = int(d["intensity"] * 100)
-                        break
-            self._refresh_memory()
+                val = int((drives.get(drive) or {}).get("intensity", 0) * 100)
+                if bar["value"] != val:
+                    bar["value"] = val
+                    changed = True
+            if changed:
+                self._refresh_memory()
         except Exception:
             pass
-        self.root.after(1000, self._update_consciousness_loop)
+        self.root.after(3000, self._update_consciousness_loop)
 
     def _autonomous_loop(self) -> None:
         try:
-            max_steps = 3
+            max_steps = 1
             steps_done = 0
             while steps_done < max_steps and self.consciousness.should_act_autonomously():
                 action = self.consciousness.decide_next_action()
@@ -1266,6 +1297,12 @@ class ChildGUI:
                     break
                 text = action.get("text", "")
                 drive = action.get("drive", "")
+                if text and action.get("speak"):
+                    now = time.time()
+                    last = self._last_autonomous_chat.get(text, 0.0)
+                    if now - last < 600:
+                        break
+                    self._last_autonomous_chat[text] = now
                 result = self._execute_autonomous_action(action)
                 log_msg = f"[{drive}] {text}"
                 if result:
@@ -1273,12 +1310,10 @@ class ChildGUI:
                 self._autonomous_activity_log.append(log_msg)
                 if len(self._autonomous_activity_log) > 200:
                     self._autonomous_activity_log = self._autonomous_activity_log[-200:]
-                if text and action.get("speak"):
-                    self._append_chat(self.name, text)
                 self._last_autonomous_action = action
                 steps_done += 1
             # Periodic evolution cycle
-            if hasattr(self, "evolution_engine") and random.random() < 0.3:
+            if hasattr(self, "evolution_engine") and random.random() < 0.15:
                 try:
                     self.evolution_engine._evolve()
                 except Exception:

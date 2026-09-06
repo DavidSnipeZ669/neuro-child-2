@@ -59,7 +59,27 @@ class SmolLMBrain:
         self._lock = threading.RLock()
         self._recent_loss: Optional[float] = None
         self._training_steps: int = 0
-        self._load()
+        self._load_error: Optional[str] = "not loaded yet"
+        self._loading = False
+        self._loaded_event = threading.Event()
+
+    def start_background_load(self) -> None:
+        if self._loading or self.is_available():
+            return
+        self._loading = True
+        threading.Thread(target=self._background_load, daemon=True).start()
+
+    def wait_until_loaded(self, timeout: float = 180.0) -> bool:
+        return self._loaded_event.wait(timeout=timeout)
+
+    def _background_load(self) -> None:
+        try:
+            self._load()
+        except Exception:
+            pass
+        finally:
+            self._loading = False
+            self._loaded_event.set()
 
     def _load(self) -> None:
         if not HAS_TRANSFORMERS:

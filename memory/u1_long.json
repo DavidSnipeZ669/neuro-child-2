@@ -734,5 +734,37 @@
     "importance": 0.7,
     "created": "2026-09-06T12:06:25.945081Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T12:13:07.053963Z",
+    "kind": "fact",
+    "text": "dad likes pizza",
+    "importance": 0.9,
+    "created": "2026-09-06T12:13:07.053963Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:13:07.054969Z",
+    "kind": "fact",
+    "text": "dad dislikes broccoli",
+    "importance": 0.7,
+    "created": "2026-09-06T12:13:07.054969Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:50:13.619712Z",
+    "kind": "fact",
+    "text": "dad likes pizza",
+    "importance": 0.9,
+    "created": "2026-09-06T12:50:13.619712Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:50:13.621712Z",
+    "kind": "fact",
+    "text": "dad dislikes broccoli",
+    "importance": 0.7,
+    "created": "2026-09-06T12:50:13.621712Z",
+    "expires": null
   }
 ]

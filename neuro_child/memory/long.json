@@ -430,5 +430,413 @@
     "importance": 0.5,
     "created": "2026-09-06T12:06:35.607020Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T12:07:06.799371Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is space': aa",
+    "importance": 0.5,
+    "created": "2026-09-06T12:07:06.799371Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:07:37.810514Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do cars work': ccf",
+    "importance": 0.5,
+    "created": "2026-09-06T12:07:37.811520Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:07:40.697158Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do cars work': cf",
+    "importance": 0.5,
+    "created": "2026-09-06T12:07:40.697158Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:07:41.260664Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is programming': edc, fa",
+    "importance": 0.5,
+    "created": "2026-09-06T12:07:41.260664Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:09:35.137075Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is the internet': bcc, dd",
+    "importance": 0.5,
+    "created": "2026-09-06T12:09:35.137075Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:09:56.745381Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': abb, ebb, b'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:09:56.745381Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:10:43.648929Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do screens work': eb",
+    "importance": 0.5,
+    "created": "2026-09-06T12:10:43.648929Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:11:09.214759Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is music': ecb",
+    "importance": 0.5,
+    "created": "2026-09-06T12:11:09.214759Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:11:15.126505Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is science': bfa, fbe, fd'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:11:15.126505Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:11:47.293994Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': aebee",
+    "importance": 0.5,
+    "created": "2026-09-06T12:11:47.293994Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:12:39.106089Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': ffb, ca'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:12:39.106089Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:12:51.157515Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': ab",
+    "importance": 0.5,
+    "created": "2026-09-06T12:12:51.157515Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:13:22.175928Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do cars work': bfb",
+    "importance": 0.5,
+    "created": "2026-09-06T12:13:22.175928Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:14:25.966686Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': abe",
+    "importance": 0.5,
+    "created": "2026-09-06T12:14:25.966686Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:15:00.701369Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': cbc",
+    "importance": 0.5,
+    "created": "2026-09-06T12:15:00.701369Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:16:10.985935Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do cars work': dfb, fabe",
+    "importance": 0.5,
+    "created": "2026-09-06T12:16:10.985935Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:17:25.437378Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': edee",
+    "importance": 0.5,
+    "created": "2026-09-06T12:17:25.437378Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:18:00.794754Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': fc'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:18:00.794754Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:18:36.898374Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is science': fff, caa",
+    "importance": 0.5,
+    "created": "2026-09-06T12:18:36.898374Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:19:33.274094Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': cbe, ebd, bfc",
+    "importance": 0.5,
+    "created": "2026-09-06T12:19:33.274094Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:19:51.624980Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how games are made': ede",
+    "importance": 0.5,
+    "created": "2026-09-06T12:19:51.624980Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:19:52.182384Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do screens work': dbc",
+    "importance": 0.5,
+    "created": "2026-09-06T12:19:52.183383Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:19:58.727610Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': cab",
+    "importance": 0.5,
+    "created": "2026-09-06T12:19:58.727610Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:20:25.283531Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is space': eaf",
+    "importance": 0.5,
+    "created": "2026-09-06T12:20:25.283531Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:21:01.024516Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is science': de'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:21:01.024516Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:21:40.542361Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': acb",
+    "importance": 0.5,
+    "created": "2026-09-06T12:21:40.542361Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:22:15.813944Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': ec",
+    "importance": 0.5,
+    "created": "2026-09-06T12:22:15.813944Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:23:16.218476Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': cdc",
+    "importance": 0.5,
+    "created": "2026-09-06T12:23:16.218476Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:23:25.503940Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is programming': bdff",
+    "importance": 0.5,
+    "created": "2026-09-06T12:23:25.503940Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:24:40.651478Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do screens work': ebbd, dad'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:24:40.651478Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:24:41.229557Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': bdd",
+    "importance": 0.5,
+    "created": "2026-09-06T12:24:41.229557Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:26:59.171558Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': cea, aea",
+    "importance": 0.5,
+    "created": "2026-09-06T12:26:59.171558Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:28:14.294101Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': ecf",
+    "importance": 0.5,
+    "created": "2026-09-06T12:28:14.294101Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:31:57.443723Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': adf",
+    "importance": 0.5,
+    "created": "2026-09-06T12:31:57.443723Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:32:33.662755Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': eed",
+    "importance": 0.5,
+    "created": "2026-09-06T12:32:33.662755Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:33:10.507097Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is programming': adad",
+    "importance": 0.5,
+    "created": "2026-09-06T12:33:10.507097Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:34:03.711748Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': fbb",
+    "importance": 0.5,
+    "created": "2026-09-06T12:34:03.711748Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:35:17.188517Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': ddffeb",
+    "importance": 0.5,
+    "created": "2026-09-06T12:35:17.188517Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:35:44.644786Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how games are made': acaad",
+    "importance": 0.5,
+    "created": "2026-09-06T12:35:44.644786Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:35:46.974740Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do cars work': efc",
+    "importance": 0.5,
+    "created": "2026-09-06T12:35:46.974740Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:36:28.752411Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is space': ab'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:36:28.752411Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:39:02.808258Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': adef",
+    "importance": 0.5,
+    "created": "2026-09-06T12:39:02.808258Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:40:19.271740Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is music': ed'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:40:19.271740Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:42:02.662352Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is music': faec",
+    "importance": 0.5,
+    "created": "2026-09-06T12:42:02.662352Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:43:14.675503Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': fcd",
+    "importance": 0.5,
+    "created": "2026-09-06T12:43:14.675503Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:45:36.453489Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': ebfa",
+    "importance": 0.5,
+    "created": "2026-09-06T12:45:36.453489Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:46:58.589447Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': ecd",
+    "importance": 0.5,
+    "created": "2026-09-06T12:46:58.589447Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:47:14.593314Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is programming': fffb",
+    "importance": 0.5,
+    "created": "2026-09-06T12:47:14.593314Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:47:39.208106Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': aebaf",
+    "importance": 0.5,
+    "created": "2026-09-06T12:47:39.208106Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:48:14.433363Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is the internet': fddce",
+    "importance": 0.5,
+    "created": "2026-09-06T12:48:14.433363Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:50:13.593898Z",
+    "kind": "fact",
+    "text": "dad likes cats",
+    "importance": 0.9,
+    "created": "2026-09-06T12:50:13.593898Z",
+    "expires": null
   }
 ]
