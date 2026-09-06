@@ -56,9 +56,10 @@ class AutonomousLearner:
     - Learns from YouTube, games, apps, browser tabs
     """
 
-    def __init__(self, vocab: VocabularyAcquisitionEngine, memory: Memory) -> None:
+    def __init__(self, vocab: VocabularyAcquisitionEngine, memory: Memory, smollm=None) -> None:
         self.vocab = vocab
         self.memory = memory
+        self.smollm = smollm
         self._queue: List[LearningTask] = []
         self._running = False
         self._thread: Optional[threading.Thread] = None
@@ -139,6 +140,7 @@ class AutonomousLearner:
                         importance=0.5,
                     )
                     self._log_autonomy(f"web_search:{topic}:{len(words_learned)}")
+                self._train_smollm_on_text(text)
         except Exception:
             pass
 
@@ -161,6 +163,7 @@ class AutonomousLearner:
                         words = self.vocab.encounter_text(text, source="screen")
                         if words:
                             self._log_autonomy(f"screen:{len(words)}")
+                        self._train_smollm_on_text(text)
                 except Exception:
                     pass
         except Exception:
@@ -251,6 +254,15 @@ class AutonomousLearner:
             log.append({"ts": time.time(), "event": event})
             log = log[-200:]
             AUTONOMY_LOG.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+
+    def _train_smollm_on_text(self, text: str) -> None:
+        if not text or not text.strip():
+            return
+        try:
+            if self.smollm and hasattr(self.smollm, "train_on_text"):
+                self.smollm.train_on_text(text.strip())
         except Exception:
             pass
 

@@ -365,6 +365,7 @@ class Brain:
         self.media_learning = MediaLearningEngine(self.knowledge, self.language)
         self.evolution_engine = EvolutionEngine(self.language, self.memory, self.baby_reply)
         self.system_integration = SystemIntegration()
+        self.autonomous_learner = AutonomousLearner(self.language, self.memory, getattr(self, "smollm", None))
 
     def remember(self, text: str) -> str:
         cleaned = text[len("remember "):] if text.lower().startswith("remember ") else text
