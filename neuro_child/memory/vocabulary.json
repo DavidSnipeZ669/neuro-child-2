@@ -583,7 +583,7 @@
   },
   {
     "text": "home",
-    "encounter_count": 448,
+    "encounter_count": 450,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -591,7 +591,8 @@
       "bootstrap seed",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "bootstrap",
@@ -913,7 +914,7 @@
   },
   {
     "text": "to",
-    "encounter_count": 8362,
+    "encounter_count": 8364,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -922,7 +923,8 @@
       "yeah ready to talk to",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -945,7 +947,7 @@
   },
   {
     "text": "search",
-    "encounter_count": 47,
+    "encounter_count": 50,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -954,7 +956,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -1060,14 +1063,15 @@
   },
   {
     "text": "images",
-    "encounter_count": 32,
+    "encounter_count": 33,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
     "contexts": [
       "duckduckgo duckduckgo unfortunately bots duckduckgo",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -1117,7 +1121,7 @@
   },
   {
     "text": "error",
-    "encounter_count": 45,
+    "encounter_count": 52,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1125,7 +1129,8 @@
       "duckduckgo duckduckgo unfortunately bots duckduckgo",
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -1267,7 +1272,7 @@
   },
   {
     "text": "as",
-    "encounter_count": 581,
+    "encounter_count": 583,
     "mastery": 1.0,
     "first_seen": 1788569344.6570373,
     "last_practiced": 1788569344.6570373,
@@ -1275,7 +1280,8 @@
       "i'll as no",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "dad",
@@ -1317,7 +1323,7 @@
   },
   {
     "text": "it",
-    "encounter_count": 4341,
+    "encounter_count": 4345,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1325,7 +1331,8 @@
       "is it",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "dad",
@@ -1503,7 +1510,7 @@
   },
   {
     "text": "body",
-    "encounter_count": 28,
+    "encounter_count": 31,
     "mastery": 1.0,
     "first_seen": 1788669185.4249008,
     "last_practiced": 1788669185.4249008,
@@ -1511,7 +1518,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -1550,14 +1558,15 @@
   },
   {
     "text": "var",
-    "encounter_count": 25,
+    "encounter_count": 39,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -1578,7 +1587,7 @@
   },
   {
     "text": "window",
-    "encounter_count": 86,
+    "encounter_count": 100,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1586,7 +1595,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -1694,7 +1704,7 @@
   },
   {
     "text": "if",
-    "encounter_count": 360,
+    "encounter_count": 380,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1702,7 +1712,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -1769,14 +1780,15 @@
   },
   {
     "text": "function",
-    "encounter_count": 41,
+    "encounter_count": 50,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -1879,14 +1891,15 @@
   },
   {
     "text": "data",
-    "encounter_count": 10,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -1907,14 +1920,15 @@
   },
   {
     "text": "json",
-    "encounter_count": 10,
+    "encounter_count": 14,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -2184,7 +2198,7 @@
   },
   {
     "text": "else",
-    "encounter_count": 91,
+    "encounter_count": 93,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2192,7 +2206,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2201,7 +2216,7 @@
   },
   {
     "text": "return",
-    "encounter_count": 43,
+    "encounter_count": 51,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2209,7 +2224,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2244,7 +2260,7 @@
   },
   {
     "text": "break",
-    "encounter_count": 50,
+    "encounter_count": 52,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2252,7 +2268,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2261,7 +2278,7 @@
   },
   {
     "text": "try",
-    "encounter_count": 134,
+    "encounter_count": 137,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2269,7 +2286,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2317,7 +2335,7 @@
   },
   {
     "text": "catch",
-    "encounter_count": 102,
+    "encounter_count": 105,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2325,7 +2343,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2347,7 +2366,7 @@
   },
   {
     "text": "message",
-    "encounter_count": 17,
+    "encounter_count": 21,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2355,7 +2374,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2364,7 +2384,7 @@
   },
   {
     "text": "self",
-    "encounter_count": 7,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2372,7 +2392,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2394,14 +2415,15 @@
   },
   {
     "text": "null",
-    "encounter_count": 11,
+    "encounter_count": 13,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -2651,7 +2673,7 @@
   },
   {
     "text": "in",
-    "encounter_count": 2165,
+    "encounter_count": 2168,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2659,7 +2681,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2709,7 +2732,7 @@
   },
   {
     "text": "true",
-    "encounter_count": 41,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2717,7 +2740,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2739,14 +2763,15 @@
   },
   {
     "text": "typeof",
-    "encounter_count": 9,
+    "encounter_count": 10,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -2754,7 +2779,7 @@
   },
   {
     "text": "length",
-    "encounter_count": 8,
+    "encounter_count": 10,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2762,7 +2787,8 @@
       "google search body background color",
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search",
@@ -2825,14 +2851,15 @@
   },
   {
     "text": "src",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -2925,14 +2952,15 @@
   },
   {
     "text": "tt",
-    "encounter_count": 9,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
     "contexts": [
       "google search body background color",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -4263,14 +4291,15 @@
   },
   {
     "text": "reached",
-    "encounter_count": 85,
+    "encounter_count": 86,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -4374,14 +4403,15 @@
   },
   {
     "text": "name",
-    "encounter_count": 60,
+    "encounter_count": 61,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -4403,14 +4433,15 @@
   },
   {
     "text": "max",
-    "encounter_count": 291,
+    "encounter_count": 292,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -4733,14 +4764,15 @@
   },
   {
     "text": "be",
-    "encounter_count": 637,
+    "encounter_count": 638,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -5492,14 +5524,15 @@
   },
   {
     "text": "escape",
-    "encounter_count": 18,
+    "encounter_count": 23,
     "mastery": 1.0,
     "first_seen": 1788669295.3818347,
     "last_practiced": 1788669295.3818347,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -10479,14 +10512,15 @@
   },
   {
     "text": "open",
-    "encounter_count": 81,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -10508,14 +10542,15 @@
   },
   {
     "text": "line",
-    "encounter_count": 27,
+    "encounter_count": 28,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -11694,15 +11729,17 @@
   },
   {
     "text": "games",
-    "encounter_count": 33,
+    "encounter_count": 34,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "games search substring ig ig"
     ],
     "sources": [
-      "file"
+      "file",
+      "web_search"
     ]
   },
   {
@@ -12773,14 +12810,15 @@
   },
   {
     "text": "replace",
-    "encounter_count": 17,
+    "encounter_count": 22,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -14457,14 +14495,15 @@
   },
   {
     "text": "off",
-    "encounter_count": 195,
+    "encounter_count": 196,
     "mastery": 1.0,
     "first_seen": 1788669295.384838,
     "last_practiced": 1788669295.384838,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -16046,14 +16085,15 @@
   },
   {
     "text": "extra",
-    "encounter_count": 14,
+    "encounter_count": 15,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -18298,14 +18338,15 @@
   },
   {
     "text": "content",
-    "encounter_count": 20,
+    "encounter_count": 21,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -19497,14 +19538,15 @@
   },
   {
     "text": "stage",
-    "encounter_count": 9,
+    "encounter_count": 10,
     "mastery": 1.0,
     "first_seen": 1788669295.3868368,
     "last_practiced": 1788669295.3868368,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -22152,14 +22194,15 @@
   },
   {
     "text": "fire",
-    "encounter_count": 26,
+    "encounter_count": 27,
     "mastery": 1.0,
     "first_seen": 1788669295.3878362,
     "last_practiced": 1788669295.3878362,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -24040,14 +24083,15 @@
   },
   {
     "text": "image",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788669295.388837,
     "last_practiced": 1788669295.388837,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -27436,14 +27480,15 @@
   },
   {
     "text": "send",
-    "encounter_count": 10,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788669295.3908384,
     "last_practiced": 1788669295.3908384,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -28063,14 +28108,15 @@
   },
   {
     "text": "post",
-    "encounter_count": 6,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788669295.3913417,
     "last_practiced": 1788669295.3913417,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -30666,14 +30712,15 @@
   },
   {
     "text": "stack",
-    "encounter_count": 18,
+    "encounter_count": 20,
     "mastery": 1.0,
     "first_seen": 1788669295.393352,
     "last_practiced": 1788669295.393352,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -33076,14 +33123,15 @@
   },
   {
     "text": "change",
-    "encounter_count": 17,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788669295.3943498,
     "last_practiced": 1788669295.3943498,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -35211,14 +35259,15 @@
   },
   {
     "text": "slice",
-    "encounter_count": 6,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -35279,14 +35328,15 @@
   },
   {
     "text": "start",
-    "encounter_count": 20,
+    "encounter_count": 21,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -37078,14 +37128,15 @@
   },
   {
     "text": "event",
-    "encounter_count": 8,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788669295.398858,
     "last_practiced": 1788669295.398858,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -37718,14 +37769,15 @@
   },
   {
     "text": "match",
-    "encounter_count": 10,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788669295.399858,
     "last_practiced": 1788669295.399858,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -42728,14 +42780,15 @@
   },
   {
     "text": "failed",
-    "encounter_count": 7,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788669295.404366,
     "last_practiced": 1788669295.404366,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -44733,15 +44786,17 @@
   },
   {
     "text": "source",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788669295.4053674,
     "last_practiced": 1788669295.4053674,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "games search substring ig ig"
     ],
     "sources": [
-      "file"
+      "file",
+      "web_search"
     ]
   },
   {
@@ -54227,14 +54282,15 @@
   },
   {
     "text": "notebook",
-    "encounter_count": 16,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788669295.4208937,
     "last_practiced": 1788669295.4208937,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -54672,14 +54728,15 @@
   },
   {
     "text": "button",
-    "encounter_count": 19,
+    "encounter_count": 21,
     "mastery": 1.0,
     "first_seen": 1788669295.421898,
     "last_practiced": 1788669295.421898,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -55364,14 +55421,15 @@
   },
   {
     "text": "warning",
-    "encounter_count": 5,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788669295.4228992,
     "last_practiced": 1788669295.4228992,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -59254,14 +59312,15 @@
   },
   {
     "text": "conversation",
-    "encounter_count": 5,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788669295.4288979,
     "last_practiced": 1788669295.4288979,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -65460,14 +65519,15 @@
   },
   {
     "text": "bat",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788669295.4421356,
     "last_practiced": 1788669295.4421356,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -66841,14 +66901,15 @@
   },
   {
     "text": "type",
-    "encounter_count": 5,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788669295.4451354,
     "last_practiced": 1788669295.4451354,
     "contexts": [
       "spot saw shiny car wow",
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "file",
@@ -68133,13 +68194,14 @@
   },
   {
     "text": "substring",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68147,13 +68209,14 @@
   },
   {
     "text": "ig",
-    "encounter_count": 14,
+    "encounter_count": 23,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68161,13 +68224,14 @@
   },
   {
     "text": "'ig",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68175,13 +68239,14 @@
   },
   {
     "text": "document",
-    "encounter_count": 6,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68189,13 +68254,14 @@
   },
   {
     "text": "gpimg",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68203,13 +68269,14 @@
   },
   {
     "text": "gpurl",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68217,13 +68284,14 @@
   },
   {
     "text": "cid",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68231,13 +68299,14 @@
   },
   {
     "text": "ntt",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68245,13 +68314,14 @@
   },
   {
     "text": "rto",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68259,13 +68329,14 @@
   },
   {
     "text": "ctt",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68273,13 +68344,14 @@
   },
   {
     "text": "bnfn",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68287,13 +68359,14 @@
   },
   {
     "text": "default",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68301,13 +68374,14 @@
   },
   {
     "text": "lg",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68315,13 +68389,14 @@
   },
   {
     "text": "cbrsht",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68329,13 +68404,14 @@
   },
   {
     "text": "cbrshtam",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68343,13 +68419,14 @@
   },
   {
     "text": "bdvfy",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68357,13 +68434,14 @@
   },
   {
     "text": "multicbrstype",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68371,13 +68449,14 @@
   },
   {
     "text": "maxmulticbrs",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68385,13 +68464,14 @@
   },
   {
     "text": "rmhgtlog",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68399,13 +68479,14 @@
   },
   {
     "text": "sid",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68439,13 +68520,14 @@
   },
   {
     "text": "inpopt",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68453,13 +68535,14 @@
   },
   {
     "text": "enablermsinpopt",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68467,13 +68550,14 @@
   },
   {
     "text": "ajax",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68481,13 +68565,14 @@
   },
   {
     "text": "nav",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68495,13 +68580,14 @@
   },
   {
     "text": "cleartimersopt",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68509,13 +68595,14 @@
   },
   {
     "text": "serp",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68523,13 +68610,14 @@
   },
   {
     "text": "plt",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68537,13 +68625,14 @@
   },
   {
     "text": "optimization",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68551,13 +68640,14 @@
   },
   {
     "text": "searchbox",
-    "encounter_count": 32,
+    "encounter_count": 38,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68565,13 +68655,14 @@
   },
   {
     "text": "width",
-    "encounter_count": 32,
+    "encounter_count": 37,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68579,13 +68670,14 @@
   },
   {
     "text": "px",
-    "encounter_count": 32,
+    "encounter_count": 40,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68593,13 +68685,14 @@
   },
   {
     "text": "hasmic",
-    "encounter_count": 16,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68607,13 +68700,14 @@
   },
   {
     "text": "hassbi",
-    "encounter_count": 16,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68621,13 +68715,14 @@
   },
   {
     "text": "header",
-    "encounter_count": 16,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68635,13 +68730,14 @@
   },
   {
     "text": "searchboxform",
-    "encounter_count": 24,
+    "encounter_count": 25,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68649,13 +68745,14 @@
   },
   {
     "text": "softkey",
-    "encounter_count": 16,
+    "encounter_count": 20,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68663,13 +68760,14 @@
   },
   {
     "text": "rsform",
-    "encounter_count": 16,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68677,13 +68775,14 @@
   },
   {
     "text": "sendlog",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68691,13 +68790,14 @@
   },
   {
     "text": "date",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68705,13 +68805,14 @@
   },
   {
     "text": "gettime",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68719,13 +68820,14 @@
   },
   {
     "text": "ci",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68733,13 +68835,14 @@
   },
   {
     "text": "fid",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68747,13 +68850,14 @@
   },
   {
     "text": "text",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68761,13 +68865,14 @@
   },
   {
     "text": "clientinst",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68775,13 +68880,14 @@
   },
   {
     "text": "xmlhttprequest",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68789,13 +68895,14 @@
   },
   {
     "text": "fd",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68803,13 +68910,14 @@
   },
   {
     "text": "ls",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68817,13 +68925,14 @@
   },
   {
     "text": "lsp",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68831,13 +68940,14 @@
   },
   {
     "text": "aspx",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68845,13 +68955,14 @@
   },
   {
     "text": "setrequestheader",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68859,13 +68970,14 @@
   },
   {
     "text": "xml",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68873,13 +68985,14 @@
   },
   {
     "text": "jserrorhandler",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68887,13 +69000,14 @@
   },
   {
     "text": "rt",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68901,13 +69015,14 @@
   },
   {
     "text": "ut",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68915,13 +69030,14 @@
   },
   {
     "text": "nomessage",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68929,13 +69045,14 @@
   },
   {
     "text": "ignorecurrenterror",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68943,13 +69060,14 @@
   },
   {
     "text": "erc",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68957,13 +69075,14 @@
   },
   {
     "text": "maxerr",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68971,13 +69090,14 @@
   },
   {
     "text": "loge",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68985,13 +69105,14 @@
   },
   {
     "text": "errors",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -68999,13 +69120,14 @@
   },
   {
     "text": "filename",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69013,13 +69135,14 @@
   },
   {
     "text": "lineno",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69027,13 +69150,14 @@
   },
   {
     "text": "colno",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69041,13 +69165,14 @@
   },
   {
     "text": "severity",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69055,13 +69180,14 @@
   },
   {
     "text": "regexp",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69069,13 +69195,14 @@
   },
   {
     "text": "regexesc",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69083,13 +69210,14 @@
   },
   {
     "text": "location",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69097,13 +69225,14 @@
   },
   {
     "text": "href",
-    "encounter_count": 4,
+    "encounter_count": 8,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69111,13 +69240,14 @@
   },
   {
     "text": "nt",
-    "encounter_count": 6,
+    "encounter_count": 10,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69125,13 +69255,14 @@
   },
   {
     "text": "lirab",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69139,13 +69270,14 @@
   },
   {
     "text": "liraa",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69153,13 +69285,14 @@
   },
   {
     "text": "hint",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69167,13 +69300,14 @@
   },
   {
     "text": "exec",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69181,13 +69315,14 @@
   },
   {
     "text": "meta",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69195,13 +69330,14 @@
   },
   {
     "text": "char",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69209,13 +69345,14 @@
   },
   {
     "text": "extrainfo",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69223,13 +69360,14 @@
   },
   {
     "text": "objecttostring",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69237,13 +69375,14 @@
   },
   {
     "text": "tostring",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69251,13 +69390,14 @@
   },
   {
     "text": "stringify",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69265,13 +69405,14 @@
   },
   {
     "text": "hasownproperty",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69279,13 +69420,14 @@
   },
   {
     "text": "js",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69293,13 +69435,14 @@
   },
   {
     "text": "sj",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69307,13 +69450,14 @@
   },
   {
     "text": "evt",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69321,13 +69465,14 @@
   },
   {
     "text": "undefined",
-    "encounter_count": 6,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69335,13 +69480,14 @@
   },
   {
     "text": "errorinstrumentation",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69349,13 +69495,14 @@
   },
   {
     "text": "ft",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69363,13 +69510,14 @@
   },
   {
     "text": "metajserror",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69377,13 +69525,14 @@
   },
   {
     "text": "execute",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69391,13 +69540,14 @@
   },
   {
     "text": "handler",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69405,13 +69555,14 @@
   },
   {
     "text": "cspeh",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69419,13 +69570,14 @@
   },
   {
     "text": "cspif",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69433,13 +69585,14 @@
   },
   {
     "text": "cspviolation",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69447,13 +69600,14 @@
   },
   {
     "text": "sample",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69461,13 +69615,14 @@
   },
   {
     "text": "addeventlistener",
-    "encounter_count": 8,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69475,13 +69630,14 @@
   },
   {
     "text": "unhandledrejection",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69489,13 +69645,14 @@
   },
   {
     "text": "securitypolicyviolation",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69503,13 +69660,14 @@
   },
   {
     "text": "bind",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69517,13 +69675,14 @@
   },
   {
     "text": "amd",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69531,13 +69690,14 @@
   },
   {
     "text": "define",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69545,13 +69705,14 @@
   },
   {
     "text": "require",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69559,13 +69720,14 @@
   },
   {
     "text": "dependencies",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69573,13 +69735,14 @@
   },
   {
     "text": "callback",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69587,13 +69750,14 @@
   },
   {
     "text": "sendbeacon",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69601,13 +69765,14 @@
   },
   {
     "text": "navigator",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69615,13 +69780,14 @@
   },
   {
     "text": "cltrco",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69629,13 +69795,14 @@
   },
   {
     "text": "furl",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69643,13 +69810,14 @@
   },
   {
     "text": "ctcc",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69657,13 +69825,14 @@
   },
   {
     "text": "clc",
-    "encounter_count": 4,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69671,13 +69840,14 @@
   },
   {
     "text": "serpmode",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69685,13 +69855,14 @@
   },
   {
     "text": "offstage",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69699,13 +69870,14 @@
   },
   {
     "text": "gptcreator",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69713,13 +69885,14 @@
   },
   {
     "text": "gpt",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69727,13 +69900,14 @@
   },
   {
     "text": "creator",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69741,13 +69915,14 @@
   },
   {
     "text": "si",
-    "encounter_count": 6,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69755,13 +69930,14 @@
   },
   {
     "text": "ct",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69769,13 +69945,14 @@
   },
   {
     "text": "sharedclicksuppressed",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69783,13 +69960,14 @@
   },
   {
     "text": "getattribute",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69797,13 +69975,14 @@
   },
   {
     "text": "parentnode",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 5,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69811,13 +69990,14 @@
   },
   {
     "text": "noct",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69825,13 +70005,14 @@
   },
   {
     "text": "tagname",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 5,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69839,13 +70020,14 @@
   },
   {
     "text": "clicks",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69853,13 +70035,14 @@
   },
   {
     "text": "cspi",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69867,13 +70050,14 @@
   },
   {
     "text": "ctf",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69881,13 +70065,14 @@
   },
   {
     "text": "keydown",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69895,13 +70080,14 @@
   },
   {
     "text": "ef",
-    "encounter_count": 4,
+    "encounter_count": 8,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69909,13 +70095,14 @@
   },
   {
     "text": "newtabredironclicktracking",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69923,13 +70110,14 @@
   },
   {
     "text": "indexof",
-    "encounter_count": 4,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69937,13 +70125,14 @@
   },
   {
     "text": "newtabredir",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69951,13 +70140,14 @@
   },
   {
     "text": "url",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69965,13 +70155,14 @@
   },
   {
     "text": "encodeuricomponent",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69979,13 +70170,14 @@
   },
   {
     "text": "atob",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -69993,13 +70185,14 @@
   },
   {
     "text": "decodeuricomponent",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
     "contexts": [
       "computers search substring ig ig",
-      "python search substring ig ig"
+      "python search substring ig ig",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -70042,6 +70235,175 @@
     ],
     "sources": [
       "youtube_fallback"
+    ]
+  },
+  {
+    "text": "ad'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "sboxw",
+    "encounter_count": 7,
+    "mastery": 1.0,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "calc",
+    "encounter_count": 4,
+    "mastery": 1.0,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "media",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "min",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "private",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "mfurl",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "abc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "mc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "clicktodynevent",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "id",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "tolowercase",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "javascript",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788670824.3275502,
+    "last_practiced": 1788670824.3275502,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
     ]
   }
 ]

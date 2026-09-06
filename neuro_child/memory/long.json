@@ -102,5 +102,21 @@
     "importance": 0.5,
     "created": "2026-09-06T04:54:20.880572Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T05:00:09.065404Z",
+    "kind": "fact",
+    "text": "dad likes cats",
+    "importance": 0.9,
+    "created": "2026-09-06T05:00:09.065404Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T05:00:24.401493Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how games are made': ad', sboxw, calc, media, min, private, mfurl, abc, mc, clicktodynevent",
+    "importance": 0.5,
+    "created": "2026-09-06T05:00:24.401493Z",
+    "expires": null
   }
 ]

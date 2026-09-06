@@ -147,12 +147,12 @@ class AutonomousLearner:
     def _passive_screen_learning(self) -> None:
         """
         Learn from current screen content passively.
+        Also detects YouTube URLs and learns from them.
         """
         try:
             import mss
             import pyautogui
             from PIL import Image
-            import pytesseract
             with mss.mss() as s:
                 mon = s.monitors[0]
                 shot = s.grab(mon)
@@ -164,6 +164,20 @@ class AutonomousLearner:
                         if words:
                             self._log_autonomy(f"screen:{len(words)}")
                         self._train_smollm_on_text(text)
+                        # Detect YouTube URLs and learn from them
+                        urls = re.findall(r'(https?://(?:www\.)?youtube\.com/watch\?v=[\w-]+|https?://youtu\.be/[\w-]+)', text)
+                        for url in urls:
+                            if url not in self._learned_urls:
+                                self._learned_urls.add(url)
+                                try:
+                                    from neuro_child.media_learning import MediaLearningEngine
+                                    from neuro_child.knowledge_llm import NovaKnowledgeLLM
+                                    engine = MediaLearningEngine(NovaKnowledgeLLM(), self.vocab)
+                                    result = engine.learn_from_youtube(url)
+                                    if result.success:
+                                        self._log_autonomy(f"youtube:{url}:{len(result.words_learned)}")
+                                except Exception:
+                                    pass
                 except Exception:
                     pass
         except Exception:
