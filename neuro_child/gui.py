@@ -325,6 +325,7 @@ from neuro_child.game_learning import GameLearningEngine, GameSession
 from neuro_child.game_player import SimpleGamePlayer
 from neuro_child.media_learning import MediaLearningEngine, MediaLearningResult
 from neuro_child.smollm_brain import SmolLMBrain, SmolLMConfig
+from neuro_child.dual_cortex import NovaDualCortex
 
 
 class Brain:
@@ -368,6 +369,8 @@ class Brain:
         self.system_integration = SystemIntegration()
         self.autonomous_learner = AutonomousLearner(self.language, self.memory, getattr(self, "smollm", None))
         self.game_player = SimpleGamePlayer()
+        self.dual_cortex = NovaDualCortex(personality, memory)
+        self.dual_cortex.initialize()
         self._first_launch_trained = False
         if hasattr(self, "smollm") and hasattr(self.smollm, "start_background_load"):
             try:
@@ -627,19 +630,51 @@ class Brain:
         self.consciousness.interact(user_text, outcome="success")
         self.consciousness.perceive(screen_text, cursor_pos=[int(p) for p in cursor.split(",") if p.isdigit()])
 
+        # Dual-cortex pipeline: LLM 2 (cognitive) → LLM 1 (language)
+        # This is the primary reply path when Nova has enough language ability.
+        # Falls back to simulated pipeline when no local model is loaded.
+        reply = ""
+        try:
+            if hasattr(self, "dual_cortex") and getattr(self.dual_cortex, "is_ready", lambda: False)():
+                bundle = self.dual_cortex.respond(
+                    dad_message=user_text,
+                    screen_context=screen_text,
+                    drives={
+                        "curiosity": float(getattr(self.consciousness.state.drives, "curiosity", 0.5)
+                                          if hasattr(self.consciousness.state.drives, "curiosity")
+                                          else 0.5),
+                        "play": float(getattr(self.consciousness.state.drives, "play", 0.3)
+                                      if hasattr(self.consciousness.state.drives, "play")
+                                      else 0.3),
+                        "autonomy": float(getattr(self.consciousness.state.drives, "autonomy", 0.5)
+                                          if hasattr(self.consciousness.state.drives, "autonomy")
+                                          else 0.5),
+                    },
+                    history=list(self.history)[-6:],
+                )
+                reply = bundle.reply or ""
+                # Save any lesson the cognitive cortex wants to store
+                if bundle.cognitive.lesson_to_save:
+                    try:
+                        self.memory.add(bundle.cognitive.lesson_to_save, kind="lesson", importance=0.7)
+                    except Exception:
+                        pass
+        except Exception:
+            reply = ""
+
         # Baby mode: learn language like a human baby
         if getattr(self, "baby_mode", False):
             # Learn from every word dad says
             self.language.encounter_text(user_text, source="dad")
             # Prefer a usable reply path; use SmolLM only when trained enough
-            reply = ""
-            if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)() and getattr(self.smollm, "_training_steps", 0) > 0:
-                try:
-                    reply = self.smollm.respond(user_text, screen_text) or ""
-                    if not self._reply_quality_ok(reply):
+            if not reply:
+                if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)() and getattr(self.smollm, "_training_steps", 0) > 0:
+                    try:
+                        reply = self.smollm.respond(user_text, screen_text) or ""
+                        if not self._reply_quality_ok(reply):
+                            reply = ""
+                    except Exception:
                         reply = ""
-                except Exception:
-                    reply = ""
             if not reply and hasattr(self, "llm_brain"):
                 try:
                     reply = self.llm_brain.respond(user_text, screen_text)
@@ -648,7 +683,7 @@ class Brain:
             if not reply:
                 try:
                     reply = self.language_center.speak(
-                        f"Dad: {user_text}\nNova:",
+                        f"Dad: {user_text}\nNova:\n",
                         max_new_tokens=60,
                         temperature=0.75,
                         top_k=20,
@@ -673,7 +708,8 @@ class Brain:
                 pass
             return reply
 
-        reply = self._conscious_reply(user_text, topic, screen_text)
+        if not reply:
+            reply = self._conscious_reply(user_text, topic, screen_text)
         self.history.append({"user": user_text, "assistant": reply})
         CHAT_LOG_PATH.write_text(json.dumps(self.history, ensure_ascii=False, indent=2), encoding="utf-8")
         # Train on the exchange
@@ -1306,6 +1342,8 @@ class ChildGUI:
                         break
                     self._last_autonomous_chat[text] = now
                 result = self._execute_autonomous_action(action)
+                # NEVER post autonomous actions to chat - they are silent internal processes
+                # Log internally only for the activity panel
                 log_msg = f"[{drive}] {text}"
                 if result:
                     log_msg += f" -> {result}"
