@@ -216,8 +216,24 @@ class BrowserTools:
             if text and text.strip() and not self._is_blocked(text):
                 return text[:8000]
         text = self._http_get(url)
-        if text and not self._is_blocked(text):
+        if text and not text.startswith("ERROR:") and not self._is_blocked(text):
             return text[:8000]
+        # Wikipedia fallback
+        if "wikipedia.org" in url:
+            try:
+                import urllib.parse
+                from pathlib import PurePosixPath
+                path = PurePosixPath(urllib.parse.urlparse(url).path)
+                title = path.name.replace("_", " ")
+                wiki_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(title)}"
+                wiki_text = self._http_get(wiki_url)
+                if wiki_text and not wiki_text.startswith("ERROR:"):
+                    data = json.loads(wiki_text)
+                    extract = data.get("extract", "")
+                    if extract and len(extract) > 50:
+                        return f"Wikipedia: {extract}"[:8000]
+            except Exception:
+                pass
         return "Page blocked or unavailable"
 
     def show(self, url: str) -> None:
