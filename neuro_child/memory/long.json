@@ -198,5 +198,13 @@
     "importance": 0.9,
     "created": "2026-09-06T11:40:15.010475Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T11:42:13.691773Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is music': ed, bfab, lo",
+    "importance": 0.5,
+    "created": "2026-09-06T11:42:13.691773Z",
+    "expires": null
   }
 ]

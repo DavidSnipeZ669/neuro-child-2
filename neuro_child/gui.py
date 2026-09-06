@@ -518,6 +518,14 @@ class Brain:
                             return f"Heard: {', '.join(result.words_learned[:5])}"
                 return "No audio captured"
 
+            # Games
+            if "play number" in lower or "number guess" in lower or "guess the number" in lower:
+                return self.game_player.start("number")
+            if "play tic" in lower or "tic tac toe" in lower or "noughts and crosses" in lower:
+                return self.game_player.start("tic-tac-toe")
+            if lower.isdigit() and hasattr(self, "game_player") and getattr(self.game_player, "current", None) is not None:
+                return self.game_player.move(self.game_player.current.game_type, lower)
+
         except Exception as e:
             return f"Tool error: {e}"
         return None

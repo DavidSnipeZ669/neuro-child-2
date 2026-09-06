@@ -253,7 +253,7 @@
   },
   {
     "text": "what",
-    "encounter_count": 518,
+    "encounter_count": 519,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -590,7 +590,7 @@
   },
   {
     "text": "home",
-    "encounter_count": 466,
+    "encounter_count": 468,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -660,7 +660,7 @@
   },
   {
     "text": "music",
-    "encounter_count": 41,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -929,7 +929,7 @@
   },
   {
     "text": "to",
-    "encounter_count": 8380,
+    "encounter_count": 8382,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -968,7 +968,7 @@
   },
   {
     "text": "search",
-    "encounter_count": 74,
+    "encounter_count": 77,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1090,7 +1090,7 @@
   },
   {
     "text": "images",
-    "encounter_count": 41,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1154,7 +1154,7 @@
   },
   {
     "text": "error",
-    "encounter_count": 108,
+    "encounter_count": 115,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1311,7 +1311,7 @@
   },
   {
     "text": "as",
-    "encounter_count": 641,
+    "encounter_count": 643,
     "mastery": 1.0,
     "first_seen": 1788569344.6570373,
     "last_practiced": 1788569344.6570373,
@@ -1351,7 +1351,7 @@
   },
   {
     "text": "is",
-    "encounter_count": 414,
+    "encounter_count": 415,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1372,7 +1372,7 @@
   },
   {
     "text": "it",
-    "encounter_count": 4370,
+    "encounter_count": 4374,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1565,7 +1565,7 @@
   },
   {
     "text": "body",
-    "encounter_count": 41,
+    "encounter_count": 44,
     "mastery": 1.0,
     "first_seen": 1788669185.4249008,
     "last_practiced": 1788669185.4249008,
@@ -1619,7 +1619,7 @@
   },
   {
     "text": "var",
-    "encounter_count": 116,
+    "encounter_count": 130,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1654,7 +1654,7 @@
   },
   {
     "text": "window",
-    "encounter_count": 212,
+    "encounter_count": 226,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1777,7 +1777,7 @@
   },
   {
     "text": "if",
-    "encounter_count": 512,
+    "encounter_count": 532,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1859,7 +1859,7 @@
   },
   {
     "text": "function",
-    "encounter_count": 122,
+    "encounter_count": 131,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1976,7 +1976,7 @@
   },
   {
     "text": "data",
-    "encounter_count": 50,
+    "encounter_count": 56,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2011,7 +2011,7 @@
   },
   {
     "text": "json",
-    "encounter_count": 46,
+    "encounter_count": 50,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2295,7 +2295,7 @@
   },
   {
     "text": "else",
-    "encounter_count": 109,
+    "encounter_count": 111,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2319,7 +2319,7 @@
   },
   {
     "text": "return",
-    "encounter_count": 115,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2369,7 +2369,7 @@
   },
   {
     "text": "break",
-    "encounter_count": 61,
+    "encounter_count": 63,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2393,7 +2393,7 @@
   },
   {
     "text": "try",
-    "encounter_count": 161,
+    "encounter_count": 164,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2456,7 +2456,7 @@
   },
   {
     "text": "catch",
-    "encounter_count": 129,
+    "encounter_count": 132,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2493,7 +2493,7 @@
   },
   {
     "text": "message",
-    "encounter_count": 53,
+    "encounter_count": 57,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2517,7 +2517,7 @@
   },
   {
     "text": "self",
-    "encounter_count": 25,
+    "encounter_count": 27,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2554,7 +2554,7 @@
   },
   {
     "text": "null",
-    "encounter_count": 29,
+    "encounter_count": 31,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2818,7 +2818,7 @@
   },
   {
     "text": "in",
-    "encounter_count": 2192,
+    "encounter_count": 2195,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2883,7 +2883,7 @@
   },
   {
     "text": "true",
-    "encounter_count": 113,
+    "encounter_count": 121,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2920,7 +2920,7 @@
   },
   {
     "text": "typeof",
-    "encounter_count": 18,
+    "encounter_count": 19,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2942,7 +2942,7 @@
   },
   {
     "text": "length",
-    "encounter_count": 26,
+    "encounter_count": 28,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3020,7 +3020,7 @@
   },
   {
     "text": "src",
-    "encounter_count": 12,
+    "encounter_count": 13,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3127,7 +3127,7 @@
   },
   {
     "text": "tt",
-    "encounter_count": 36,
+    "encounter_count": 39,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -4472,7 +4472,7 @@
   },
   {
     "text": "reached",
-    "encounter_count": 94,
+    "encounter_count": 95,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4590,7 +4590,7 @@
   },
   {
     "text": "name",
-    "encounter_count": 69,
+    "encounter_count": 70,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4626,7 +4626,7 @@
   },
   {
     "text": "max",
-    "encounter_count": 300,
+    "encounter_count": 301,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4966,7 +4966,7 @@
   },
   {
     "text": "be",
-    "encounter_count": 646,
+    "encounter_count": 647,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5732,7 +5732,7 @@
   },
   {
     "text": "escape",
-    "encounter_count": 63,
+    "encounter_count": 68,
     "mastery": 1.0,
     "first_seen": 1788669295.3818347,
     "last_practiced": 1788669295.3818347,
@@ -10726,7 +10726,7 @@
   },
   {
     "text": "open",
-    "encounter_count": 90,
+    "encounter_count": 91,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -10762,7 +10762,7 @@
   },
   {
     "text": "line",
-    "encounter_count": 36,
+    "encounter_count": 37,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -13036,7 +13036,7 @@
   },
   {
     "text": "replace",
-    "encounter_count": 62,
+    "encounter_count": 67,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -14727,7 +14727,7 @@
   },
   {
     "text": "off",
-    "encounter_count": 204,
+    "encounter_count": 205,
     "mastery": 1.0,
     "first_seen": 1788669295.384838,
     "last_practiced": 1788669295.384838,
@@ -16323,7 +16323,7 @@
   },
   {
     "text": "extra",
-    "encounter_count": 23,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -18582,7 +18582,7 @@
   },
   {
     "text": "content",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -19788,7 +19788,7 @@
   },
   {
     "text": "stage",
-    "encounter_count": 18,
+    "encounter_count": 19,
     "mastery": 1.0,
     "first_seen": 1788669295.3868368,
     "last_practiced": 1788669295.3868368,
@@ -22450,7 +22450,7 @@
   },
   {
     "text": "fire",
-    "encounter_count": 35,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788669295.3878362,
     "last_practiced": 1788669295.3878362,
@@ -24345,7 +24345,7 @@
   },
   {
     "text": "image",
-    "encounter_count": 12,
+    "encounter_count": 13,
     "mastery": 1.0,
     "first_seen": 1788669295.388837,
     "last_practiced": 1788669295.388837,
@@ -27748,7 +27748,7 @@
   },
   {
     "text": "send",
-    "encounter_count": 19,
+    "encounter_count": 20,
     "mastery": 1.0,
     "first_seen": 1788669295.3908384,
     "last_practiced": 1788669295.3908384,
@@ -28382,7 +28382,7 @@
   },
   {
     "text": "post",
-    "encounter_count": 15,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788669295.3913417,
     "last_practiced": 1788669295.3913417,
@@ -30992,7 +30992,7 @@
   },
   {
     "text": "stack",
-    "encounter_count": 36,
+    "encounter_count": 38,
     "mastery": 1.0,
     "first_seen": 1788669295.393352,
     "last_practiced": 1788669295.393352,
@@ -33409,7 +33409,7 @@
   },
   {
     "text": "change",
-    "encounter_count": 26,
+    "encounter_count": 27,
     "mastery": 1.0,
     "first_seen": 1788669295.3943498,
     "last_practiced": 1788669295.3943498,
@@ -35551,7 +35551,7 @@
   },
   {
     "text": "slice",
-    "encounter_count": 15,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -35626,7 +35626,7 @@
   },
   {
     "text": "start",
-    "encounter_count": 29,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -37432,7 +37432,7 @@
   },
   {
     "text": "event",
-    "encounter_count": 17,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788669295.398858,
     "last_practiced": 1788669295.398858,
@@ -38079,7 +38079,7 @@
   },
   {
     "text": "match",
-    "encounter_count": 21,
+    "encounter_count": 23,
     "mastery": 1.0,
     "first_seen": 1788669295.399858,
     "last_practiced": 1788669295.399858,
@@ -43096,7 +43096,7 @@
   },
   {
     "text": "failed",
-    "encounter_count": 25,
+    "encounter_count": 27,
     "mastery": 1.0,
     "first_seen": 1788669295.404366,
     "last_practiced": 1788669295.404366,
@@ -45108,14 +45108,15 @@
   },
   {
     "text": "source",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788669295.4053674,
     "last_practiced": 1788669295.4053674,
     "contexts": [
       "spot saw shiny car wow",
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "file",
@@ -54607,7 +54608,7 @@
   },
   {
     "text": "notebook",
-    "encounter_count": 34,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788669295.4208937,
     "last_practiced": 1788669295.4208937,
@@ -55059,7 +55060,7 @@
   },
   {
     "text": "button",
-    "encounter_count": 37,
+    "encounter_count": 39,
     "mastery": 1.0,
     "first_seen": 1788669295.421898,
     "last_practiced": 1788669295.421898,
@@ -55758,7 +55759,7 @@
   },
   {
     "text": "warning",
-    "encounter_count": 14,
+    "encounter_count": 15,
     "mastery": 1.0,
     "first_seen": 1788669295.4228992,
     "last_practiced": 1788669295.4228992,
@@ -59655,7 +59656,7 @@
   },
   {
     "text": "conversation",
-    "encounter_count": 23,
+    "encounter_count": 25,
     "mastery": 1.0,
     "first_seen": 1788669295.4288979,
     "last_practiced": 1788669295.4288979,
@@ -65870,7 +65871,7 @@
   },
   {
     "text": "bat",
-    "encounter_count": 12,
+    "encounter_count": 13,
     "mastery": 1.0,
     "first_seen": 1788669295.4421356,
     "last_practiced": 1788669295.4421356,
@@ -67258,7 +67259,7 @@
   },
   {
     "text": "type",
-    "encounter_count": 23,
+    "encounter_count": 25,
     "mastery": 1.0,
     "first_seen": 1788669295.4451354,
     "last_practiced": 1788669295.4451354,
@@ -68558,7 +68559,7 @@
   },
   {
     "text": "substring",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68579,7 +68580,7 @@
   },
   {
     "text": "ig",
-    "encounter_count": 81,
+    "encounter_count": 90,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68600,7 +68601,7 @@
   },
   {
     "text": "'ig",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68621,7 +68622,7 @@
   },
   {
     "text": "document",
-    "encounter_count": 37,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68642,7 +68643,7 @@
   },
   {
     "text": "gpimg",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68663,7 +68664,7 @@
   },
   {
     "text": "gpurl",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68684,7 +68685,7 @@
   },
   {
     "text": "cid",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68705,7 +68706,7 @@
   },
   {
     "text": "ntt",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68726,7 +68727,7 @@
   },
   {
     "text": "rto",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68747,7 +68748,7 @@
   },
   {
     "text": "ctt",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68768,7 +68769,7 @@
   },
   {
     "text": "bnfn",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68789,7 +68790,7 @@
   },
   {
     "text": "default",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68810,7 +68811,7 @@
   },
   {
     "text": "lg",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68831,7 +68832,7 @@
   },
   {
     "text": "cbrsht",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68852,7 +68853,7 @@
   },
   {
     "text": "cbrshtam",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68873,7 +68874,7 @@
   },
   {
     "text": "bdvfy",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68894,7 +68895,7 @@
   },
   {
     "text": "multicbrstype",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68915,7 +68916,7 @@
   },
   {
     "text": "maxmulticbrs",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68936,7 +68937,7 @@
   },
   {
     "text": "rmhgtlog",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68957,7 +68958,7 @@
   },
   {
     "text": "sid",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69004,7 +69005,7 @@
   },
   {
     "text": "inpopt",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69025,7 +69026,7 @@
   },
   {
     "text": "enablermsinpopt",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69046,7 +69047,7 @@
   },
   {
     "text": "ajax",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69067,7 +69068,7 @@
   },
   {
     "text": "nav",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69088,7 +69089,7 @@
   },
   {
     "text": "cleartimersopt",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69109,7 +69110,7 @@
   },
   {
     "text": "serp",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69130,7 +69131,7 @@
   },
   {
     "text": "plt",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69151,7 +69152,7 @@
   },
   {
     "text": "optimization",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69172,7 +69173,7 @@
   },
   {
     "text": "searchbox",
-    "encounter_count": 156,
+    "encounter_count": 162,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69193,7 +69194,7 @@
   },
   {
     "text": "width",
-    "encounter_count": 154,
+    "encounter_count": 159,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69214,7 +69215,7 @@
   },
   {
     "text": "px",
-    "encounter_count": 160,
+    "encounter_count": 168,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69235,7 +69236,7 @@
   },
   {
     "text": "hasmic",
-    "encounter_count": 76,
+    "encounter_count": 78,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69256,7 +69257,7 @@
   },
   {
     "text": "hassbi",
-    "encounter_count": 76,
+    "encounter_count": 78,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69277,7 +69278,7 @@
   },
   {
     "text": "header",
-    "encounter_count": 76,
+    "encounter_count": 78,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69298,7 +69299,7 @@
   },
   {
     "text": "searchboxform",
-    "encounter_count": 110,
+    "encounter_count": 111,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69319,7 +69320,7 @@
   },
   {
     "text": "softkey",
-    "encounter_count": 80,
+    "encounter_count": 84,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69340,7 +69341,7 @@
   },
   {
     "text": "rsform",
-    "encounter_count": 76,
+    "encounter_count": 78,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69361,7 +69362,7 @@
   },
   {
     "text": "sendlog",
-    "encounter_count": 33,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69382,7 +69383,7 @@
   },
   {
     "text": "date",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69403,7 +69404,7 @@
   },
   {
     "text": "gettime",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69424,7 +69425,7 @@
   },
   {
     "text": "ci",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69445,7 +69446,7 @@
   },
   {
     "text": "fid",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69466,7 +69467,7 @@
   },
   {
     "text": "text",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69487,7 +69488,7 @@
   },
   {
     "text": "clientinst",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69508,7 +69509,7 @@
   },
   {
     "text": "xmlhttprequest",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69529,7 +69530,7 @@
   },
   {
     "text": "fd",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69550,7 +69551,7 @@
   },
   {
     "text": "ls",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69571,7 +69572,7 @@
   },
   {
     "text": "lsp",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69592,7 +69593,7 @@
   },
   {
     "text": "aspx",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69613,7 +69614,7 @@
   },
   {
     "text": "setrequestheader",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69634,7 +69635,7 @@
   },
   {
     "text": "xml",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69655,7 +69656,7 @@
   },
   {
     "text": "jserrorhandler",
-    "encounter_count": 33,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69676,7 +69677,7 @@
   },
   {
     "text": "rt",
-    "encounter_count": 33,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69697,7 +69698,7 @@
   },
   {
     "text": "ut",
-    "encounter_count": 33,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69718,7 +69719,7 @@
   },
   {
     "text": "nomessage",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69739,7 +69740,7 @@
   },
   {
     "text": "ignorecurrenterror",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69760,7 +69761,7 @@
   },
   {
     "text": "erc",
-    "encounter_count": 33,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69781,7 +69782,7 @@
   },
   {
     "text": "maxerr",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69802,7 +69803,7 @@
   },
   {
     "text": "loge",
-    "encounter_count": 33,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69823,7 +69824,7 @@
   },
   {
     "text": "errors",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69844,7 +69845,7 @@
   },
   {
     "text": "filename",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69865,7 +69866,7 @@
   },
   {
     "text": "lineno",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69886,7 +69887,7 @@
   },
   {
     "text": "colno",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69907,7 +69908,7 @@
   },
   {
     "text": "severity",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69928,7 +69929,7 @@
   },
   {
     "text": "regexp",
-    "encounter_count": 33,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69949,7 +69950,7 @@
   },
   {
     "text": "regexesc",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69970,7 +69971,7 @@
   },
   {
     "text": "location",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69991,7 +69992,7 @@
   },
   {
     "text": "href",
-    "encounter_count": 26,
+    "encounter_count": 30,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70012,7 +70013,7 @@
   },
   {
     "text": "nt",
-    "encounter_count": 35,
+    "encounter_count": 39,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70033,7 +70034,7 @@
   },
   {
     "text": "lirab",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70054,7 +70055,7 @@
   },
   {
     "text": "liraa",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70075,7 +70076,7 @@
   },
   {
     "text": "hint",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70096,7 +70097,7 @@
   },
   {
     "text": "exec",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70117,7 +70118,7 @@
   },
   {
     "text": "meta",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70138,7 +70139,7 @@
   },
   {
     "text": "char",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70159,7 +70160,7 @@
   },
   {
     "text": "extrainfo",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70180,7 +70181,7 @@
   },
   {
     "text": "objecttostring",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70201,7 +70202,7 @@
   },
   {
     "text": "tostring",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70222,7 +70223,7 @@
   },
   {
     "text": "stringify",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70243,7 +70244,7 @@
   },
   {
     "text": "hasownproperty",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70264,7 +70265,7 @@
   },
   {
     "text": "js",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70285,7 +70286,7 @@
   },
   {
     "text": "sj",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70306,7 +70307,7 @@
   },
   {
     "text": "evt",
-    "encounter_count": 22,
+    "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70327,7 +70328,7 @@
   },
   {
     "text": "undefined",
-    "encounter_count": 37,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70348,7 +70349,7 @@
   },
   {
     "text": "errorinstrumentation",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70369,867 +70370,6 @@
   },
   {
     "text": "ft",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "metajserror",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "execute",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "handler",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "cspeh",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "cspif",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "cspviolation",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "sample",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "addeventlistener",
-    "encounter_count": 44,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "unhandledrejection",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "securitypolicyviolation",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "bind",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "amd",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "define",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "require",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "dependencies",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "callback",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "sendbeacon",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "navigator",
-    "encounter_count": 33,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "cltrco",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "furl",
-    "encounter_count": 13,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "ctcc",
-    "encounter_count": 13,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "clc",
-    "encounter_count": 28,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "serpmode",
-    "encounter_count": 33,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "offstage",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "gptcreator",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "gpt",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "creator",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "si",
-    "encounter_count": 33,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "ct",
-    "encounter_count": 22,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "sharedclicksuppressed",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "getattribute",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "parentnode",
-    "encounter_count": 15,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "noct",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "tagname",
-    "encounter_count": 15,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "clicks",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "cspi",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "ctf",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "keydown",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "ef",
-    "encounter_count": 26,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "newtabredironclicktracking",
-    "encounter_count": 11,
-    "mastery": 1.0,
-    "first_seen": 1788670460.8294997,
-    "last_practiced": 1788670460.8294997,
-    "contexts": [
-      "computers search substring ig ig",
-      "python search substring ig ig",
-      "games search substring ig ig",
-      "do robots search substring ig",
-      "what is music search substring",
-      "do phones search substring ig",
-      "what is artificial intelligence search",
-      "what is internet search substring",
-      "what is programming search substring"
-    ],
-    "sources": [
-      "web_search"
-    ]
-  },
-  {
-    "text": "indexof",
     "encounter_count": 24,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
@@ -71250,8 +70390,869 @@
     ]
   },
   {
+    "text": "metajserror",
+    "encounter_count": 24,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "execute",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "handler",
+    "encounter_count": 24,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cspeh",
+    "encounter_count": 24,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cspif",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cspviolation",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "sample",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "addeventlistener",
+    "encounter_count": 48,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "unhandledrejection",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "securitypolicyviolation",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bind",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "amd",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "define",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "require",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dependencies",
+    "encounter_count": 24,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "callback",
+    "encounter_count": 24,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "sendbeacon",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "navigator",
+    "encounter_count": 36,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cltrco",
+    "encounter_count": 24,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "furl",
+    "encounter_count": 15,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ctcc",
+    "encounter_count": 15,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "clc",
+    "encounter_count": 33,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "serpmode",
+    "encounter_count": 36,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "offstage",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "gptcreator",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "gpt",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "creator",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "si",
+    "encounter_count": 36,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ct",
+    "encounter_count": 24,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "sharedclicksuppressed",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "getattribute",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "parentnode",
+    "encounter_count": 18,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "noct",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "tagname",
+    "encounter_count": 18,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "clicks",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cspi",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ctf",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "keydown",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ef",
+    "encounter_count": 30,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "newtabredironclicktracking",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "indexof",
+    "encounter_count": 27,
+    "mastery": 1.0,
+    "first_seen": 1788670460.8294997,
+    "last_practiced": 1788670460.8294997,
+    "contexts": [
+      "computers search substring ig ig",
+      "python search substring ig ig",
+      "games search substring ig ig",
+      "do robots search substring ig",
+      "what is music search substring",
+      "do phones search substring ig",
+      "what is artificial intelligence search",
+      "what is internet search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
     "text": "newtabredir",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71272,7 +71273,7 @@
   },
   {
     "text": "url",
-    "encounter_count": 13,
+    "encounter_count": 15,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71293,7 +71294,7 @@
   },
   {
     "text": "encodeuricomponent",
-    "encounter_count": 13,
+    "encounter_count": 15,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71314,7 +71315,7 @@
   },
   {
     "text": "atob",
-    "encounter_count": 11,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71335,7 +71336,7 @@
   },
   {
     "text": "decodeuricomponent",
-    "encounter_count": 8,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71405,13 +71406,14 @@
   },
   {
     "text": "sboxw",
-    "encounter_count": 14,
+    "encounter_count": 21,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71419,13 +71421,14 @@
   },
   {
     "text": "calc",
-    "encounter_count": 8,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71433,13 +71436,14 @@
   },
   {
     "text": "media",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71447,13 +71451,14 @@
   },
   {
     "text": "min",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71461,13 +71466,14 @@
   },
   {
     "text": "private",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71475,13 +71481,14 @@
   },
   {
     "text": "mfurl",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71489,13 +71496,14 @@
   },
   {
     "text": "abc",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71503,13 +71511,14 @@
   },
   {
     "text": "mc",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71517,13 +71526,14 @@
   },
   {
     "text": "clicktodynevent",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71531,13 +71541,14 @@
   },
   {
     "text": "id",
-    "encounter_count": 4,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71545,13 +71556,14 @@
   },
   {
     "text": "tolowercase",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71559,13 +71571,14 @@
   },
   {
     "text": "javascript",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71821,12 +71834,13 @@
   },
   {
     "text": "cc",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
-      "what is internet search substring"
+      "what is internet search substring",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -71879,6 +71893,45 @@
     "last_practiced": 1788694566.6979275,
     "contexts": [
       "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ed",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788694933.6082234,
+    "last_practiced": 1788694933.6082234,
+    "contexts": [
+      "what is music search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bfab",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788694933.6082234,
+    "last_practiced": 1788694933.6082234,
+    "contexts": [
+      "what is music search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "lo",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788694933.6082234,
+    "last_practiced": 1788694933.6082234,
+    "contexts": [
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
