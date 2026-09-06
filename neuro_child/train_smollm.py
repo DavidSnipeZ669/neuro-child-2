@@ -37,12 +37,19 @@ if str(ROOT) not in sys.path:
 def _load_conversations() -> list[str]:
     try:
         from neuro_child.conversational_data import get_dialogues
-        return get_dialogues()
+        base = get_dialogues()
     except Exception:
-        return [
-            "Dad: hello\nNova: hi dad!",
-            "Dad: how are you\nNova: i'm good dad!",
-        ]
+        base = []
+    try:
+        corpus = Path(__file__).resolve().parent / "memory" / "oasst1_dialogues.txt"
+        if corpus.exists():
+            text = corpus.read_text(encoding="utf-8", errors="ignore")
+            extra = [line.strip() for line in text.splitlines() if line.strip()]
+            print(f"Loaded {len(extra)} OASST1 dialogues")
+            return base + extra
+    except Exception:
+        pass
+    return base
 
 
 def main() -> None:

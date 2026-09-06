@@ -1,0 +1,56 @@
+[
+  {
+    "topic": "how computers work",
+    "source": "autonomous",
+    "priority": 0.4344933118093115,
+    "status": "pending",
+    "created_at": 1788705789.9507532,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "topic": "what is artificial intelligence",
+    "source": "autonomous",
+    "priority": 0.494815476575068,
+    "status": "failed",
+    "created_at": 1788705789.9517596,
+    "completed_at": null,
+    "result": "no content fetched"
+  },
+  {
+    "topic": "how games are made",
+    "source": "autonomous",
+    "priority": 0.42945962727326875,
+    "status": "pending",
+    "created_at": 1788705789.9517596,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "topic": "what is the internet",
+    "source": "autonomous",
+    "priority": 0.4059892761990163,
+    "status": "pending",
+    "created_at": 1788705789.9527597,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "topic": "how do screens work",
+    "source": "autonomous",
+    "priority": 0.3445622667678433,
+    "status": "pending",
+    "created_at": 1788705789.9527597,
+    "completed_at": null,
+    "result": null
+  },
+  {
+    "topic": "what is programming",
+    "source": "autonomous",
+    "priority": 0.24837466241462164,
+    "status": "pending",
+    "created_at": 1788705789.9527597,
+    "completed_at": null,
+    "result": null
+  }
+]

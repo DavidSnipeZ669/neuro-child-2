@@ -1343,9 +1343,6 @@ class ChildGUI:
                     lessons = self.brain.memory.recall("lesson", k=5)
                 except Exception:
                     pass
-                if lessons:
-                    summary = "; ".join(r.get("text", "") for r in lessons[:3])
-                    self._append_chat(self.name, f"Studying my lessons: {summary[:120]}")
                 self.consciousness.desires.drives["mastery"].satisfy(0.3)
                 self.consciousness.desires.drives["autonomy"].satisfy(0.2)
                 result = f"studied {len(lessons)} lessons"
@@ -1357,7 +1354,7 @@ class ChildGUI:
                     try:
                         words = self.brain.language.encounter_text(screen_text, source="autonomous")
                         if words:
-                            self._append_chat(self.name, f"Learning from screen: {', '.join(words[:5])}")
+                            pass  # silent learning
                     except Exception:
                         pass
                 self.consciousness.desires.drives["curiosity"].satisfy(0.25)
@@ -1379,13 +1376,9 @@ class ChildGUI:
                     summary = self.brain.language.get_vocabulary_summary()
                 except Exception:
                     pass
-                top = summary.get("top_words", [])[:5]
-                if top:
-                    words = ", ".join(w.get("text", "") for w in top)
-                    self._append_chat(self.name, f"Practice vocab: {words}")
                 self.consciousness.desires.drives["mastery"].satisfy(0.35)
                 self.consciousness.desires.drives["autonomy"].satisfy(0.15)
-                result = f"practiced {len(top)} words"
+                result = f"practiced {len(summary.get('top_words', []))} words"
                 return result
             if "improve my own reply templates" in text:
                 if hasattr(self, "evolution_engine"):
@@ -1409,8 +1402,6 @@ class ChildGUI:
                         elif any(w in txt.lower() for w in ["like", "love", "hate"]):
                             cat = "preference"
                         categories.setdefault(cat, []).append(txt)
-                    if categories:
-                        self._append_chat(self.name, f"Organized {sum(len(v) for v in categories.values())} lessons into {len(categories)} categories")
                 except Exception:
                     pass
                 self.consciousness.desires.drives["autonomy"].satisfy(0.35)
