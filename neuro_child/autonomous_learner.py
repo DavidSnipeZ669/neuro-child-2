@@ -158,7 +158,12 @@ class AutonomousLearner:
                 shot = s.grab(mon)
                 img = Image.frombytes("RGB", shot.size, shot.rgb)
                 try:
-                    text = pytesseract.image_to_string(img)
+                    text = ""
+                    try:
+                        import pytesseract
+                        text = pytesseract.image_to_string(img)
+                    except Exception:
+                        text = ""
                     if text and text.strip():
                         words = self.vocab.encounter_text(text, source="screen")
                         if words:

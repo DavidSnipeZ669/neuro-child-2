@@ -322,6 +322,7 @@ from neuro_child.language_center import LanguageCenter
 from neuro_child.knowledge_llm import NovaKnowledgeLLM
 from neuro_child.world_tools import FileTools, BrowserTools, WindowTools
 from neuro_child.game_learning import GameLearningEngine, GameSession
+from neuro_child.game_player import SimpleGamePlayer
 from neuro_child.media_learning import MediaLearningEngine, MediaLearningResult
 from neuro_child.smollm_brain import SmolLMBrain, SmolLMConfig
 
@@ -366,6 +367,7 @@ class Brain:
         self.evolution_engine = EvolutionEngine(self.language, self.memory, self.baby_reply)
         self.system_integration = SystemIntegration()
         self.autonomous_learner = AutonomousLearner(self.language, self.memory, getattr(self, "smollm", None))
+        self.game_player = SimpleGamePlayer()
 
     def remember(self, text: str) -> str:
         cleaned = text[len("remember "):] if text.lower().startswith("remember ") else text
@@ -980,6 +982,8 @@ class ChildGUI:
         ttk.Button(act_frame, text="Test Attack", command=lambda: self._action("attack")).pack(side="left", padx=2)
         ttk.Button(act_frame, text="Teach Lesson", command=self._teach_prompt).pack(side="left", padx=2)
         ttk.Button(act_frame, text="Think Aloud", command=self._think_aloud).pack(side="left", padx=2)
+        ttk.Button(act_frame, text="Number Guess", command=lambda: self._start_game("number")).pack(side="left", padx=2)
+        ttk.Button(act_frame, text="TicTacToe", command=lambda: self._start_game("tic-tac-toe")).pack(side="left", padx=2)
 
         ttk.Label(right, text="⚡ Activity Log:", font=("Segoe UI", 9, "bold")).pack(anchor="w", pady=(6, 0))
         self.activity_box = scrolledtext.ScrolledText(right, wrap="word", width=36, height=8, font=("Segoe UI", 9))
@@ -1021,6 +1025,10 @@ class ChildGUI:
         result = self.hands.perform_action(action)
         self._append_chat(self.name, result)
         self.consciousness.desires.drives["mastery"].stimulate(0.1)
+
+    def _start_game(self, game_type: str) -> None:
+        reply = self.brain.game_player.start(game_type)
+        self._append_chat(self.name, reply)
 
     def _think_aloud(self) -> None:
         thought = self.consciousness.metacognition.introspect()

@@ -118,5 +118,77 @@
     "importance": 0.5,
     "created": "2026-09-06T05:00:24.401493Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T11:31:31.902733Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': robots, cd",
+    "importance": 0.5,
+    "created": "2026-09-06T11:31:31.902733Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:32:04.974244Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is music': db, bc",
+    "importance": 0.5,
+    "created": "2026-09-06T11:32:04.974244Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:32:30.359803Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': phones, ca",
+    "importance": 0.5,
+    "created": "2026-09-06T11:32:30.359803Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:32:34.058164Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do phones work': dfe, ce, ade",
+    "importance": 0.5,
+    "created": "2026-09-06T11:32:34.058164Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:32:37.069160Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': artificial, afe, af, fdffc, decod",
+    "importance": 0.5,
+    "created": "2026-09-06T11:32:37.069160Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:33:05.084178Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is music': afacad, aed",
+    "importance": 0.5,
+    "created": "2026-09-06T11:33:05.084178Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:33:38.571629Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is the internet': internet, ad, acedd, cc, decodeuricompone",
+    "importance": 0.5,
+    "created": "2026-09-06T11:33:38.571629Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:36:06.779699Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is programming': dae, dec, decodeuricomponen",
+    "importance": 0.5,
+    "created": "2026-09-06T11:36:06.779699Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:37:19.224138Z",
+    "kind": "fact",
+    "text": "dad likes cats",
+    "importance": 0.9,
+    "created": "2026-09-06T11:37:19.224138Z",
+    "expires": null
   }
 ]
