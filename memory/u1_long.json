@@ -718,5 +718,21 @@
     "importance": 0.7,
     "created": "2026-09-06T12:01:09.868701Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T12:06:25.940568Z",
+    "kind": "fact",
+    "text": "dad likes pizza",
+    "importance": 0.9,
+    "created": "2026-09-06T12:06:25.940568Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:06:25.945081Z",
+    "kind": "fact",
+    "text": "dad dislikes broccoli",
+    "importance": 0.7,
+    "created": "2026-09-06T12:06:25.945081Z",
+    "expires": null
   }
 ]

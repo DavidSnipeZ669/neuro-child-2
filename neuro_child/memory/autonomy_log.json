@@ -270,5 +270,85 @@
   {
     "ts": 1788696081.6432939,
     "event": "queue:how do screens work:0"
+  },
+  {
+    "ts": 1788696112.106193,
+    "event": "web_search:what is programming:3"
+  },
+  {
+    "ts": 1788696136.3145442,
+    "event": "web_search:how do phones work:3"
+  },
+  {
+    "ts": 1788696138.2879915,
+    "event": "web_search:how computers work:1"
+  },
+  {
+    "ts": 1788696138.8281775,
+    "event": "web_search:what is science:1"
+  },
+  {
+    "ts": 1788696143.2565181,
+    "event": "web_search:how do robots work:1"
+  },
+  {
+    "ts": 1788696177.6541262,
+    "event": "web_search:how games are made:1"
+  },
+  {
+    "ts": 1788696208.6568053,
+    "event": "web_search:what is science:3"
+  },
+  {
+    "ts": 1788696239.6365068,
+    "event": "web_search:what is science:2"
+  },
+  {
+    "ts": 1788696270.539387,
+    "event": "web_search:what is programming:2"
+  },
+  {
+    "ts": 1788696274.4848325,
+    "event": "web_search:how do cars work:1"
+  },
+  {
+    "ts": 1788696282.1393514,
+    "event": "web_search:how do robots work:2"
+  },
+  {
+    "ts": 1788696295.9794211,
+    "event": "web_search:how do phones work:1"
+  },
+  {
+    "ts": 1788696302.5666618,
+    "event": "web_search:what is the internet:1"
+  },
+  {
+    "ts": 1788696303.049224,
+    "event": "web_search:what is the internet:1"
+  },
+  {
+    "ts": 1788696312.2059739,
+    "event": "web_search:what is science:3"
+  },
+  {
+    "ts": 1788696330.9918692,
+    "event": "web_search:what is programming:3"
+  },
+  {
+    "ts": 1788696338.054278,
+    "event": "web_search:how do cars work:3"
+  },
+  {
+    "ts": 1788696364.6221068,
+    "event": "web_search:how do cars work:1"
+  },
+  {
+    "ts": 1788696393.4059584,
+    "event": "web_search:how do robots work:1"
+  },
+  {
+    "ts": 1788696395.6155243,
+    "event": "web_search:what is programming:1"
   }
 ]

@@ -31,7 +31,7 @@
   },
   {
     "text": "hello",
-    "encounter_count": 51,
+    "encounter_count": 52,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -234,7 +234,7 @@
   },
   {
     "text": "screen",
-    "encounter_count": 13,
+    "encounter_count": 25,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -253,7 +253,7 @@
   },
   {
     "text": "what",
-    "encounter_count": 520,
+    "encounter_count": 533,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -264,7 +264,8 @@
       "what is artificial intelligence search",
       "what is internet search substring",
       "what is programming search substring",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring"
     ],
     "sources": [
       "bootstrap",
@@ -591,7 +592,7 @@
   },
   {
     "text": "home",
-    "encounter_count": 478,
+    "encounter_count": 526,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -608,7 +609,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "bootstrap",
@@ -815,7 +818,7 @@
   },
   {
     "text": "duckduckgo",
-    "encounter_count": 320,
+    "encounter_count": 324,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -829,7 +832,7 @@
   },
   {
     "text": "unfortunately",
-    "encounter_count": 88,
+    "encounter_count": 89,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -845,7 +848,7 @@
   },
   {
     "text": "bots",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -859,7 +862,7 @@
   },
   {
     "text": "too",
-    "encounter_count": 525,
+    "encounter_count": 526,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -875,7 +878,7 @@
   },
   {
     "text": "please",
-    "encounter_count": 212,
+    "encounter_count": 214,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -892,7 +895,7 @@
   },
   {
     "text": "complete",
-    "encounter_count": 89,
+    "encounter_count": 90,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -908,7 +911,7 @@
   },
   {
     "text": "following",
-    "encounter_count": 163,
+    "encounter_count": 165,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -924,7 +927,7 @@
   },
   {
     "text": "challenge",
-    "encounter_count": 84,
+    "encounter_count": 85,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -940,7 +943,7 @@
   },
   {
     "text": "to",
-    "encounter_count": 8492,
+    "encounter_count": 8542,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -958,7 +961,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -969,7 +974,7 @@
   },
   {
     "text": "confirm",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -983,7 +988,7 @@
   },
   {
     "text": "search",
-    "encounter_count": 142,
+    "encounter_count": 215,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1001,7 +1006,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -1011,7 +1018,7 @@
   },
   {
     "text": "by",
-    "encounter_count": 265,
+    "encounter_count": 266,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1027,7 +1034,7 @@
   },
   {
     "text": "human",
-    "encounter_count": 82,
+    "encounter_count": 83,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1043,7 +1050,7 @@
   },
   {
     "text": "select",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1057,7 +1064,7 @@
   },
   {
     "text": "squares",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1071,7 +1078,7 @@
   },
   {
     "text": "containing",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1085,7 +1092,7 @@
   },
   {
     "text": "duck",
-    "encounter_count": 131,
+    "encounter_count": 132,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1101,7 +1108,7 @@
   },
   {
     "text": "submit",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1115,7 +1122,7 @@
   },
   {
     "text": "images",
-    "encounter_count": 97,
+    "encounter_count": 122,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1131,7 +1138,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -1140,7 +1149,7 @@
   },
   {
     "text": "loading",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1154,7 +1163,7 @@
   },
   {
     "text": "email",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1168,7 +1177,7 @@
   },
   {
     "text": "code",
-    "encounter_count": 163,
+    "encounter_count": 165,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1185,7 +1194,7 @@
   },
   {
     "text": "error",
-    "encounter_count": 200,
+    "encounter_count": 369,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1202,7 +1211,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -1211,7 +1222,7 @@
   },
   {
     "text": "lite",
-    "encounter_count": 80,
+    "encounter_count": 81,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1225,7 +1236,7 @@
   },
   {
     "text": "com",
-    "encounter_count": 82,
+    "encounter_count": 83,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1241,7 +1252,7 @@
   },
   {
     "text": "here",
-    "encounter_count": 126,
+    "encounter_count": 127,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1348,7 +1359,7 @@
   },
   {
     "text": "as",
-    "encounter_count": 677,
+    "encounter_count": 827,
     "mastery": 1.0,
     "first_seen": 1788569344.6570373,
     "last_practiced": 1788569344.6570373,
@@ -1365,7 +1376,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "dad",
@@ -1390,7 +1403,7 @@
   },
   {
     "text": "is",
-    "encounter_count": 416,
+    "encounter_count": 429,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1402,7 +1415,8 @@
       "what is artificial intelligence search",
       "what is internet search substring",
       "what is programming search substring",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring"
     ],
     "sources": [
       "dad",
@@ -1412,7 +1426,7 @@
   },
   {
     "text": "it",
-    "encounter_count": 4390,
+    "encounter_count": 4469,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1429,7 +1443,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "dad",
@@ -1469,7 +1485,7 @@
   },
   {
     "text": "screenshot",
-    "encounter_count": 7,
+    "encounter_count": 19,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1482,7 +1498,7 @@
   },
   {
     "text": "saved",
-    "encounter_count": 21,
+    "encounter_count": 33,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1497,7 +1513,7 @@
   },
   {
     "text": "hermes",
-    "encounter_count": 7,
+    "encounter_count": 19,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1510,7 +1526,7 @@
   },
   {
     "text": "neuro",
-    "encounter_count": 14,
+    "encounter_count": 38,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1523,7 +1539,7 @@
   },
   {
     "text": "child",
-    "encounter_count": 43,
+    "encounter_count": 67,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1538,7 +1554,7 @@
   },
   {
     "text": "memory",
-    "encounter_count": 8,
+    "encounter_count": 20,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1553,7 +1569,7 @@
   },
   {
     "text": "last",
-    "encounter_count": 32,
+    "encounter_count": 44,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1568,7 +1584,7 @@
   },
   {
     "text": "png",
-    "encounter_count": 7,
+    "encounter_count": 19,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1581,7 +1597,7 @@
   },
   {
     "text": "cursor",
-    "encounter_count": 7,
+    "encounter_count": 19,
     "mastery": 1.0,
     "first_seen": 1788622955.8559892,
     "last_practiced": 1788622955.8559892,
@@ -1607,7 +1623,7 @@
   },
   {
     "text": "body",
-    "encounter_count": 51,
+    "encounter_count": 89,
     "mastery": 1.0,
     "first_seen": 1788669185.4249008,
     "last_practiced": 1788669185.4249008,
@@ -1624,7 +1640,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -1663,7 +1681,7 @@
   },
   {
     "text": "var",
-    "encounter_count": 180,
+    "encounter_count": 431,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1679,7 +1697,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -1700,7 +1720,7 @@
   },
   {
     "text": "window",
-    "encounter_count": 296,
+    "encounter_count": 632,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1717,7 +1737,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -1825,7 +1847,7 @@
   },
   {
     "text": "if",
-    "encounter_count": 616,
+    "encounter_count": 1027,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1842,7 +1864,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -1909,7 +1933,7 @@
   },
   {
     "text": "function",
-    "encounter_count": 176,
+    "encounter_count": 392,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1925,7 +1949,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -2028,7 +2054,7 @@
   },
   {
     "text": "data",
-    "encounter_count": 78,
+    "encounter_count": 188,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2044,7 +2070,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -2065,7 +2093,7 @@
   },
   {
     "text": "json",
-    "encounter_count": 70,
+    "encounter_count": 166,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2081,7 +2109,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -2351,7 +2381,7 @@
   },
   {
     "text": "else",
-    "encounter_count": 121,
+    "encounter_count": 169,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2368,7 +2398,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2377,7 +2409,7 @@
   },
   {
     "text": "return",
-    "encounter_count": 163,
+    "encounter_count": 355,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2394,7 +2426,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2429,7 +2463,7 @@
   },
   {
     "text": "break",
-    "encounter_count": 69,
+    "encounter_count": 100,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2446,7 +2480,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2455,7 +2491,7 @@
   },
   {
     "text": "try",
-    "encounter_count": 179,
+    "encounter_count": 251,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2472,7 +2508,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2520,7 +2558,7 @@
   },
   {
     "text": "catch",
-    "encounter_count": 147,
+    "encounter_count": 219,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2537,7 +2575,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2559,7 +2599,7 @@
   },
   {
     "text": "message",
-    "encounter_count": 77,
+    "encounter_count": 173,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2576,7 +2616,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2585,7 +2627,7 @@
   },
   {
     "text": "self",
-    "encounter_count": 37,
+    "encounter_count": 85,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2602,7 +2644,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2624,7 +2668,7 @@
   },
   {
     "text": "null",
-    "encounter_count": 41,
+    "encounter_count": 89,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2640,7 +2684,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -2890,7 +2936,7 @@
   },
   {
     "text": "in",
-    "encounter_count": 2210,
+    "encounter_count": 2282,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2907,7 +2953,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2957,7 +3005,7 @@
   },
   {
     "text": "true",
-    "encounter_count": 161,
+    "encounter_count": 353,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2974,7 +3022,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -2996,7 +3046,7 @@
   },
   {
     "text": "typeof",
-    "encounter_count": 24,
+    "encounter_count": 48,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3012,7 +3062,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -3020,7 +3072,7 @@
   },
   {
     "text": "length",
-    "encounter_count": 38,
+    "encounter_count": 86,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3037,7 +3089,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search",
@@ -3100,7 +3154,7 @@
   },
   {
     "text": "src",
-    "encounter_count": 18,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3116,7 +3170,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -3209,7 +3265,7 @@
   },
   {
     "text": "tt",
-    "encounter_count": 54,
+    "encounter_count": 126,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3225,7 +3281,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -4556,7 +4614,7 @@
   },
   {
     "text": "reached",
-    "encounter_count": 100,
+    "encounter_count": 124,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4572,7 +4630,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -4676,7 +4736,7 @@
   },
   {
     "text": "name",
-    "encounter_count": 75,
+    "encounter_count": 99,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4692,7 +4752,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -4714,7 +4776,7 @@
   },
   {
     "text": "max",
-    "encounter_count": 306,
+    "encounter_count": 330,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4730,7 +4792,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -5014,7 +5078,7 @@
   },
   {
     "text": "do",
-    "encounter_count": 364,
+    "encounter_count": 372,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5022,7 +5086,8 @@
       "spot saw shiny car wow",
       "do robots search substring ig",
       "do phones search substring ig",
-      "do screens search substring ig"
+      "do screens search substring ig",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -5057,7 +5122,7 @@
   },
   {
     "text": "be",
-    "encounter_count": 652,
+    "encounter_count": 677,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5073,7 +5138,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -5825,7 +5892,7 @@
   },
   {
     "text": "escape",
-    "encounter_count": 93,
+    "encounter_count": 213,
     "mastery": 1.0,
     "first_seen": 1788669295.3818347,
     "last_practiced": 1788669295.3818347,
@@ -5841,7 +5908,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -10821,7 +10890,7 @@
   },
   {
     "text": "open",
-    "encounter_count": 96,
+    "encounter_count": 120,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -10837,7 +10906,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -10859,7 +10930,7 @@
   },
   {
     "text": "line",
-    "encounter_count": 42,
+    "encounter_count": 66,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -10875,7 +10946,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -12054,7 +12127,7 @@
   },
   {
     "text": "games",
-    "encounter_count": 35,
+    "encounter_count": 36,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -13135,7 +13208,7 @@
   },
   {
     "text": "replace",
-    "encounter_count": 92,
+    "encounter_count": 212,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -13151,7 +13224,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -14828,7 +14903,7 @@
   },
   {
     "text": "off",
-    "encounter_count": 210,
+    "encounter_count": 234,
     "mastery": 1.0,
     "first_seen": 1788669295.384838,
     "last_practiced": 1788669295.384838,
@@ -14844,7 +14919,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -16088,15 +16165,17 @@
   },
   {
     "text": "cars",
-    "encounter_count": 13,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "do cars search substring ig"
     ],
     "sources": [
-      "file"
+      "file",
+      "web_search"
     ]
   },
   {
@@ -16426,7 +16505,7 @@
   },
   {
     "text": "extra",
-    "encounter_count": 29,
+    "encounter_count": 53,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -16442,7 +16521,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -18687,7 +18768,7 @@
   },
   {
     "text": "content",
-    "encounter_count": 35,
+    "encounter_count": 59,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -18703,7 +18784,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -19895,7 +19978,7 @@
   },
   {
     "text": "stage",
-    "encounter_count": 24,
+    "encounter_count": 48,
     "mastery": 1.0,
     "first_seen": 1788669295.3868368,
     "last_practiced": 1788669295.3868368,
@@ -19911,7 +19994,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -22561,7 +22646,7 @@
   },
   {
     "text": "fire",
-    "encounter_count": 41,
+    "encounter_count": 65,
     "mastery": 1.0,
     "first_seen": 1788669295.3878362,
     "last_practiced": 1788669295.3878362,
@@ -22577,7 +22662,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -24458,7 +24545,7 @@
   },
   {
     "text": "image",
-    "encounter_count": 18,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788669295.388837,
     "last_practiced": 1788669295.388837,
@@ -24474,7 +24561,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -27863,7 +27952,7 @@
   },
   {
     "text": "send",
-    "encounter_count": 25,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788669295.3908384,
     "last_practiced": 1788669295.3908384,
@@ -27879,7 +27968,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -28499,7 +28590,7 @@
   },
   {
     "text": "post",
-    "encounter_count": 21,
+    "encounter_count": 45,
     "mastery": 1.0,
     "first_seen": 1788669295.3913417,
     "last_practiced": 1788669295.3913417,
@@ -28515,7 +28606,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -31111,7 +31204,7 @@
   },
   {
     "text": "stack",
-    "encounter_count": 48,
+    "encounter_count": 96,
     "mastery": 1.0,
     "first_seen": 1788669295.393352,
     "last_practiced": 1788669295.393352,
@@ -31127,7 +31220,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -33530,7 +33625,7 @@
   },
   {
     "text": "change",
-    "encounter_count": 32,
+    "encounter_count": 56,
     "mastery": 1.0,
     "first_seen": 1788669295.3943498,
     "last_practiced": 1788669295.3943498,
@@ -33546,7 +33641,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -35674,7 +35771,7 @@
   },
   {
     "text": "slice",
-    "encounter_count": 21,
+    "encounter_count": 45,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -35690,7 +35787,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -35751,7 +35850,7 @@
   },
   {
     "text": "start",
-    "encounter_count": 35,
+    "encounter_count": 59,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -35767,7 +35866,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -37559,7 +37660,7 @@
   },
   {
     "text": "event",
-    "encounter_count": 23,
+    "encounter_count": 47,
     "mastery": 1.0,
     "first_seen": 1788669295.398858,
     "last_practiced": 1788669295.398858,
@@ -37575,7 +37676,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -38208,7 +38311,7 @@
   },
   {
     "text": "match",
-    "encounter_count": 29,
+    "encounter_count": 60,
     "mastery": 1.0,
     "first_seen": 1788669295.399858,
     "last_practiced": 1788669295.399858,
@@ -38224,7 +38327,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -43227,7 +43332,7 @@
   },
   {
     "text": "failed",
-    "encounter_count": 37,
+    "encounter_count": 85,
     "mastery": 1.0,
     "first_seen": 1788669295.404366,
     "last_practiced": 1788669295.404366,
@@ -43243,7 +43348,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -45241,7 +45348,7 @@
   },
   {
     "text": "source",
-    "encounter_count": 5,
+    "encounter_count": 12,
     "mastery": 1.0,
     "first_seen": 1788669295.4053674,
     "last_practiced": 1788669295.4053674,
@@ -45249,7 +45356,11 @@
       "spot saw shiny car wow",
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "file",
@@ -54741,7 +54852,7 @@
   },
   {
     "text": "notebook",
-    "encounter_count": 46,
+    "encounter_count": 94,
     "mastery": 1.0,
     "first_seen": 1788669295.4208937,
     "last_practiced": 1788669295.4208937,
@@ -54757,7 +54868,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -55195,7 +55308,7 @@
   },
   {
     "text": "button",
-    "encounter_count": 49,
+    "encounter_count": 97,
     "mastery": 1.0,
     "first_seen": 1788669295.421898,
     "last_practiced": 1788669295.421898,
@@ -55211,7 +55324,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -55896,7 +56011,7 @@
   },
   {
     "text": "warning",
-    "encounter_count": 20,
+    "encounter_count": 44,
     "mastery": 1.0,
     "first_seen": 1788669295.4228992,
     "last_practiced": 1788669295.4228992,
@@ -55912,7 +56027,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -59795,7 +59912,7 @@
   },
   {
     "text": "conversation",
-    "encounter_count": 35,
+    "encounter_count": 83,
     "mastery": 1.0,
     "first_seen": 1788669295.4288979,
     "last_practiced": 1788669295.4288979,
@@ -59811,7 +59928,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -64190,8 +64309,8 @@
   },
   {
     "text": "intelligence",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788669295.4396284,
     "last_practiced": 1788669295.4396284,
     "contexts": [
@@ -66012,7 +66131,7 @@
   },
   {
     "text": "bat",
-    "encounter_count": 18,
+    "encounter_count": 42,
     "mastery": 1.0,
     "first_seen": 1788669295.4421356,
     "last_practiced": 1788669295.4421356,
@@ -66028,7 +66147,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -67402,7 +67523,7 @@
   },
   {
     "text": "type",
-    "encounter_count": 35,
+    "encounter_count": 83,
     "mastery": 1.0,
     "first_seen": 1788669295.4451354,
     "last_practiced": 1788669295.4451354,
@@ -67418,7 +67539,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "file",
@@ -68469,7 +68592,7 @@
   },
   {
     "text": "programming",
-    "encounter_count": 4,
+    "encounter_count": 8,
     "mastery": 1.0,
     "first_seen": 1788670434.0965652,
     "last_practiced": 1788670434.0965652,
@@ -68691,8 +68814,8 @@
   },
   {
     "text": "computers",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
@@ -68704,7 +68827,7 @@
   },
   {
     "text": "substring",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68719,7 +68842,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68727,7 +68852,7 @@
   },
   {
     "text": "ig",
-    "encounter_count": 127,
+    "encounter_count": 309,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68742,7 +68867,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68750,7 +68877,7 @@
   },
   {
     "text": "'ig",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68765,7 +68892,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68773,7 +68902,7 @@
   },
   {
     "text": "document",
-    "encounter_count": 59,
+    "encounter_count": 145,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68788,7 +68917,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68796,7 +68927,7 @@
   },
   {
     "text": "gpimg",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68811,7 +68942,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68819,7 +68952,7 @@
   },
   {
     "text": "gpurl",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68834,7 +68967,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68842,7 +68977,7 @@
   },
   {
     "text": "cid",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68857,7 +68992,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68865,7 +69002,7 @@
   },
   {
     "text": "ntt",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68880,7 +69017,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68888,7 +69027,7 @@
   },
   {
     "text": "rto",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68903,7 +69042,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68911,7 +69052,7 @@
   },
   {
     "text": "ctt",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68926,7 +69067,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68934,7 +69077,7 @@
   },
   {
     "text": "bnfn",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68949,7 +69092,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68957,7 +69102,7 @@
   },
   {
     "text": "default",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68972,7 +69117,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -68980,7 +69127,7 @@
   },
   {
     "text": "lg",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68995,7 +69142,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69003,7 +69152,7 @@
   },
   {
     "text": "cbrsht",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69018,7 +69167,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69026,7 +69177,7 @@
   },
   {
     "text": "cbrshtam",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69041,7 +69192,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69049,7 +69202,7 @@
   },
   {
     "text": "bdvfy",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69064,7 +69217,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69072,7 +69227,7 @@
   },
   {
     "text": "multicbrstype",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69087,7 +69242,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69095,7 +69252,7 @@
   },
   {
     "text": "maxmulticbrs",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69110,7 +69267,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69118,7 +69277,7 @@
   },
   {
     "text": "rmhgtlog",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69133,7 +69292,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69141,7 +69302,7 @@
   },
   {
     "text": "sid",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69156,7 +69317,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69177,12 +69340,14 @@
   },
   {
     "text": "ae",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
     "contexts": [
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "do robots search substring ig",
+      "what is programming search substring"
     ],
     "sources": [
       "web_search"
@@ -69190,7 +69355,7 @@
   },
   {
     "text": "inpopt",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69205,7 +69370,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69213,7 +69380,7 @@
   },
   {
     "text": "enablermsinpopt",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69228,7 +69395,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69236,7 +69405,7 @@
   },
   {
     "text": "ajax",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69251,7 +69420,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69259,7 +69430,7 @@
   },
   {
     "text": "nav",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69274,7 +69445,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69282,7 +69455,7 @@
   },
   {
     "text": "cleartimersopt",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69297,7 +69470,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69305,7 +69480,7 @@
   },
   {
     "text": "serp",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69320,7 +69495,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69328,7 +69505,7 @@
   },
   {
     "text": "plt",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69343,7 +69520,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69351,7 +69530,7 @@
   },
   {
     "text": "optimization",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69366,7 +69545,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69374,7 +69555,7 @@
   },
   {
     "text": "searchbox",
-    "encounter_count": 232,
+    "encounter_count": 546,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69389,7 +69570,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69397,7 +69580,7 @@
   },
   {
     "text": "width",
-    "encounter_count": 228,
+    "encounter_count": 535,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69412,7 +69595,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69420,7 +69605,7 @@
   },
   {
     "text": "px",
-    "encounter_count": 240,
+    "encounter_count": 568,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69435,7 +69620,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69443,7 +69630,7 @@
   },
   {
     "text": "hasmic",
-    "encounter_count": 112,
+    "encounter_count": 262,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69458,7 +69645,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69466,7 +69655,7 @@
   },
   {
     "text": "hassbi",
-    "encounter_count": 112,
+    "encounter_count": 262,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69481,7 +69670,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69489,7 +69680,7 @@
   },
   {
     "text": "header",
-    "encounter_count": 112,
+    "encounter_count": 262,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69504,7 +69695,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69512,7 +69705,7 @@
   },
   {
     "text": "searchboxform",
-    "encounter_count": 160,
+    "encounter_count": 371,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69527,7 +69720,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69535,7 +69730,7 @@
   },
   {
     "text": "softkey",
-    "encounter_count": 120,
+    "encounter_count": 284,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69550,7 +69745,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69558,7 +69755,7 @@
   },
   {
     "text": "rsform",
-    "encounter_count": 112,
+    "encounter_count": 262,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69573,7 +69770,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69581,7 +69780,7 @@
   },
   {
     "text": "sendlog",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69596,7 +69795,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69604,7 +69805,7 @@
   },
   {
     "text": "date",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69619,7 +69820,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69627,7 +69830,7 @@
   },
   {
     "text": "gettime",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69642,7 +69845,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69650,7 +69855,7 @@
   },
   {
     "text": "ci",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69665,7 +69870,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69673,7 +69880,7 @@
   },
   {
     "text": "fid",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69688,7 +69895,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69696,7 +69905,7 @@
   },
   {
     "text": "text",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69711,7 +69920,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69719,7 +69930,7 @@
   },
   {
     "text": "clientinst",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69734,7 +69945,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69742,7 +69955,7 @@
   },
   {
     "text": "xmlhttprequest",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69757,7 +69970,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69765,7 +69980,7 @@
   },
   {
     "text": "fd",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69780,7 +69995,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69788,7 +70005,7 @@
   },
   {
     "text": "ls",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69803,7 +70020,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69811,7 +70030,7 @@
   },
   {
     "text": "lsp",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69826,7 +70045,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69834,7 +70055,7 @@
   },
   {
     "text": "aspx",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69849,7 +70070,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69857,7 +70080,7 @@
   },
   {
     "text": "setrequestheader",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69872,7 +70095,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69880,7 +70105,7 @@
   },
   {
     "text": "xml",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69895,7 +70120,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69903,7 +70130,7 @@
   },
   {
     "text": "jserrorhandler",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69918,7 +70145,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69926,7 +70155,7 @@
   },
   {
     "text": "rt",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69941,7 +70170,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69949,7 +70180,7 @@
   },
   {
     "text": "ut",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69964,7 +70195,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69972,7 +70205,7 @@
   },
   {
     "text": "nomessage",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69987,7 +70220,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -69995,7 +70230,7 @@
   },
   {
     "text": "ignorecurrenterror",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70010,7 +70245,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70018,7 +70255,7 @@
   },
   {
     "text": "erc",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70033,7 +70270,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70041,7 +70280,7 @@
   },
   {
     "text": "maxerr",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70056,7 +70295,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70064,7 +70305,7 @@
   },
   {
     "text": "loge",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70079,7 +70320,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70087,7 +70330,7 @@
   },
   {
     "text": "errors",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70102,7 +70345,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70110,7 +70355,7 @@
   },
   {
     "text": "filename",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70125,7 +70370,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70133,7 +70380,7 @@
   },
   {
     "text": "lineno",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70148,7 +70395,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70156,7 +70405,7 @@
   },
   {
     "text": "colno",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70171,7 +70420,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70179,7 +70430,7 @@
   },
   {
     "text": "severity",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70194,7 +70445,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70202,7 +70455,7 @@
   },
   {
     "text": "regexp",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70217,7 +70470,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70225,7 +70480,7 @@
   },
   {
     "text": "regexesc",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70240,7 +70495,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70248,7 +70505,7 @@
   },
   {
     "text": "location",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70263,7 +70520,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70271,7 +70530,7 @@
   },
   {
     "text": "href",
-    "encounter_count": 42,
+    "encounter_count": 104,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70286,7 +70545,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70294,7 +70555,7 @@
   },
   {
     "text": "nt",
-    "encounter_count": 55,
+    "encounter_count": 134,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70309,7 +70570,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70317,7 +70580,7 @@
   },
   {
     "text": "lirab",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70332,7 +70595,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70340,7 +70605,7 @@
   },
   {
     "text": "liraa",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70355,7 +70620,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70363,7 +70630,7 @@
   },
   {
     "text": "hint",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70378,7 +70645,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70386,7 +70655,7 @@
   },
   {
     "text": "exec",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70401,7 +70670,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70409,7 +70680,7 @@
   },
   {
     "text": "meta",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70424,7 +70695,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70432,7 +70705,7 @@
   },
   {
     "text": "char",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70447,7 +70720,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70455,7 +70730,7 @@
   },
   {
     "text": "extrainfo",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70470,7 +70745,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70478,7 +70755,7 @@
   },
   {
     "text": "objecttostring",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70493,7 +70770,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70501,7 +70780,7 @@
   },
   {
     "text": "tostring",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70516,7 +70795,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70524,7 +70805,7 @@
   },
   {
     "text": "stringify",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70539,7 +70820,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70547,7 +70830,7 @@
   },
   {
     "text": "hasownproperty",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70562,7 +70845,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70570,7 +70855,7 @@
   },
   {
     "text": "js",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70585,7 +70870,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70593,7 +70880,7 @@
   },
   {
     "text": "sj",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70608,7 +70895,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70616,7 +70905,7 @@
   },
   {
     "text": "evt",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70631,7 +70920,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70639,7 +70930,7 @@
   },
   {
     "text": "undefined",
-    "encounter_count": 59,
+    "encounter_count": 145,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70654,7 +70945,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70662,7 +70955,7 @@
   },
   {
     "text": "errorinstrumentation",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70677,7 +70970,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70685,7 +70980,7 @@
   },
   {
     "text": "ft",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70700,7 +70995,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70708,7 +71005,7 @@
   },
   {
     "text": "metajserror",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70723,7 +71020,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70731,7 +71030,7 @@
   },
   {
     "text": "execute",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70746,7 +71045,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70754,7 +71055,7 @@
   },
   {
     "text": "handler",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70769,7 +71070,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70777,7 +71080,7 @@
   },
   {
     "text": "cspeh",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70792,7 +71095,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70800,7 +71105,7 @@
   },
   {
     "text": "cspif",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70815,7 +71120,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70823,7 +71130,7 @@
   },
   {
     "text": "cspviolation",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70838,7 +71145,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70846,7 +71155,7 @@
   },
   {
     "text": "sample",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70861,7 +71170,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70869,7 +71180,7 @@
   },
   {
     "text": "addeventlistener",
-    "encounter_count": 68,
+    "encounter_count": 164,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70884,7 +71195,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70892,7 +71205,7 @@
   },
   {
     "text": "unhandledrejection",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70907,7 +71220,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70915,7 +71230,7 @@
   },
   {
     "text": "securitypolicyviolation",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70930,7 +71245,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70938,7 +71255,7 @@
   },
   {
     "text": "bind",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70953,7 +71270,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70961,7 +71280,7 @@
   },
   {
     "text": "amd",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70976,7 +71295,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -70984,7 +71305,7 @@
   },
   {
     "text": "define",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -70999,7 +71320,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71007,7 +71330,7 @@
   },
   {
     "text": "require",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71022,7 +71345,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71030,7 +71355,7 @@
   },
   {
     "text": "dependencies",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71045,7 +71370,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71053,7 +71380,7 @@
   },
   {
     "text": "callback",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71068,7 +71395,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71076,7 +71405,7 @@
   },
   {
     "text": "sendbeacon",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71091,7 +71420,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71099,7 +71430,7 @@
   },
   {
     "text": "navigator",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71114,7 +71445,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71122,7 +71455,7 @@
   },
   {
     "text": "cltrco",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71137,7 +71470,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71145,7 +71480,7 @@
   },
   {
     "text": "furl",
-    "encounter_count": 21,
+    "encounter_count": 52,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71160,7 +71495,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71168,7 +71505,7 @@
   },
   {
     "text": "ctcc",
-    "encounter_count": 21,
+    "encounter_count": 52,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71183,7 +71520,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71191,7 +71530,7 @@
   },
   {
     "text": "clc",
-    "encounter_count": 46,
+    "encounter_count": 115,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71206,7 +71545,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71214,7 +71555,7 @@
   },
   {
     "text": "serpmode",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71229,7 +71570,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71237,7 +71580,7 @@
   },
   {
     "text": "offstage",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71252,7 +71595,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71260,7 +71605,7 @@
   },
   {
     "text": "gptcreator",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71275,7 +71620,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71283,7 +71630,7 @@
   },
   {
     "text": "gpt",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71298,7 +71645,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71306,7 +71655,7 @@
   },
   {
     "text": "creator",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71321,7 +71670,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71329,7 +71680,7 @@
   },
   {
     "text": "si",
-    "encounter_count": 51,
+    "encounter_count": 123,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71344,7 +71695,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71352,7 +71705,7 @@
   },
   {
     "text": "ct",
-    "encounter_count": 34,
+    "encounter_count": 82,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71367,7 +71720,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71375,7 +71730,7 @@
   },
   {
     "text": "sharedclicksuppressed",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71390,7 +71745,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71398,7 +71755,7 @@
   },
   {
     "text": "getattribute",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71413,7 +71770,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71421,7 +71780,7 @@
   },
   {
     "text": "parentnode",
-    "encounter_count": 25,
+    "encounter_count": 63,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71436,7 +71795,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71444,7 +71805,7 @@
   },
   {
     "text": "noct",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71459,7 +71820,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71467,7 +71830,7 @@
   },
   {
     "text": "tagname",
-    "encounter_count": 25,
+    "encounter_count": 63,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71482,7 +71845,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71490,7 +71855,7 @@
   },
   {
     "text": "clicks",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71505,7 +71870,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71513,7 +71880,7 @@
   },
   {
     "text": "cspi",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71528,7 +71895,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71536,7 +71905,7 @@
   },
   {
     "text": "ctf",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71551,7 +71920,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71559,7 +71930,7 @@
   },
   {
     "text": "keydown",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71574,7 +71945,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71582,7 +71955,7 @@
   },
   {
     "text": "ef",
-    "encounter_count": 42,
+    "encounter_count": 104,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71597,7 +71970,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71605,7 +71980,7 @@
   },
   {
     "text": "newtabredironclicktracking",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71620,7 +71995,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71628,7 +72005,7 @@
   },
   {
     "text": "indexof",
-    "encounter_count": 38,
+    "encounter_count": 93,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71643,7 +72020,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71651,7 +72030,7 @@
   },
   {
     "text": "newtabredir",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71666,7 +72045,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71674,7 +72055,7 @@
   },
   {
     "text": "url",
-    "encounter_count": 21,
+    "encounter_count": 52,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71689,7 +72070,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71697,7 +72080,7 @@
   },
   {
     "text": "encodeuricomponent",
-    "encounter_count": 21,
+    "encounter_count": 52,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71712,7 +72095,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71720,7 +72105,7 @@
   },
   {
     "text": "atob",
-    "encounter_count": 17,
+    "encounter_count": 41,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71735,7 +72120,9 @@
       "what is internet search substring",
       "what is programming search substring",
       "do screens search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71743,7 +72130,7 @@
   },
   {
     "text": "decodeuricomponent",
-    "encounter_count": 13,
+    "encounter_count": 31,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71754,7 +72141,11 @@
       "do robots search substring ig",
       "what is music search substring",
       "do phones search substring ig",
-      "what is space search substring"
+      "what is space search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "do cars search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -71814,14 +72205,18 @@
   },
   {
     "text": "sboxw",
-    "encounter_count": 28,
+    "encounter_count": 77,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71829,14 +72224,18 @@
   },
   {
     "text": "calc",
-    "encounter_count": 16,
+    "encounter_count": 44,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71844,14 +72243,18 @@
   },
   {
     "text": "media",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71859,14 +72262,18 @@
   },
   {
     "text": "min",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71874,14 +72281,18 @@
   },
   {
     "text": "private",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71889,14 +72300,18 @@
   },
   {
     "text": "mfurl",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71904,14 +72319,18 @@
   },
   {
     "text": "abc",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71919,14 +72338,18 @@
   },
   {
     "text": "mc",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71934,14 +72357,18 @@
   },
   {
     "text": "clicktodynevent",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71949,14 +72376,18 @@
   },
   {
     "text": "id",
-    "encounter_count": 8,
+    "encounter_count": 22,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71964,14 +72395,18 @@
   },
   {
     "text": "tolowercase",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71979,14 +72414,18 @@
   },
   {
     "text": "javascript",
-    "encounter_count": 4,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
     "contexts": [
       "games search substring ig ig",
       "do robots search substring ig",
-      "what is music search substring"
+      "what is music search substring",
+      "what is programming search substring",
+      "what is science search substring",
+      "what is internet search substring",
+      "do phones search substring ig"
     ],
     "sources": [
       "web_search"
@@ -71994,8 +72433,8 @@
   },
   {
     "text": "robots",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 5,
+    "mastery": 1.0,
     "first_seen": 1788694291.8246381,
     "last_practiced": 1788694291.8246381,
     "contexts": [
@@ -72007,14 +72446,15 @@
   },
   {
     "text": "cd",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788694291.8246381,
     "last_practiced": 1788694291.8246381,
     "contexts": [
       "do robots search substring ig",
       "what is music search substring",
-      "do screens search substring ig"
+      "do screens search substring ig",
+      "computers search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -72022,12 +72462,13 @@
   },
   {
     "text": "db",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694324.8976374,
     "last_practiced": 1788694324.8976374,
     "contexts": [
-      "what is music search substring"
+      "what is music search substring",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -72035,12 +72476,17 @@
   },
   {
     "text": "bc",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 7,
+    "mastery": 1.0,
     "first_seen": 1788694324.8976374,
     "last_practiced": 1788694324.8976374,
     "contexts": [
-      "what is music search substring"
+      "what is music search substring",
+      "what is science search substring",
+      "what is programming search substring",
+      "do cars search substring ig",
+      "what is artificial intelligence search",
+      "do robots search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72048,8 +72494,8 @@
   },
   {
     "text": "phones",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788694350.280662,
     "last_practiced": 1788694350.280662,
     "contexts": [
@@ -72061,12 +72507,13 @@
   },
   {
     "text": "ca",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694350.280662,
     "last_practiced": 1788694350.280662,
     "contexts": [
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "computers search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -72087,12 +72534,13 @@
   },
   {
     "text": "ce",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694353.9790337,
     "last_practiced": 1788694353.9790337,
     "contexts": [
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72113,8 +72561,8 @@
   },
   {
     "text": "artificial",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788694356.979361,
     "last_practiced": 1788694356.979361,
     "contexts": [
@@ -72165,8 +72613,8 @@
   },
   {
     "text": "decod",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788694356.9803615,
     "last_practiced": 1788694356.9803615,
     "contexts": [
@@ -72204,8 +72652,8 @@
   },
   {
     "text": "internet",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
@@ -72217,8 +72665,8 @@
   },
   {
     "text": "ad",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
@@ -72243,13 +72691,14 @@
   },
   {
     "text": "cc",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 3,
+    "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
       "what is internet search substring",
-      "what is music search substring"
+      "what is music search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72257,8 +72706,8 @@
   },
   {
     "text": "decodeuricompone",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
@@ -72296,8 +72745,8 @@
   },
   {
     "text": "decodeuricomponen",
-    "encounter_count": 2,
-    "mastery": 0.9,
+    "encounter_count": 5,
+    "mastery": 1.0,
     "first_seen": 1788694566.6979275,
     "last_practiced": 1788694566.6979275,
     "contexts": [
@@ -72310,12 +72759,13 @@
   },
   {
     "text": "ed",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788694933.6082234,
     "last_practiced": 1788694933.6082234,
     "contexts": [
-      "what is music search substring"
+      "what is music search substring",
+      "what is artificial intelligence search"
     ],
     "sources": [
       "web_search"
@@ -72362,12 +72812,13 @@
   },
   {
     "text": "ea",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788695987.9082325,
     "last_practiced": 1788695987.9082325,
     "contexts": [
-      "do screens search substring ig"
+      "do screens search substring ig",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72414,12 +72865,13 @@
   },
   {
     "text": "ac",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788696049.012684,
     "last_practiced": 1788696049.012684,
     "contexts": [
-      "games search substring ig ig"
+      "games search substring ig ig",
+      "what is science search substring"
     ],
     "sources": [
       "web_search"
@@ -72453,12 +72905,15 @@
   },
   {
     "text": "fe",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788696081.2238166,
     "last_practiced": 1788696081.2238166,
     "contexts": [
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "what is science search substring",
+      "do robots search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72472,6 +72927,429 @@
     "last_practiced": 1788696081.2238166,
     "contexts": [
       "computers search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fbd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696112.0314054,
+    "last_practiced": 1788696112.0314054,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ee",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788696112.0314054,
+    "last_practiced": 1788696112.0314054,
+    "contexts": [
+      "what is programming search substring",
+      "do robots search substring ig",
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "d'",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788696112.0314054,
+    "last_practiced": 1788696112.0314054,
+    "contexts": [
+      "what is programming search substring",
+      "do cars search substring ig",
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "edd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696137.959292,
+    "last_practiced": 1788696137.959292,
+    "contexts": [
+      "computers search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "science",
+    "encounter_count": 5,
+    "mastery": 1.0,
+    "first_seen": 1788696138.7340095,
+    "last_practiced": 1788696138.7340095,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ff",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696143.1739013,
+    "last_practiced": 1788696143.1739013,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696177.563582,
+    "last_practiced": 1788696177.563582,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ebad",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696208.5700922,
+    "last_practiced": 1788696208.5700922,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cfbc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696208.5700922,
+    "last_practiced": 1788696208.5700922,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "c'",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696208.5700922,
+    "last_practiced": 1788696208.5700922,
+    "contexts": [
+      "what is science search substring",
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "def",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696239.5531943,
+    "last_practiced": 1788696239.5531943,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bd'",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696239.5531943,
+    "last_practiced": 1788696239.5531943,
+    "contexts": [
+      "what is science search substring",
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ba",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696270.4562354,
+    "last_practiced": 1788696270.4562354,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "da",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696270.4562354,
+    "last_practiced": 1788696270.4562354,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dff",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696274.405641,
+    "last_practiced": 1788696274.405641,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "de",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696282.0570204,
+    "last_practiced": 1788696282.0570204,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bff",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696282.0570204,
+    "last_practiced": 1788696282.0570204,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696295.9038851,
+    "last_practiced": 1788696295.9038851,
+    "contexts": [
+      "do phones search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bac",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696302.4802856,
+    "last_practiced": 1788696302.4802856,
+    "contexts": [
+      "what is internet search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "acbe",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696302.96239,
+    "last_practiced": 1788696302.96239,
+    "contexts": [
+      "what is internet search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fca",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696312.111699,
+    "last_practiced": 1788696312.111699,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bf",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696312.111699,
+    "last_practiced": 1788696312.111699,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "f'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696312.111699,
+    "last_practiced": 1788696312.111699,
+    "contexts": [
+      "what is science search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ebbbd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696330.903195,
+    "last_practiced": 1788696330.903195,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696330.903195,
+    "last_practiced": 1788696330.903195,
+    "contexts": [
+      "what is programming search substring"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fc",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788696330.903195,
+    "last_practiced": 1788696330.903195,
+    "contexts": [
+      "what is programming search substring",
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fdb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696337.930005,
+    "last_practiced": 1788696337.930005,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fdf",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696337.930005,
+    "last_practiced": 1788696337.930005,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696337.930005,
+    "last_practiced": 1788696337.930005,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fee'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696364.5323906,
+    "last_practiced": 1788696364.5323906,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "abafc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696393.3197587,
+    "last_practiced": 1788696393.3197587,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "afa",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788696395.5012853,
+    "last_practiced": 1788696395.5012853,
+    "contexts": [
+      "what is programming search substring"
     ],
     "sources": [
       "web_search"

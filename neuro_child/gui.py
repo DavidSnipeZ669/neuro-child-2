@@ -371,6 +371,16 @@ class Brain:
         self._first_launch_trained = False
         self._try_first_launch_train()
 
+    def _reply_quality_ok(self, text: str) -> bool:
+        t = text.strip().lower()
+        if not t:
+            return False
+        if "nova:" in t or t.count("nova") > 2:
+            return False
+        if len(t) > 180:
+            return False
+        return True
+
     def _try_first_launch_train(self) -> None:
         if self._first_launch_trained:
             return
@@ -614,7 +624,9 @@ class Brain:
             reply = ""
             if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)() and getattr(self.smollm, "_training_steps", 0) > 0:
                 try:
-                    reply = self.smollm.respond(user_text, screen_text)
+                    reply = self.smollm.respond(user_text, screen_text) or ""
+                    if not self._reply_quality_ok(reply):
+                        reply = ""
                 except Exception:
                     reply = ""
             if not reply and hasattr(self, "llm_brain"):
