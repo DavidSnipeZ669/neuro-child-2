@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "topic": "media_local_file_1788669295",
+      "content": "Learned 4955 words from local_file: neuro_child/memory/english_corpus.txt",
+      "category": "experience",
+      "importance": 0.5,
+      "tags": [
+        "local",
+        "memory",
+        "corpus",
+        "neuro",
+        "file",
+        "child",
+        "english",
+        "words",
+        "learned"
+      ],
+      "source": "user",
+      "timestamp": 1788669295.5092962,
+      "access_count": 0,
+      "last_access": 1788669295.5092962
+    }
+  ],
+  "meta": {
+    "total_nodes": 1,
+    "categories": {},
+    "last_saved": 1788669295.5092962
+  }
+}

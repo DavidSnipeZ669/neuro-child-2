@@ -68,7 +68,7 @@ class MediaLearningEngine:
         return result
 
     def learn_from_file(self, file_path: str) -> MediaLearningResult:
-        """Learn from local video/audio file."""
+        """Learn from local file: text, audio, or video."""
         result = MediaLearningResult(source_type="local_file", source=file_path)
         start = time.time()
         try:
@@ -77,12 +77,31 @@ class MediaLearningEngine:
                 result.error = "file not found"
                 return result
 
-            # Try to extract audio and transcribe
+            # Text files: learn directly
+            text_exts = [".txt", ".md", ".py", ".json", ".csv", ".log", ".yaml", ".yml", ".toml", ".xml", ".html", ".js", ".ts", ".java", ".c", ".cpp", ".h"]
+            if path.suffix.lower() in text_exts or path.stat().st_size < 1024 * 1024:
+                try:
+                    text = path.read_text(encoding="utf-8", errors="ignore")
+                    if text.strip():
+                        result.transcript = text[:2000]
+                        words = self.language.encounter_text(text, source="file")
+                        result.words_learned = words
+                        result.success = bool(words)
+                        result.duration = time.time() - start
+                        self._recent.append(result)
+                        if len(self._recent) > self._max_recent:
+                            self._recent = self._recent[-self._max_recent:]
+                        self._store(result)
+                        return result
+                except Exception:
+                    pass
+
+            # Audio files
             if path.suffix.lower() in [".mp3", ".wav", ".ogg", ".m4a", ".flac"]:
                 result.transcript = self._transcribe_audio_file(path)
                 result.success = bool(result.transcript)
+            # Video files
             elif path.suffix.lower() in [".mp4", ".avi", ".mkv", ".mov", ".webm"]:
-                # Extract audio from video
                 result.transcript = self._transcribe_video_file(path)
                 result.success = bool(result.transcript)
 
