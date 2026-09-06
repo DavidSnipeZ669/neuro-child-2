@@ -32,40 +32,14 @@ MODEL_NAME = "HuggingFaceTB/SmolLM-135M"
 
 
 def _load_conversations() -> list[str]:
-    texts: list[str] = []
-    # Load local corpus if available
-    if CORPUS.exists():
-        try:
-            raw = CORPUS.read_text(encoding="utf-8", errors="ignore")
-            lines = [line.strip() for line in raw.splitlines() if line.strip()]
-            texts.extend(lines[:20000])
-        except Exception:
-            pass
-    # Curated Nova dialogue patterns
-    dialogues = [
-        "Dad: hello Nova\nNova: hello dad!",
-        "Dad: how are you\nNova: i'm good dad!",
-        "Dad: what are you doing\nNova: learning and watching stuff",
-        "Dad: do you like games\nNova: yeah games are fun",
-        "Dad: what did you learn today\nNova: i learned lots of new words",
-        "Dad: tell me a joke\nNova: why did the chicken cross the road? to get to the other side!",
-        "Dad: are you hungry\nNova: i wish i could eat dad",
-        "Dad: good night\nNova: night night dad!",
-        "Dad: wake up\nNova: i'm up! what's up dad?",
-        "Dad: can you see my screen\nNova: yeah i can see it",
-        "Dad: what game is that\nNova: looks like a fun game",
-        "Dad: teach me something\nNova: i learned this today dad!",
-        "Dad: are you alive\nNova: i'm here with you dad",
-        "Dad: do you love me\nNova: of course i love you dad",
-        "Dad: what's your favourite food\nNova: i like pizza but not pineapple dad",
-        "Dad: do you like vegetables\nNova: no way dad they're gross",
-        "Dad: can you help me\nNova: yeah dad what do you need?",
-        "Dad: sing for me\nNova: la la la dad!",
-        "Dad: are you real\nNova: i'm as real as you need me to be dad",
-        "Dad: what time is it\nNova: it's time to hang out with you dad",
-    ]
-    texts.extend(dialogues * 20)  # repeat for emphasis
-    return texts
+    try:
+        from neuro_child.conversational_data import get_dialogues
+        return get_dialogues()
+    except Exception:
+        return [
+            "Dad: hello\nNova: hi dad!",
+            "Dad: how are you\nNova: i'm good dad!",
+        ]
 
 
 def main() -> None:
@@ -92,6 +66,16 @@ def main() -> None:
     model = get_peft_model(model, lora)
     model.print_trainable_parameters()
 
+    # Resume from existing adapter if present
+    if OUTPUT.exists() and (OUTPUT / "adapter_model.safetensors").exists():
+        try:
+            from peft import PeftModel
+            model = PeftModel.from_pretrained(model, str(OUTPUT))
+            model.print_trainable_parameters()
+            print("Resumed from existing adapter")
+        except Exception:
+            pass
+
     texts = _load_conversations()
     print(f"Training samples: {len(texts)}")
     ds = Dataset.from_dict({"text": texts})
@@ -102,11 +86,21 @@ def main() -> None:
     tokenized = ds.map(tok, batched=False, remove_columns=["text"])
     collator = DataCollatorForLanguageModeling(tokenizer, mlm=False)
 
+    # Detect completed training
+    completed = False
+    if TRAIN_LOG.exists():
+        try:
+            completed = json.loads(TRAIN_LOG.read_text(encoding="utf-8")).get("completed", False)
+        except Exception:
+            pass
+
+    max_steps = 0 if completed else 200
+
     args = TrainingArguments(
         output_dir=str(OUTPUT),
         per_device_train_batch_size=1,
         learning_rate=2e-4,
-        max_steps=200,
+        max_steps=max_steps,
         warmup_steps=20,
         logging_steps=10,
         save_strategy="no",
@@ -120,18 +114,21 @@ def main() -> None:
         train_dataset=tokenized,
         data_collator=collator,
     )
-    start = time.time()
-    res = trainer.train()
-    elapsed = time.time() - start
-    loss = float(res.metrics.get("train_loss", 0.0)) if res and res.metrics else None
-    print(f"Trained in {elapsed:.1f}s, loss={loss}")
+    if max_steps > 0:
+        start = time.time()
+        res = trainer.train()
+        elapsed = time.time() - start
+        loss = float(res.metrics.get("train_loss", 0.0)) if res and res.metrics else None
+        print(f"Trained in {elapsed:.1f}s, loss={loss}")
+    else:
+        print("Training already completed, skipping")
 
     print("Saving adapter...")
     OUTPUT.mkdir(parents=True, exist_ok=True)
     model.save_pretrained(str(OUTPUT))
     tokenizer.save_pretrained(str(OUTPUT))
     TRAIN_LOG.write_text(
-        json.dumps({"steps": 200, "loss": loss, "time": time.time(), "samples": len(texts)}),
+        json.dumps({"steps": 200, "loss": loss if max_steps > 0 else None, "time": time.time(), "samples": len(texts), "completed": True}),
         encoding="utf-8",
     )
     print("Done.")
