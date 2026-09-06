@@ -63,25 +63,33 @@ class SmolLMBrain:
 
     def _load(self) -> None:
         if not HAS_TRANSFORMERS:
+            self._load_error = "transformers not installed"
             return
         try:
             self.tokenizer = AutoTokenizer.from_pretrained(self.config.model_name)
             if self.tokenizer.pad_token is None:
                 self.tokenizer.pad_token = self.tokenizer.eos_token
 
-            quant_config = BitsAndBytesConfig(
-                load_in_4bit=self.config.load_in_4bit,
-                bnb_4bit_compute_dtype=torch.float16,
-                bnb_4bit_use_double_quant=True,
-                bnb_4bit_quant_type="nf4",
-            )
-
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.config.model_name,
-                quantization_config=quant_config,
-                device_map="auto",
-                torch_dtype=torch.float16,
-            )
+            use_4bit = self.config.load_in_4bit and (torch.cuda.is_available() or getattr(torch.backends, "mps", None) and torch.backends.mps.is_available())
+            if use_4bit:
+                quant_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_compute_dtype=torch.float16,
+                    bnb_4bit_use_double_quant=True,
+                    bnb_4bit_quant_type="nf4",
+                )
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    self.config.model_name,
+                    quantization_config=quant_config,
+                    device_map="auto",
+                    torch_dtype=torch.float16,
+                )
+            else:
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    self.config.model_name,
+                    device_map="cpu",
+                    torch_dtype=torch.float32,
+                )
 
             lora_config = LoraConfig(
                 r=self.config.lora_r,
@@ -92,10 +100,12 @@ class SmolLMBrain:
             )
             self.peft_model = get_peft_model(self.model, lora_config)
             self.peft_model.eval()
-        except Exception:
+            self._load_error = None
+        except Exception as e:
             self.model = None
             self.tokenizer = None
             self.peft_model = None
+            self._load_error = repr(e)
 
     def is_available(self) -> bool:
         return self.peft_model is not None and self.tokenizer is not None
@@ -104,15 +114,20 @@ class SmolLMBrain:
         if not self.is_available():
             return ""
         try:
-            inputs = self.tokenizer(prompt, return_tensors="pt").to(self.peft_model.device)
+            inputs = self.tokenizer(prompt, return_tensors="pt")
+            device = next(self.peft_model.parameters()).device
+            inputs = {k: v.to(device) for k, v in inputs.items()}
+            gen_kwargs = dict(
+                max_new_tokens=max_new_tokens,
+                pad_token_id=self.tokenizer.eos_token_id,
+                do_sample=True,
+            )
+            if device.type != "cpu":
+                gen_kwargs.update(dict(temperature=temperature, top_k=top_k))
+            else:
+                gen_kwargs.update(dict(temperature=min(float(temperature), 0.8), top_k=min(int(top_k), 10)))
             with torch.no_grad():
-                out = self.peft_model.generate(
-                    **inputs,
-                    max_new_tokens=max_new_tokens,
-                    temperature=temperature,
-                    top_k=top_k,
-                    pad_token_id=self.tokenizer.eos_token_id,
-                )
+                out = self.peft_model.generate(**inputs, **gen_kwargs)
             result = self.tokenizer.decode(out[0], skip_special_tokens=True)
             return result[len(prompt):].strip()
         except Exception:
@@ -192,6 +207,7 @@ class SmolLMBrain:
             "training_steps": self._training_steps,
             "recent_loss": self._recent_loss,
             "model": self.config.model_name,
+            "load_error": getattr(self, "_load_error", None),
         }
 
 

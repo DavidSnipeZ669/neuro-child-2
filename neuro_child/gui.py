@@ -321,6 +321,8 @@ from neuro_child.llm_brain import DualLLMBrain
 from neuro_child.language_center import LanguageCenter
 from neuro_child.knowledge_llm import NovaKnowledgeLLM
 from neuro_child.world_tools import FileTools, BrowserTools, WindowTools
+from neuro_child.game_learning import GameLearningEngine, GameSession
+from neuro_child.media_learning import MediaLearningEngine, MediaLearningResult
 from neuro_child.smollm_brain import SmolLMBrain, SmolLMConfig
 
 
