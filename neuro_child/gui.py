@@ -179,7 +179,7 @@ class Eyes:
         if mss is not None:
             try:
                 import pyautogui
-                # Get focused window title for context
+                # Capture focused window title for context
                 try:
                     import subprocess
                     ps = "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.ActiveForm]::ActiveForm?.Text ?? ''"
