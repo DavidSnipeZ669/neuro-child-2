@@ -110,6 +110,7 @@ class AutonomousLearner:
                     self._last_screen_learn_ts = now
                     self._passive_screen_learning()
                 # Process learning queue
+                self._ensure_work()
                 self._process_queue()
                 time.sleep(2)
             except Exception:
@@ -261,9 +262,18 @@ class AutonomousLearner:
                 task.completed_at = time.time()
                 task.result = f"learned {len(words)} words"
                 self._log_autonomy(f"queue:{task.topic}:{len(words)}")
+            else:
+                task.status = "failed"
+                task.result = "no content fetched"
         except Exception:
             task.status = "failed"
         self._save_queue()
+
+    def _ensure_work(self) -> None:
+        pending = [t for t in self._queue if t.status == "pending"]
+        if len(pending) < 3:
+            for topic in self._get_curious_topics()[:6]:
+                self.add_learning_task(topic, priority=0.2 + random.random() * 0.3)
 
     def _log_autonomy(self, event: str) -> None:
         try:
