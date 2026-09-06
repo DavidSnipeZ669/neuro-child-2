@@ -579,9 +579,9 @@ class Brain:
         if getattr(self, "baby_mode", False):
             # Learn from every word dad says
             self.language.encounter_text(user_text, source="dad")
-            # Try SmolLM first if available
+            # Prefer a usable reply path; use SmolLM only when trained enough
             reply = ""
-            if hasattr(self, "smollm") and self.smollm.is_available():
+            if hasattr(self, "smollm") and getattr(self.smollm, "is_available", lambda: False)() and getattr(self.smollm, "_training_steps", 0) > 0:
                 try:
                     reply = self.smollm.respond(user_text, screen_text)
                 except Exception:
