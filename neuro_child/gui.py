@@ -175,15 +175,29 @@ class Eyes:
     def observe(self) -> Dict[str, Any]:
         text_parts: List[str] = []
         screenshot_path = None
+        window_title = ""
         if mss is not None:
             try:
+                import pyautogui
+                # Get focused window title for context
+                try:
+                    import subprocess
+                    ps = "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.ActiveForm]::ActiveForm?.Text ?? ''"
+                    result = subprocess.run(["powershell", "-Command", ps], capture_output=True, text=True)
+                    window_title = result.stdout.strip()
+                except Exception:
+                    pass
+                
                 with mss.mss() as s:
-                    mon = s.monitors[0]
+                    # Capture primary monitor or focused window
+                    mon = s.monitors[0]  # Primary monitor
                     shot = s.grab(mon)
                     img = Image.frombytes("RGB", shot.size, shot.rgb)
                     screenshot_path = str(MEMORY_DIR / "last_screen.png")
                     img.save(screenshot_path)
                     text_parts.append(f"screenshot saved: {screenshot_path}")
+                    if window_title:
+                        text_parts.append(f"window: {window_title}")
             except Exception as e:
                 text_parts.append(f"screen capture error: {e}")
         if pyautogui is not None:
@@ -195,7 +209,8 @@ class Eyes:
         text = "\n".join(text_parts) if text_parts else "no perception data"
         self.last_text = text
         self.last_screenshot = screenshot_path
-        return {"text": text, "screenshot": screenshot_path}
+        self.last_window = window_title
+        return {"text": text, "screenshot": screenshot_path, "window": window_title}
 
 
 class Hands:
@@ -305,6 +320,8 @@ from neuro_child.system_integration import SystemIntegration
 from neuro_child.llm_brain import DualLLMBrain
 from neuro_child.language_center import LanguageCenter
 from neuro_child.knowledge_llm import NovaKnowledgeLLM
+from neuro_child.world_tools import FileTools, BrowserTools, WindowTools
+from neuro_child.smollm_brain import SmolLMBrain, SmolLMConfig
 
 
 class Brain:
@@ -338,6 +355,12 @@ class Brain:
         self.baby_mode = True
         self.llm_brain = DualLLMBrain()
         self.knowledge = NovaKnowledgeLLM()
+        self.smollm = SmolLMBrain()
+        self.files = FileTools()
+        self.browser = BrowserTools(local=True)
+        self.windows = WindowTools()
+        self.game_learning = GameLearningEngine(self.knowledge, self.language)
+        self.media_learning = MediaLearningEngine(self.knowledge, self.language)
         self.evolution_engine = EvolutionEngine(self.language, self.memory, self.baby_reply)
         self.system_integration = SystemIntegration()
 
@@ -422,6 +445,78 @@ class Brain:
     def _current_topic(self) -> str:
         return self.topic_stack[-1] if self.topic_stack else ""
 
+    def _handle_tool_command(self, user_text: str, screen_text: str) -> Optional[str]:
+        """Handle tool commands: links, files, browser, games, media."""
+        lower = user_text.lower().strip()
+        try:
+            # YouTube/media links
+            if any(x in lower for x in ["youtube.com", "youtu.be", "watch this", "learn from this", "analyze this video"]):
+                import re
+                urls = re.findall(r'(https?://(?:www\.)?youtube\.com/watch\?v=[\w-]+|https?://youtu\.be/[\w-]+)', user_text)
+                if urls:
+                    url = urls[0]
+                    result = self.media_learning.learn_from_youtube(url)
+                    if result.success:
+                        return f"Learned from video: {len(result.words_learned)} words, topics: {', '.join(result.topics[:3])}"
+                    return f"Tried to learn from video, got: {result.error or 'no transcript available'}"
+                return "Send a YouTube link and I'll learn from it!"
+
+            # Local file learning
+            if "learn from file" in lower or "analyze file" in lower:
+                import re
+                paths = re.findall(r'[A-Za-z]:\\(?:[^\\/:*?"<>|\r\n]+\\)*[^\\/:*?"<>|\r\n]+', user_text)
+                if not paths:
+                    paths = re.findall(r'(?:^|\s)(C:\\.+?)(?:\s|$)', user_text)
+                if paths:
+                    result = self.media_learning.learn_from_file(paths[0])
+                    if result.success:
+                        return f"Learned from file: {len(result.words_learned)} words"
+                    return f"File error: {result.error}"
+                return "Give me a file path like C:\\Users\\david\\video.mp4 and I'll learn from it"
+
+            # Browser search
+            if any(x in lower for x in ["search for", "google", "look up", "find info about"]):
+                query = lower.replace("search for", "").replace("google", "").replace("look up", "").replace("find info about", "").strip()
+                if query:
+                    text = self.browser.search(query)
+                    if text:
+                        words = self.language.encounter_text(text, source="web_search")
+                        self.knowledge.learn(query, text[:500], category="fact", importance=0.6)
+                        return f"Search result: {', '.join(words[:8])}"
+                    return "Search failed"
+                return "What do you want me to search for?"
+
+            # Focus window
+            if "focus" in lower and "game" in lower:
+                parts = lower.split("focus")[1].strip().replace("game", "").strip()
+                if parts:
+                    return self.windows.focus(parts)
+                return "What game should I focus?"
+
+            # Screen analysis
+            if "what's on screen" in lower or "analyze screen" in lower:
+                obs = self.eyes.observe()
+                text = obs.get("text", "") or ""
+                window = obs.get("window", "")
+                result = self.media_learning.learn_from_screen(text, window)
+                if result:
+                    return f"Screen: {', '.join(result.words_learned[:5])}"
+                return "Nothing learnable on screen right now"
+
+            # System audio
+            if "listen to audio" in lower or "what's playing" in lower:
+                if hasattr(self, 'audio_capture'):
+                    chunk = self.audio_capture.get_chunk(timeout=0.5)
+                    if chunk:
+                        result = self.media_learning.learn_from_system_audio(str(chunk.data))
+                        if result:
+                            return f"Heard: {', '.join(result.words_learned[:5])}"
+                return "No audio captured"
+
+        except Exception as e:
+            return f"Tool error: {e}"
+        return None
+
     def _detect_topic(self, text: str) -> str:
         lower = text.lower()
         if any(x in lower for x in ["food", "pizza", "eat", "hungry", "dinner", "lunch", "restaurant"]):
@@ -464,6 +559,11 @@ class Brain:
         except Exception:
             pass
 
+        # Tool commands first (youtube, files, browser, games, media)
+        tool_reply = self._handle_tool_command(user_text, screen_text)
+        if tool_reply:
+            return tool_reply
+
         # Reflex / action layer first
         action_reply = self.reflexes.maybe_handle(user_text, screen_text)
         if action_reply is not None:
@@ -477,9 +577,14 @@ class Brain:
         if getattr(self, "baby_mode", False):
             # Learn from every word dad says
             self.language.encounter_text(user_text, source="dad")
-            # Try LLM reply first if available
+            # Try SmolLM first if available
             reply = ""
-            if hasattr(self, "llm_brain"):
+            if hasattr(self, "smollm") and self.smollm.is_available():
+                try:
+                    reply = self.smollm.respond(user_text, screen_text)
+                except Exception:
+                    reply = ""
+            if not reply and hasattr(self, "llm_brain"):
                 try:
                     reply = self.llm_brain.respond(user_text, screen_text)
                 except Exception:

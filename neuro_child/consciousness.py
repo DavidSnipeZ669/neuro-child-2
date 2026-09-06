@@ -198,6 +198,25 @@ class WillEngine:
         self.self_model = self_model
         self.desires = desire_system
         self.history: List[Dict[str, str]] = []
+        self.success_counts: Dict[str, int] = {}
+        self.failure_counts: Dict[str, int] = {}
+
+    def record_outcome(self, goal_text: str, success: bool) -> None:
+        key = (goal_text or "").strip().lower()
+        if not key:
+            return
+        if success:
+            self.success_counts[key] = self.success_counts.get(key, 0) + 1
+        else:
+            self.failure_counts[key] = self.failure_counts.get(key, 0) + 1
+
+    def _bias(self, text: str) -> float:
+        key = text.strip().lower()
+        success = self.success_counts.get(key, 0)
+        failure = self.failure_counts.get(key, 0)
+        if success + failure == 0:
+            return 1.0
+        return max(0.2, (success + 1) / (success + failure + 2))
 
     def generate_goal(self, screen_summary: str = "", user_mood: str = "") -> Optional[Dict[str, Any]]:
         strongest = self.desires.strongest(3)
@@ -256,7 +275,20 @@ class WillEngine:
         if not choices:
             return None
 
-        choice = random.choice(choices)
+        # Weight by past success/failure
+        weights = [self._bias(c["text"]) for c in choices]
+        total = sum(weights)
+        if total <= 0:
+            choice = random.choice(choices)
+        else:
+            pick = random.uniform(0, total)
+            upto = 0.0
+            choice = choices[-1]
+            for c, w in zip(choices, weights):
+                upto += w
+                if pick <= upto:
+                    choice = c
+                    break
         goal: Dict[str, Any] = {
             "drive": drive_names[0],
             "text": choice["text"],

@@ -34,6 +34,10 @@ from .llm_brain import DualLLMBrain
 
 from .language_center import LanguageCenter
 from .knowledge_llm import NovaKnowledgeLLM, MemoryNode
+from .smollm_brain import SmolLMBrain, SmolLMConfig
+from .world_tools import FileTools, BrowserTools, WindowTools
+from .game_learning import GameLearningEngine, GameSession
+from .media_learning import MediaLearningEngine, MediaLearningResult
 
 __all__ = [
     "Brain",
@@ -68,4 +72,13 @@ __all__ = [
     "LanguageCenter",
     "NovaKnowledgeLLM",
     "MemoryNode",
+    "SmolLMBrain",
+    "SmolLMConfig",
+    "FileTools",
+    "BrowserTools",
+    "WindowTools",
+    "GameLearningEngine",
+    "GameSession",
+    "MediaLearningEngine",
+    "MediaLearningResult",
 ]

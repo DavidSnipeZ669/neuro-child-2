@@ -117,15 +117,19 @@ class AutonomousLearner:
     def _autonomous_search_learning(self) -> None:
         """
         Search Google/web for topics Nova is curious about.
+        Uses headless browser with dad's cookies/cache by default.
         """
         try:
             topics = self._get_curious_topics()
             if not topics:
                 return
             topic = random.choice(topics)
-            query = urllib.parse.quote_plus(topic)
-            url = f"https://duckduckgo.com/html/?q={query}"
-            text = self._fetch_url_text(url)
+            try:
+                from neuro_child.world_tools import BrowserTools
+                browser = BrowserTools(local=True)
+                text = browser.search(topic)
+            except Exception:
+                text = ""
             if text:
                 words_learned = self.vocab.encounter_text(text, source="web_search")
                 if words_learned:
