@@ -849,19 +849,19 @@
     "topic": "how computers work",
     "source": "autonomous",
     "priority": 0.29276200776115646,
-    "status": "pending",
+    "status": "failed",
     "created_at": 1788699011.9757628,
     "completed_at": null,
-    "result": null
+    "result": "no content fetched"
   },
   {
     "topic": "what is artificial intelligence",
     "source": "autonomous",
     "priority": 0.26867065019276276,
-    "status": "pending",
+    "status": "failed",
     "created_at": 1788699012.0365763,
     "completed_at": null,
-    "result": null
+    "result": "no content fetched"
   },
   {
     "topic": "how games are made",
@@ -876,10 +876,10 @@
     "topic": "what is the internet",
     "source": "autonomous",
     "priority": 0.2908097585878481,
-    "status": "pending",
+    "status": "failed",
     "created_at": 1788699012.1754875,
     "completed_at": null,
-    "result": null
+    "result": "no content fetched"
   },
   {
     "topic": "how do screens work",

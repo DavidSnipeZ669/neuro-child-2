@@ -832,11 +832,11 @@
     "expires": null
   },
   {
-    "id": "2026-09-06T12:50:13.593898Z",
-    "kind": "fact",
-    "text": "dad likes cats",
-    "importance": 0.9,
-    "created": "2026-09-06T12:50:13.593898Z",
+    "id": "2026-09-06T12:50:37.228074Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': caf'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:50:37.228074Z",
     "expires": null
   }
 ]
