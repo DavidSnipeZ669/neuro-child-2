@@ -98,8 +98,18 @@ class SmolLMBrain:
                 task_type=TaskType.CAUSAL_LM,
                 target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
             )
-            self.peft_model = get_peft_model(self.model, lora_config)
+            if self.config.adapter_path.exists():
+                self.peft_model = PeftModel.from_pretrained(self.model, str(self.config.adapter_path))
+            else:
+                self.peft_model = get_peft_model(self.model, lora_config)
             self.peft_model.eval()
+            try:
+                if TRAIN_LOG.exists():
+                    data = json.loads(TRAIN_LOG.read_text(encoding="utf-8"))
+                    self._training_steps = int(data.get("steps", 0))
+                    self._recent_loss = data.get("loss")
+            except Exception:
+                pass
             self._load_error = None
         except Exception as e:
             self.model = None
