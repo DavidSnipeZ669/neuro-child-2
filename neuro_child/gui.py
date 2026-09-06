@@ -877,8 +877,9 @@ class ChildGUI:
         self.screen_analyzer = ScreenContentAnalyzer()
         self._last_youtube_video_id: Optional[str] = None
         self._env_learning_enabled = True
-        self.autonomous_learner = AutonomousLearner(self.brain.language, self.brain.memory)
-        self.autonomous_learner.start()
+        self.autonomous_learner = self.brain.autonomous_learner
+        if not getattr(self.autonomous_learner, "_running", False):
+            self.autonomous_learner.start()
         self.evolution_engine = EvolutionEngine(self.brain.language, self.brain.memory, self.brain.baby_reply)
         self.evolution_engine.start()
         self.system_integration = SystemIntegration()
