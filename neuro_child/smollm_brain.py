@@ -62,6 +62,8 @@ class SmolLMBrain:
         self._load_error: Optional[str] = "not loaded yet"
         self._loading = False
         self._loaded_event = threading.Event()
+        self._last_train_time: float = 0.0
+        self._train_cooldown: float = 15 * 60  # 15 minutes between background trainings
 
     def start_background_load(self) -> None:
         if self._loading or self.is_available():
@@ -119,7 +121,12 @@ class SmolLMBrain:
                 target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
             )
             if self.config.adapter_path.exists():
-                self.peft_model = PeftModel.from_pretrained(self.model, str(self.config.adapter_path))
+                try:
+                    self.peft_model = PeftModel.from_pretrained(
+                        self.model, str(self.config.adapter_path), is_trainable=False
+                    )
+                except Exception:
+                    self.peft_model = get_peft_model(self.model, lora_config)
             else:
                 self.peft_model = get_peft_model(self.model, lora_config)
             self.peft_model.eval()
@@ -168,6 +175,9 @@ class SmolLMBrain:
             return None
         text = text.strip()
         if len(text) < 5:
+            return None
+        now = time.time()
+        if now - getattr(self, "_last_train_time", 0.0) < getattr(self, "_train_cooldown", 15 * 60):
             return None
         with self._lock:
             if self._training:
@@ -229,7 +239,9 @@ class SmolLMBrain:
         reply = self.generate(prompt, max_new_tokens=80, temperature=0.75, top_k=20)
         if not reply:
             return ""
-        return reply.split("\n")[0].strip()
+        reply = reply.split("\n")[0].strip()
+        reply = reply.replace("Dad:", "").replace("Nova:", "").strip()
+        return reply[:180]
 
     def get_stats(self) -> Dict[str, Any]:
         return {

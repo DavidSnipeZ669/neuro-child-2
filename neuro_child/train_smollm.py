@@ -30,6 +30,9 @@ OUTPUT = MEMORY / "smollm_adapter"
 TRAIN_LOG = MEMORY / "smollm_train.log"
 MODEL_NAME = "HuggingFaceTB/SmolLM-135M"
 
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 
 def _load_conversations() -> list[str]:
     try:
@@ -70,11 +73,16 @@ def main() -> None:
     if OUTPUT.exists() and (OUTPUT / "adapter_model.safetensors").exists():
         try:
             from peft import PeftModel
-            model = PeftModel.from_pretrained(model, str(OUTPUT))
+            model = PeftModel.from_pretrained(model, str(OUTPUT), is_trainable=True)
             model.print_trainable_parameters()
             print("Resumed from existing adapter")
         except Exception:
             pass
+
+    model.train()
+    for p in model.parameters():
+        if p.requires_grad:
+            p.requires_grad_(True)
 
     texts = _load_conversations()
     print(f"Training samples: {len(texts)}")

@@ -932,7 +932,7 @@ class ChildGUI:
         self.name = self.personality.name
         self._listening = False
         self._voice_enabled = True
-        self._screen_update_interval = 0.8
+        self._screen_update_interval = 2.0
         self._last_screen_update = 0.0
         self._autonomous_interval = 6000  # ms
         self._last_autonomous_action: Dict[str, Any] = {}
@@ -1008,7 +1008,9 @@ class ChildGUI:
             self.drive_labels[drive] = lbl
 
         ttk.Label(left, text="💬 Chat:", font=("Segoe UI", 9, "bold")).pack(anchor="w")
-        self.chat = scrolledtext.ScrolledText(left, state="disabled", wrap="word", height=14, font=("Segoe UI", 10))
+        self.chat = scrolledtext.ScrolledText(left, state="normal", wrap="word", height=14, font=("Segoe UI", 10))
+        self.chat.bind("<Key>", lambda e: "break")
+        self.chat.configure(state="disabled")
         self.chat.pack(fill="both", expand=True, pady=4)
 
         row = ttk.Frame(left)
@@ -1210,7 +1212,7 @@ class ChildGUI:
                 path = obs.get("screenshot")
                 if path and Path(path).exists():
                     img = Image.open(path)
-                    img.thumbnail((640, 360))
+                    img.thumbnail((480, 270))
                     tkimg = ImageTk.PhotoImage(img)
                     self.screen_label.configure(image=tkimg)
                     self.screen_label.image = tkimg
