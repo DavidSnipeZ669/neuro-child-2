@@ -1449,10 +1449,21 @@ class ChildGUI:
         r = sr.Recognizer()
         try:
             with sr.Microphone() as source:
+                r.adjust_for_ambient_noise(source, duration=0.4)
                 audio = r.listen(source, timeout=8, phrase_time_limit=12)
-            text = r.recognize_google(audio)
-            self.root.after(0, lambda: self.input_var.set(text))
-            self.root.after(0, self.send)
+            text = None
+            try:
+                text = r.recognize_google(audio)
+            except Exception:
+                try:
+                    text = r.recognize_sphinx(audio)
+                except Exception:
+                    text = None
+            if text:
+                self.root.after(0, lambda: self.input_var.set(text))
+                self.root.after(0, self.send)
+            else:
+                self.root.after(0, lambda: self._append_chat("system", "(mic: no speech detected)"))
         except Exception as e:
             self.root.after(0, lambda: self._append_chat("system", f"(mic error: {e})"))
         self._listening = False
