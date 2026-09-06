@@ -838,5 +838,37 @@
     "importance": 0.5,
     "created": "2026-09-06T12:50:37.228074Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T12:53:25.822833Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how games are made': dffc",
+    "importance": 0.5,
+    "created": "2026-09-06T12:53:25.822833Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:54:10.385004Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': fddda, eca",
+    "importance": 0.5,
+    "created": "2026-09-06T12:54:10.385004Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:54:46.769573Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is music': dbcb, dfaa, fac",
+    "importance": 0.5,
+    "created": "2026-09-06T12:54:46.769573Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:55:59.617410Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': eea",
+    "importance": 0.5,
+    "created": "2026-09-06T12:55:59.617410Z",
+    "expires": null
   }
 ]
