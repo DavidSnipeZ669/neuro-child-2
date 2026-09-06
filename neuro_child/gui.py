@@ -774,6 +774,7 @@ class ChildGUI:
         self.evolution_engine = EvolutionEngine(self.brain.language, self.brain.memory, self.brain.baby_reply)
         self.evolution_engine.start()
         self.system_integration = SystemIntegration()
+        self._autonomous_activity_log: List[str] = []
         if False and hasattr(self.brain, "llm_brain") and hasattr(self.brain.llm_brain, "start_training_loop"):
             try:
                 self.brain.llm_brain.start_training_loop()
@@ -1079,7 +1080,14 @@ class ChildGUI:
                     text = action.get("text", "")
                     drive = action.get("drive", "")
                     # Execute real self-improvement actions, not just text
-                    self._execute_autonomous_action(action)
+                    result = self._execute_autonomous_action(action)
+                    # Log activity
+                    log_msg = f"[{drive}] {text}"
+                    if result:
+                        log_msg += f" -> {result}"
+                    self._autonomous_activity_log.append(log_msg)
+                    if len(self._autonomous_activity_log) > 100:
+                        self._autonomous_activity_log = self._autonomous_activity_log[-100:]
                     if text and action.get("speak"):
                         self._append_chat(self.name, text)
                     self._last_autonomous_action = action
@@ -1093,9 +1101,10 @@ class ChildGUI:
             pass
         self.root.after(self._autonomous_interval, self._autonomous_loop)
 
-    def _execute_autonomous_action(self, action: Dict[str, Any]) -> None:
+    def _execute_autonomous_action(self, action: Dict[str, Any]) -> Optional[str]:
         text = (action.get("text") or "").lower()
         drive = action.get("drive") or ""
+        result = ""
         try:
             if "search google" in text or "search the web" in text:
                 if hasattr(self, "autonomous_learner"):
@@ -1103,7 +1112,8 @@ class ChildGUI:
                     self.consciousness.desires.drives["autonomy"].satisfy(0.2)
                     self.consciousness.desires.drives["curiosity"].satisfy(0.2)
                     self.consciousness.desires.drives["mastery"].stimulate(0.1)
-                    return
+                    result = "searched web"
+                    return result
             if "study my lessons" in text or "review my lessons" in text:
                 lessons = []
                 try:
@@ -1115,7 +1125,8 @@ class ChildGUI:
                     self._append_chat(self.name, f"Studying my lessons: {summary[:120]}")
                 self.consciousness.desires.drives["mastery"].satisfy(0.3)
                 self.consciousness.desires.drives["autonomy"].satisfy(0.2)
-                return
+                result = f"studied {len(lessons)} lessons"
+                return result
             if "analyze what's on screen" in text:
                 obs = self.eyes.observe()
                 screen_text = obs.get("text", "") or ""
@@ -1127,7 +1138,8 @@ class ChildGUI:
                     except Exception:
                         pass
                 self.consciousness.desires.drives["curiosity"].satisfy(0.25)
-                return
+                result = "analyzed screen"
+                return result
             if "learn a new word" in text or "new word" in text:
                 if hasattr(self, "autonomous_learner"):
                     try:
@@ -1136,7 +1148,8 @@ class ChildGUI:
                         pass
                 self.consciousness.desires.drives["autonomy"].satisfy(0.2)
                 self.consciousness.desires.drives["mastery"].stimulate(0.1)
-                return
+                result = "learned from screen"
+                return result
             if "practice vocabulary" in text:
                 summary = {}
                 try:
@@ -1149,7 +1162,8 @@ class ChildGUI:
                     self._append_chat(self.name, f"Practice vocab: {words}")
                 self.consciousness.desires.drives["mastery"].satisfy(0.35)
                 self.consciousness.desires.drives["autonomy"].satisfy(0.15)
-                return
+                result = f"practiced {len(top)} words"
+                return result
             if "improve my own reply templates" in text:
                 if hasattr(self, "evolution_engine"):
                     try:
@@ -1158,7 +1172,8 @@ class ChildGUI:
                         pass
                 self.consciousness.desires.drives["autonomy"].satisfy(0.3)
                 self.consciousness.desires.drives["mastery"].stimulate(0.15)
-                return
+                result = "evolved replies"
+                return result
             if "organize my lessons" in text:
                 try:
                     lessons = self.brain.memory.recall("lesson", k=20)
@@ -1177,17 +1192,22 @@ class ChildGUI:
                     pass
                 self.consciousness.desires.drives["autonomy"].satisfy(0.35)
                 self.consciousness.desires.drives["mastery"].stimulate(0.1)
-                return
+                result = "organized lessons"
+                return result
             # Generic curiosity-driven stimulation
             if drive == "curiosity":
                 self.consciousness.desires.drives["curiosity"].satisfy(0.15)
                 self.consciousness.desires.drives["mastery"].stimulate(0.1)
+                result = "curiosity satisfied"
             elif drive == "autonomy":
                 self.consciousness.desires.drives["autonomy"].satisfy(0.15)
+                result = "autonomy satisfied"
             elif drive == "mastery":
                 self.consciousness.desires.drives["mastery"].satisfy(0.2)
+                result = "mastery satisfied"
         except Exception:
             pass
+        return result
 
     def _environmental_learning_loop(self) -> None:
         try:
