@@ -70,15 +70,17 @@
   },
   {
     "text": "oh",
-    "encounter_count": 2,
-    "mastery": 0.7,
+    "encounter_count": 4,
+    "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
     "contexts": [
-      "bootstrap seed"
+      "bootstrap seed",
+      "google search body background color"
     ],
     "sources": [
-      "bootstrap"
+      "bootstrap",
+      "web_search"
     ]
   },
   {
@@ -739,12 +741,13 @@
   },
   {
     "text": "please",
-    "encounter_count": 60,
+    "encounter_count": 61,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
     "contexts": [
-      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+      "duckduckgo duckduckgo unfortunately bots duckduckgo",
+      "google search body background color"
     ],
     "sources": [
       "web_search"
@@ -819,12 +822,13 @@
   },
   {
     "text": "search",
-    "encounter_count": 30,
+    "encounter_count": 31,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
     "contexts": [
-      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+      "duckduckgo duckduckgo unfortunately bots duckduckgo",
+      "google search body background color"
     ],
     "sources": [
       "web_search"
@@ -975,12 +979,13 @@
   },
   {
     "text": "error",
-    "encounter_count": 30,
+    "encounter_count": 31,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
     "contexts": [
-      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+      "duckduckgo duckduckgo unfortunately bots duckduckgo",
+      "google search body background color"
     ],
     "sources": [
       "web_search"
@@ -1014,12 +1019,13 @@
   },
   {
     "text": "here",
-    "encounter_count": 30,
+    "encounter_count": 31,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
     "contexts": [
-      "duckduckgo duckduckgo unfortunately bots duckduckgo"
+      "duckduckgo duckduckgo unfortunately bots duckduckgo",
+      "google search body background color"
     ],
     "sources": [
       "web_search"
@@ -1296,6 +1302,1618 @@
     ],
     "sources": [
       "autonomous"
+    ]
+  },
+  {
+    "text": "google",
+    "encounter_count": 7,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4249008,
+    "last_practiced": 1788669185.4249008,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "body",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4249008,
+    "last_practiced": 1788669185.4249008,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "background",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4249008,
+    "last_practiced": 1788669185.4249008,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "color",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "var",
+    "encounter_count": 7,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "xhugwc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "window",
+    "encounter_count": 4,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cap",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "table",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "div",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "span",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "display",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "none",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "click",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "if",
+    "encounter_count": 63,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "redirected",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "within",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "few",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "seconds",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "function",
+    "encounter_count": 23,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "sctm",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "false",
+    "encounter_count": 9,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "tick",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "load",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "pbsst",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "call",
+    "encounter_count": 5,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "sourcemappingurl",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "data",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "application",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "json",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "charset",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "utf",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "base",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "eyj",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "zxjzaw",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "uijogmywic",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cmnlcyi",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "wyiixswic",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cmnlc",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "nvbnrlbnqiolsiicjdlcjuyw",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "lcyi",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "wyjjbg",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "zdxjlrhluyw",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "py",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dhrvbijdlcjtyxbwaw",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ncyi",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ikfbque",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "qufbqttbqufbo",
+    "encounter_count": 4,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fbque",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fbqueifq",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "else",
+    "encounter_count": 44,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "return",
+    "encounter_count": 12,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "trustedtypes",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "createpolicy",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "break",
+    "encounter_count": 11,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "try",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "createhtml",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "createscript",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "createscripturl",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "catch",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "console",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "message",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "self",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "eval",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "null",
+    "encounter_count": 7,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ks",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "array",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "math",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "random",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "join",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "''",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "copyright",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "llc'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "spdx",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "license",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "identifier",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "apache",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "'var",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ot",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "kw",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "et",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "while",
+    "encounter_count": 4,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "pa",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "in",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "delete",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ka",
+    "encounter_count": 5,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "string",
+    "encounter_count": 4,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "true",
+    "encounter_count": 7,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "concat",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "typeof",
+    "encounter_count": 7,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "length",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "eo",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "item",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "appendchild",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "createtextnode",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "src",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "charcodeat",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "switch",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "hq",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "object",
+    "encounter_count": 4,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "case",
+    "encounter_count": 6,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ys",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "tt",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "nan",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "so",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cv",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "classlist",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bm",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "vd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "contains",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "st",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fv",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "foreach",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "void",
+    "encounter_count": 2,
+    "mastery": 0.9,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "handleevent",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dn",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "lv",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "qw",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "raw",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "freeze",
+    "encounter_count": 3,
+    "mastery": 1.0,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "yv",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "arguments",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "removeeventlistener",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "xs",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788669185.4259017,
+    "last_practiced": 1788669185.4259017,
+    "contexts": [
+      "google search body background color"
+    ],
+    "sources": [
+      "web_search"
     ]
   }
 ]
