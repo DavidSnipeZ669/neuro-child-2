@@ -188,7 +188,7 @@ class Eyes:
                 except Exception:
                     pass
                 
-                with mss.mss() as s:
+                with mss.MSS() as s:
                     # Capture primary monitor or focused window
                     mon = s.monitors[0]  # Primary monitor
                     shot = s.grab(mon)

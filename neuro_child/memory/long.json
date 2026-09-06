@@ -230,5 +230,53 @@
     "importance": 0.9,
     "created": "2026-09-06T11:54:08.608652Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T11:56:13.215776Z",
+    "kind": "fact",
+    "text": "dad likes cats",
+    "importance": 0.9,
+    "created": "2026-09-06T11:56:13.215776Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:58:11.465048Z",
+    "kind": "fact",
+    "text": "dad likes cats",
+    "importance": 0.9,
+    "created": "2026-09-06T11:58:11.465048Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:59:47.979820Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do screens work': screens, ea, dac",
+    "importance": 0.5,
+    "created": "2026-09-06T11:59:47.979820Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:00:19.065275Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is space': aae, ace'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:00:19.065275Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:00:49.083389Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how games are made': ac, fad, e'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:00:49.083389Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:01:21.287996Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': fe, a'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:01:21.287996Z",
+    "expires": null
   }
 ]

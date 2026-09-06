@@ -670,5 +670,53 @@
     "importance": 0.7,
     "created": "2026-09-06T11:54:08.634704Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T11:56:13.232812Z",
+    "kind": "fact",
+    "text": "dad likes pizza",
+    "importance": 0.9,
+    "created": "2026-09-06T11:56:13.232812Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:56:13.235083Z",
+    "kind": "fact",
+    "text": "dad dislikes broccoli",
+    "importance": 0.7,
+    "created": "2026-09-06T11:56:13.235083Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:58:11.478283Z",
+    "kind": "fact",
+    "text": "dad likes pizza",
+    "importance": 0.9,
+    "created": "2026-09-06T11:58:11.478283Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T11:58:11.480796Z",
+    "kind": "fact",
+    "text": "dad dislikes broccoli",
+    "importance": 0.7,
+    "created": "2026-09-06T11:58:11.480796Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:01:09.866702Z",
+    "kind": "fact",
+    "text": "dad likes pizza",
+    "importance": 0.9,
+    "created": "2026-09-06T12:01:09.866702Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:01:09.868701Z",
+    "kind": "fact",
+    "text": "dad dislikes broccoli",
+    "importance": 0.7,
+    "created": "2026-09-06T12:01:09.868701Z",
+    "expires": null
   }
 ]

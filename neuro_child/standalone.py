@@ -167,7 +167,7 @@ class Eyes:
         screenshot_path = None
         if mss is not None:
             try:
-                with mss.mss() as s:
+                with mss.MSS() as s:
                     mon = s.monitors[0]
                     shot = s.grab(mon)
                     img = Image.frombytes("RGB", shot.size, shot.rgb)

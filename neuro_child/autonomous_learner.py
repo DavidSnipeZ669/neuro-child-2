@@ -154,7 +154,7 @@ class AutonomousLearner:
             import mss
             import pyautogui
             from PIL import Image
-            with mss.mss() as s:
+            with mss.MSS() as s:
                 mon = s.monitors[0]
                 shot = s.grab(mon)
                 img = Image.frombytes("RGB", shot.size, shot.rgb)
