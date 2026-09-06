@@ -870,5 +870,61 @@
     "importance": 0.5,
     "created": "2026-09-06T12:55:59.617410Z",
     "expires": null
+  },
+  {
+    "id": "2026-09-06T12:56:36.141406Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'what is artificial intelligence': cef",
+    "importance": 0.5,
+    "created": "2026-09-06T12:56:36.141406Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T12:59:02.568736Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do cars work': ac'",
+    "importance": 0.5,
+    "created": "2026-09-06T12:59:02.568736Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T13:00:23.066939Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do robots work': dcc",
+    "importance": 0.5,
+    "created": "2026-09-06T13:00:23.066939Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T13:01:28.168518Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how games are made': cde",
+    "importance": 0.5,
+    "created": "2026-09-06T13:01:28.168518Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T13:06:36.892294Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how computers work': cc'",
+    "importance": 0.5,
+    "created": "2026-09-06T13:06:36.892294Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T13:07:12.253734Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how do cars work': aca, abd, bae",
+    "importance": 0.5,
+    "created": "2026-09-06T13:07:12.253734Z",
+    "expires": null
+  },
+  {
+    "id": "2026-09-06T13:09:09.427569Z",
+    "kind": "lesson",
+    "text": "Learned from web search 'how games are made': fcfb",
+    "importance": 0.5,
+    "created": "2026-09-06T13:09:09.427569Z",
+    "expires": null
   }
 ]

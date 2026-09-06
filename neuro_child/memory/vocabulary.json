@@ -253,7 +253,7 @@
   },
   {
     "text": "what",
-    "encounter_count": 587,
+    "encounter_count": 598,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -592,7 +592,7 @@
   },
   {
     "text": "home",
-    "encounter_count": 740,
+    "encounter_count": 784,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -666,7 +666,7 @@
   },
   {
     "text": "music",
-    "encounter_count": 48,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788569317.1277153,
     "last_practiced": 1788569317.1277153,
@@ -943,7 +943,7 @@
   },
   {
     "text": "to",
-    "encounter_count": 8756,
+    "encounter_count": 8800,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -988,7 +988,7 @@
   },
   {
     "text": "search",
-    "encounter_count": 536,
+    "encounter_count": 602,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1122,7 +1122,7 @@
   },
   {
     "text": "images",
-    "encounter_count": 229,
+    "encounter_count": 251,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1194,7 +1194,7 @@
   },
   {
     "text": "error",
-    "encounter_count": 1118,
+    "encounter_count": 1272,
     "mastery": 1.0,
     "first_seen": 1788569317.71179,
     "last_practiced": 1788569317.71179,
@@ -1359,7 +1359,7 @@
   },
   {
     "text": "as",
-    "encounter_count": 1491,
+    "encounter_count": 1631,
     "mastery": 1.0,
     "first_seen": 1788569344.6570373,
     "last_practiced": 1788569344.6570373,
@@ -1403,7 +1403,7 @@
   },
   {
     "text": "is",
-    "encounter_count": 483,
+    "encounter_count": 494,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1426,7 +1426,7 @@
   },
   {
     "text": "it",
-    "encounter_count": 4822,
+    "encounter_count": 4894,
     "mastery": 1.0,
     "first_seen": 1788569535.9550002,
     "last_practiced": 1788569535.9550002,
@@ -1623,7 +1623,7 @@
   },
   {
     "text": "body",
-    "encounter_count": 260,
+    "encounter_count": 294,
     "mastery": 1.0,
     "first_seen": 1788669185.4249008,
     "last_practiced": 1788669185.4249008,
@@ -1681,7 +1681,7 @@
   },
   {
     "text": "var",
-    "encounter_count": 1554,
+    "encounter_count": 1782,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1720,7 +1720,7 @@
   },
   {
     "text": "window",
-    "encounter_count": 2130,
+    "encounter_count": 2438,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1847,7 +1847,7 @@
   },
   {
     "text": "if",
-    "encounter_count": 2859,
+    "encounter_count": 3234,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -1933,7 +1933,7 @@
   },
   {
     "text": "function",
-    "encounter_count": 1355,
+    "encounter_count": 1553,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2054,7 +2054,7 @@
   },
   {
     "text": "data",
-    "encounter_count": 680,
+    "encounter_count": 780,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2093,7 +2093,7 @@
   },
   {
     "text": "json",
-    "encounter_count": 594,
+    "encounter_count": 682,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2381,7 +2381,7 @@
   },
   {
     "text": "else",
-    "encounter_count": 383,
+    "encounter_count": 427,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2409,7 +2409,7 @@
   },
   {
     "text": "return",
-    "encounter_count": 1211,
+    "encounter_count": 1387,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2463,7 +2463,7 @@
   },
   {
     "text": "break",
-    "encounter_count": 239,
+    "encounter_count": 267,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2491,7 +2491,7 @@
   },
   {
     "text": "try",
-    "encounter_count": 572,
+    "encounter_count": 638,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2558,7 +2558,7 @@
   },
   {
     "text": "catch",
-    "encounter_count": 540,
+    "encounter_count": 606,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2599,7 +2599,7 @@
   },
   {
     "text": "message",
-    "encounter_count": 601,
+    "encounter_count": 689,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2627,7 +2627,7 @@
   },
   {
     "text": "self",
-    "encounter_count": 299,
+    "encounter_count": 343,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2668,7 +2668,7 @@
   },
   {
     "text": "null",
-    "encounter_count": 303,
+    "encounter_count": 347,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -2936,7 +2936,7 @@
   },
   {
     "text": "in",
-    "encounter_count": 2603,
+    "encounter_count": 2669,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3005,7 +3005,7 @@
   },
   {
     "text": "true",
-    "encounter_count": 1209,
+    "encounter_count": 1385,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3046,7 +3046,7 @@
   },
   {
     "text": "typeof",
-    "encounter_count": 155,
+    "encounter_count": 177,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3072,7 +3072,7 @@
   },
   {
     "text": "length",
-    "encounter_count": 300,
+    "encounter_count": 344,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3154,7 +3154,7 @@
   },
   {
     "text": "src",
-    "encounter_count": 149,
+    "encounter_count": 171,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -3265,7 +3265,7 @@
   },
   {
     "text": "tt",
-    "encounter_count": 447,
+    "encounter_count": 513,
     "mastery": 1.0,
     "first_seen": 1788669185.4259017,
     "last_practiced": 1788669185.4259017,
@@ -4614,7 +4614,7 @@
   },
   {
     "text": "reached",
-    "encounter_count": 231,
+    "encounter_count": 253,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4736,7 +4736,7 @@
   },
   {
     "text": "name",
-    "encounter_count": 206,
+    "encounter_count": 228,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -4776,7 +4776,7 @@
   },
   {
     "text": "max",
-    "encounter_count": 437,
+    "encounter_count": 459,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5078,7 +5078,7 @@
   },
   {
     "text": "do",
-    "encounter_count": 407,
+    "encounter_count": 412,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5122,7 +5122,7 @@
   },
   {
     "text": "be",
-    "encounter_count": 787,
+    "encounter_count": 811,
     "mastery": 1.0,
     "first_seen": 1788669295.3793256,
     "last_practiced": 1788669295.3793256,
@@ -5892,7 +5892,7 @@
   },
   {
     "text": "escape",
-    "encounter_count": 748,
+    "encounter_count": 858,
     "mastery": 1.0,
     "first_seen": 1788669295.3818347,
     "last_practiced": 1788669295.3818347,
@@ -10890,7 +10890,7 @@
   },
   {
     "text": "open",
-    "encounter_count": 227,
+    "encounter_count": 249,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -10930,7 +10930,7 @@
   },
   {
     "text": "line",
-    "encounter_count": 173,
+    "encounter_count": 195,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -12127,7 +12127,7 @@
   },
   {
     "text": "games",
-    "encounter_count": 43,
+    "encounter_count": 46,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -13208,7 +13208,7 @@
   },
   {
     "text": "replace",
-    "encounter_count": 747,
+    "encounter_count": 857,
     "mastery": 1.0,
     "first_seen": 1788669295.3838372,
     "last_practiced": 1788669295.3838372,
@@ -14903,7 +14903,7 @@
   },
   {
     "text": "off",
-    "encounter_count": 341,
+    "encounter_count": 363,
     "mastery": 1.0,
     "first_seen": 1788669295.384838,
     "last_practiced": 1788669295.384838,
@@ -16165,7 +16165,7 @@
   },
   {
     "text": "cars",
-    "encounter_count": 25,
+    "encounter_count": 27,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -16505,7 +16505,7 @@
   },
   {
     "text": "extra",
-    "encounter_count": 160,
+    "encounter_count": 182,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -18768,7 +18768,7 @@
   },
   {
     "text": "content",
-    "encounter_count": 166,
+    "encounter_count": 188,
     "mastery": 1.0,
     "first_seen": 1788669295.3858373,
     "last_practiced": 1788669295.3858373,
@@ -19978,7 +19978,7 @@
   },
   {
     "text": "stage",
-    "encounter_count": 155,
+    "encounter_count": 177,
     "mastery": 1.0,
     "first_seen": 1788669295.3868368,
     "last_practiced": 1788669295.3868368,
@@ -22646,7 +22646,7 @@
   },
   {
     "text": "fire",
-    "encounter_count": 172,
+    "encounter_count": 194,
     "mastery": 1.0,
     "first_seen": 1788669295.3878362,
     "last_practiced": 1788669295.3878362,
@@ -24324,15 +24324,17 @@
   },
   {
     "text": "add",
-    "encounter_count": 8,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788669295.3878362,
     "last_practiced": 1788669295.3878362,
     "contexts": [
-      "spot saw shiny car wow"
+      "spot saw shiny car wow",
+      "computers search substring ig ig"
     ],
     "sources": [
-      "file"
+      "file",
+      "web_search"
     ]
   },
   {
@@ -24545,7 +24547,7 @@
   },
   {
     "text": "image",
-    "encounter_count": 149,
+    "encounter_count": 171,
     "mastery": 1.0,
     "first_seen": 1788669295.388837,
     "last_practiced": 1788669295.388837,
@@ -27952,7 +27954,7 @@
   },
   {
     "text": "send",
-    "encounter_count": 156,
+    "encounter_count": 178,
     "mastery": 1.0,
     "first_seen": 1788669295.3908384,
     "last_practiced": 1788669295.3908384,
@@ -28590,7 +28592,7 @@
   },
   {
     "text": "post",
-    "encounter_count": 152,
+    "encounter_count": 174,
     "mastery": 1.0,
     "first_seen": 1788669295.3913417,
     "last_practiced": 1788669295.3913417,
@@ -31206,7 +31208,7 @@
   },
   {
     "text": "stack",
-    "encounter_count": 310,
+    "encounter_count": 354,
     "mastery": 1.0,
     "first_seen": 1788669295.393352,
     "last_practiced": 1788669295.393352,
@@ -33627,7 +33629,7 @@
   },
   {
     "text": "change",
-    "encounter_count": 163,
+    "encounter_count": 185,
     "mastery": 1.0,
     "first_seen": 1788669295.3943498,
     "last_practiced": 1788669295.3943498,
@@ -35773,7 +35775,7 @@
   },
   {
     "text": "slice",
-    "encounter_count": 152,
+    "encounter_count": 174,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -35852,7 +35854,7 @@
   },
   {
     "text": "start",
-    "encounter_count": 166,
+    "encounter_count": 188,
     "mastery": 1.0,
     "first_seen": 1788669295.3963497,
     "last_practiced": 1788669295.3963497,
@@ -37662,7 +37664,7 @@
   },
   {
     "text": "event",
-    "encounter_count": 154,
+    "encounter_count": 176,
     "mastery": 1.0,
     "first_seen": 1788669295.398858,
     "last_practiced": 1788669295.398858,
@@ -38313,7 +38315,7 @@
   },
   {
     "text": "match",
-    "encounter_count": 199,
+    "encounter_count": 227,
     "mastery": 1.0,
     "first_seen": 1788669295.399858,
     "last_practiced": 1788669295.399858,
@@ -43334,7 +43336,7 @@
   },
   {
     "text": "failed",
-    "encounter_count": 299,
+    "encounter_count": 343,
     "mastery": 1.0,
     "first_seen": 1788669295.404366,
     "last_practiced": 1788669295.404366,
@@ -45350,7 +45352,7 @@
   },
   {
     "text": "source",
-    "encounter_count": 44,
+    "encounter_count": 50,
     "mastery": 1.0,
     "first_seen": 1788669295.4053674,
     "last_practiced": 1788669295.4053674,
@@ -54860,7 +54862,7 @@
   },
   {
     "text": "notebook",
-    "encounter_count": 308,
+    "encounter_count": 352,
     "mastery": 1.0,
     "first_seen": 1788669295.4208937,
     "last_practiced": 1788669295.4208937,
@@ -55316,7 +55318,7 @@
   },
   {
     "text": "button",
-    "encounter_count": 311,
+    "encounter_count": 355,
     "mastery": 1.0,
     "first_seen": 1788669295.421898,
     "last_practiced": 1788669295.421898,
@@ -56019,7 +56021,7 @@
   },
   {
     "text": "warning",
-    "encounter_count": 151,
+    "encounter_count": 173,
     "mastery": 1.0,
     "first_seen": 1788669295.4228992,
     "last_practiced": 1788669295.4228992,
@@ -59920,7 +59922,7 @@
   },
   {
     "text": "conversation",
-    "encounter_count": 297,
+    "encounter_count": 341,
     "mastery": 1.0,
     "first_seen": 1788669295.4288979,
     "last_practiced": 1788669295.4288979,
@@ -64317,7 +64319,7 @@
   },
   {
     "text": "intelligence",
-    "encounter_count": 19,
+    "encounter_count": 23,
     "mastery": 1.0,
     "first_seen": 1788669295.4396284,
     "last_practiced": 1788669295.4396284,
@@ -66139,7 +66141,7 @@
   },
   {
     "text": "bat",
-    "encounter_count": 149,
+    "encounter_count": 171,
     "mastery": 1.0,
     "first_seen": 1788669295.4421356,
     "last_practiced": 1788669295.4421356,
@@ -67531,7 +67533,7 @@
   },
   {
     "text": "type",
-    "encounter_count": 297,
+    "encounter_count": 341,
     "mastery": 1.0,
     "first_seen": 1788669295.4451354,
     "last_practiced": 1788669295.4451354,
@@ -68822,7 +68824,7 @@
   },
   {
     "text": "computers",
-    "encounter_count": 15,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68835,7 +68837,7 @@
   },
   {
     "text": "substring",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68860,7 +68862,7 @@
   },
   {
     "text": "ig",
-    "encounter_count": 1122,
+    "encounter_count": 1288,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68885,7 +68887,7 @@
   },
   {
     "text": "'ig",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68910,7 +68912,7 @@
   },
   {
     "text": "document",
-    "encounter_count": 530,
+    "encounter_count": 608,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68935,7 +68937,7 @@
   },
   {
     "text": "gpimg",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68960,7 +68962,7 @@
   },
   {
     "text": "gpurl",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -68985,7 +68987,7 @@
   },
   {
     "text": "cid",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69010,7 +69012,7 @@
   },
   {
     "text": "ntt",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69035,7 +69037,7 @@
   },
   {
     "text": "rto",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69060,7 +69062,7 @@
   },
   {
     "text": "ctt",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69085,7 +69087,7 @@
   },
   {
     "text": "bnfn",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69110,7 +69112,7 @@
   },
   {
     "text": "default",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69135,7 +69137,7 @@
   },
   {
     "text": "lg",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69160,7 +69162,7 @@
   },
   {
     "text": "cbrsht",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69185,7 +69187,7 @@
   },
   {
     "text": "cbrshtam",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69210,7 +69212,7 @@
   },
   {
     "text": "bdvfy",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69235,7 +69237,7 @@
   },
   {
     "text": "multicbrstype",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69260,7 +69262,7 @@
   },
   {
     "text": "maxmulticbrs",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69285,7 +69287,7 @@
   },
   {
     "text": "rmhgtlog",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69310,7 +69312,7 @@
   },
   {
     "text": "sid",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69335,7 +69337,7 @@
   },
   {
     "text": "df",
-    "encounter_count": 6,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69371,7 +69373,7 @@
   },
   {
     "text": "inpopt",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69396,7 +69398,7 @@
   },
   {
     "text": "enablermsinpopt",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69421,7 +69423,7 @@
   },
   {
     "text": "ajax",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69446,7 +69448,7 @@
   },
   {
     "text": "nav",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69471,7 +69473,7 @@
   },
   {
     "text": "cleartimersopt",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69496,7 +69498,7 @@
   },
   {
     "text": "serp",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69521,7 +69523,7 @@
   },
   {
     "text": "plt",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69546,7 +69548,7 @@
   },
   {
     "text": "optimization",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69571,7 +69573,7 @@
   },
   {
     "text": "searchbox",
-    "encounter_count": 1938,
+    "encounter_count": 2230,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69596,7 +69598,7 @@
   },
   {
     "text": "width",
-    "encounter_count": 1895,
+    "encounter_count": 2181,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69621,7 +69623,7 @@
   },
   {
     "text": "px",
-    "encounter_count": 2024,
+    "encounter_count": 2328,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69646,7 +69648,7 @@
   },
   {
     "text": "hasmic",
-    "encounter_count": 926,
+    "encounter_count": 1066,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69671,7 +69673,7 @@
   },
   {
     "text": "hassbi",
-    "encounter_count": 926,
+    "encounter_count": 1066,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69696,7 +69698,7 @@
   },
   {
     "text": "header",
-    "encounter_count": 926,
+    "encounter_count": 1066,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69721,7 +69723,7 @@
   },
   {
     "text": "searchboxform",
-    "encounter_count": 1303,
+    "encounter_count": 1501,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69746,7 +69748,7 @@
   },
   {
     "text": "softkey",
-    "encounter_count": 1012,
+    "encounter_count": 1164,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69771,7 +69773,7 @@
   },
   {
     "text": "rsform",
-    "encounter_count": 926,
+    "encounter_count": 1066,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69796,7 +69798,7 @@
   },
   {
     "text": "sendlog",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69821,7 +69823,7 @@
   },
   {
     "text": "date",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69846,7 +69848,7 @@
   },
   {
     "text": "gettime",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69871,7 +69873,7 @@
   },
   {
     "text": "ci",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69896,7 +69898,7 @@
   },
   {
     "text": "fid",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69921,7 +69923,7 @@
   },
   {
     "text": "text",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69946,7 +69948,7 @@
   },
   {
     "text": "clientinst",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69971,7 +69973,7 @@
   },
   {
     "text": "xmlhttprequest",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -69996,7 +69998,7 @@
   },
   {
     "text": "fd",
-    "encounter_count": 153,
+    "encounter_count": 175,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70021,7 +70023,7 @@
   },
   {
     "text": "ls",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70046,7 +70048,7 @@
   },
   {
     "text": "lsp",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70071,7 +70073,7 @@
   },
   {
     "text": "aspx",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70096,7 +70098,7 @@
   },
   {
     "text": "setrequestheader",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70121,7 +70123,7 @@
   },
   {
     "text": "xml",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70146,7 +70148,7 @@
   },
   {
     "text": "jserrorhandler",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70171,7 +70173,7 @@
   },
   {
     "text": "rt",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70196,7 +70198,7 @@
   },
   {
     "text": "ut",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70221,7 +70223,7 @@
   },
   {
     "text": "nomessage",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70246,7 +70248,7 @@
   },
   {
     "text": "ignorecurrenterror",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70271,7 +70273,7 @@
   },
   {
     "text": "erc",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70296,7 +70298,7 @@
   },
   {
     "text": "maxerr",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70321,7 +70323,7 @@
   },
   {
     "text": "loge",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70346,7 +70348,7 @@
   },
   {
     "text": "errors",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70371,7 +70373,7 @@
   },
   {
     "text": "filename",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70396,7 +70398,7 @@
   },
   {
     "text": "lineno",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70421,7 +70423,7 @@
   },
   {
     "text": "colno",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70446,7 +70448,7 @@
   },
   {
     "text": "severity",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70471,7 +70473,7 @@
   },
   {
     "text": "regexp",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70496,7 +70498,7 @@
   },
   {
     "text": "regexesc",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70521,7 +70523,7 @@
   },
   {
     "text": "location",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70546,7 +70548,7 @@
   },
   {
     "text": "href",
-    "encounter_count": 382,
+    "encounter_count": 438,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70571,7 +70573,7 @@
   },
   {
     "text": "nt",
-    "encounter_count": 487,
+    "encounter_count": 559,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70596,7 +70598,7 @@
   },
   {
     "text": "lirab",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70621,7 +70623,7 @@
   },
   {
     "text": "liraa",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70646,7 +70648,7 @@
   },
   {
     "text": "hint",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70671,7 +70673,7 @@
   },
   {
     "text": "exec",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70696,7 +70698,7 @@
   },
   {
     "text": "meta",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70721,7 +70723,7 @@
   },
   {
     "text": "char",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70746,7 +70748,7 @@
   },
   {
     "text": "extrainfo",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70771,7 +70773,7 @@
   },
   {
     "text": "objecttostring",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70796,7 +70798,7 @@
   },
   {
     "text": "tostring",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70821,7 +70823,7 @@
   },
   {
     "text": "stringify",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70846,7 +70848,7 @@
   },
   {
     "text": "hasownproperty",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70871,7 +70873,7 @@
   },
   {
     "text": "js",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70896,7 +70898,7 @@
   },
   {
     "text": "sj",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70921,7 +70923,7 @@
   },
   {
     "text": "evt",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70946,7 +70948,7 @@
   },
   {
     "text": "undefined",
-    "encounter_count": 530,
+    "encounter_count": 608,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70971,7 +70973,7 @@
   },
   {
     "text": "errorinstrumentation",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8285015,
     "last_practiced": 1788670460.8285015,
@@ -70996,7 +70998,7 @@
   },
   {
     "text": "ft",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71021,7 +71023,7 @@
   },
   {
     "text": "metajserror",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71046,7 +71048,7 @@
   },
   {
     "text": "execute",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71071,7 +71073,7 @@
   },
   {
     "text": "handler",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71096,7 +71098,7 @@
   },
   {
     "text": "cspeh",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71121,7 +71123,7 @@
   },
   {
     "text": "cspif",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71146,7 +71148,7 @@
   },
   {
     "text": "cspviolation",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71171,7 +71173,7 @@
   },
   {
     "text": "sample",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71196,7 +71198,7 @@
   },
   {
     "text": "addeventlistener",
-    "encounter_count": 592,
+    "encounter_count": 680,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71221,7 +71223,7 @@
   },
   {
     "text": "unhandledrejection",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71246,7 +71248,7 @@
   },
   {
     "text": "securitypolicyviolation",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71271,7 +71273,7 @@
   },
   {
     "text": "bind",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71296,7 +71298,7 @@
   },
   {
     "text": "amd",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71321,7 +71323,7 @@
   },
   {
     "text": "define",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71346,7 +71348,7 @@
   },
   {
     "text": "require",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71371,7 +71373,7 @@
   },
   {
     "text": "dependencies",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71396,7 +71398,7 @@
   },
   {
     "text": "callback",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71421,7 +71423,7 @@
   },
   {
     "text": "sendbeacon",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71446,7 +71448,7 @@
   },
   {
     "text": "navigator",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71471,7 +71473,7 @@
   },
   {
     "text": "cltrco",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71496,7 +71498,7 @@
   },
   {
     "text": "furl",
-    "encounter_count": 191,
+    "encounter_count": 219,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71521,7 +71523,7 @@
   },
   {
     "text": "ctcc",
-    "encounter_count": 191,
+    "encounter_count": 219,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71546,7 +71548,7 @@
   },
   {
     "text": "clc",
-    "encounter_count": 425,
+    "encounter_count": 487,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71571,7 +71573,7 @@
   },
   {
     "text": "serpmode",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71596,7 +71598,7 @@
   },
   {
     "text": "offstage",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71621,7 +71623,7 @@
   },
   {
     "text": "gptcreator",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71646,7 +71648,7 @@
   },
   {
     "text": "gpt",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71671,7 +71673,7 @@
   },
   {
     "text": "creator",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71696,7 +71698,7 @@
   },
   {
     "text": "si",
-    "encounter_count": 444,
+    "encounter_count": 510,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71721,7 +71723,7 @@
   },
   {
     "text": "ct",
-    "encounter_count": 296,
+    "encounter_count": 340,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71746,7 +71748,7 @@
   },
   {
     "text": "sharedclicksuppressed",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71771,7 +71773,7 @@
   },
   {
     "text": "getattribute",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71796,7 +71798,7 @@
   },
   {
     "text": "parentnode",
-    "encounter_count": 234,
+    "encounter_count": 268,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71821,7 +71823,7 @@
   },
   {
     "text": "noct",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71846,7 +71848,7 @@
   },
   {
     "text": "tagname",
-    "encounter_count": 234,
+    "encounter_count": 268,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71871,7 +71873,7 @@
   },
   {
     "text": "clicks",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71896,7 +71898,7 @@
   },
   {
     "text": "cspi",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71921,7 +71923,7 @@
   },
   {
     "text": "ctf",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71946,7 +71948,7 @@
   },
   {
     "text": "keydown",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71971,7 +71973,7 @@
   },
   {
     "text": "ef",
-    "encounter_count": 387,
+    "encounter_count": 443,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -71996,7 +71998,7 @@
   },
   {
     "text": "newtabredironclicktracking",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72021,7 +72023,7 @@
   },
   {
     "text": "indexof",
-    "encounter_count": 339,
+    "encounter_count": 389,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72046,7 +72048,7 @@
   },
   {
     "text": "newtabredir",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72071,7 +72073,7 @@
   },
   {
     "text": "url",
-    "encounter_count": 191,
+    "encounter_count": 219,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72096,7 +72098,7 @@
   },
   {
     "text": "encodeuricomponent",
-    "encounter_count": 191,
+    "encounter_count": 219,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72121,7 +72123,7 @@
   },
   {
     "text": "atob",
-    "encounter_count": 148,
+    "encounter_count": 170,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72146,7 +72148,7 @@
   },
   {
     "text": "decodeuricomponent",
-    "encounter_count": 114,
+    "encounter_count": 128,
     "mastery": 1.0,
     "first_seen": 1788670460.8294997,
     "last_practiced": 1788670460.8294997,
@@ -72171,7 +72173,7 @@
   },
   {
     "text": "bb",
-    "encounter_count": 7,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788670462.6424391,
     "last_practiced": 1788670462.6424391,
@@ -72181,7 +72183,8 @@
       "do phones search substring ig",
       "what is music search substring",
       "what is internet search substring",
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -72228,7 +72231,7 @@
   },
   {
     "text": "sboxw",
-    "encounter_count": 301,
+    "encounter_count": 343,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72252,7 +72255,7 @@
   },
   {
     "text": "calc",
-    "encounter_count": 172,
+    "encounter_count": 196,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72276,7 +72279,7 @@
   },
   {
     "text": "media",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72300,7 +72303,7 @@
   },
   {
     "text": "min",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72324,7 +72327,7 @@
   },
   {
     "text": "private",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72348,7 +72351,7 @@
   },
   {
     "text": "mfurl",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72372,7 +72375,7 @@
   },
   {
     "text": "abc",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72396,7 +72399,7 @@
   },
   {
     "text": "mc",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72420,7 +72423,7 @@
   },
   {
     "text": "clicktodynevent",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72444,7 +72447,7 @@
   },
   {
     "text": "id",
-    "encounter_count": 86,
+    "encounter_count": 98,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72468,7 +72471,7 @@
   },
   {
     "text": "tolowercase",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72492,7 +72495,7 @@
   },
   {
     "text": "javascript",
-    "encounter_count": 43,
+    "encounter_count": 49,
     "mastery": 1.0,
     "first_seen": 1788670824.3275502,
     "last_practiced": 1788670824.3275502,
@@ -72516,7 +72519,7 @@
   },
   {
     "text": "robots",
-    "encounter_count": 14,
+    "encounter_count": 16,
     "mastery": 1.0,
     "first_seen": 1788694291.8246381,
     "last_practiced": 1788694291.8246381,
@@ -72549,7 +72552,7 @@
   },
   {
     "text": "db",
-    "encounter_count": 6,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788694324.8976374,
     "last_practiced": 1788694324.8976374,
@@ -72557,7 +72560,8 @@
       "what is music search substring",
       "games search substring ig ig",
       "what is artificial intelligence search",
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -72565,7 +72569,7 @@
   },
   {
     "text": "bc",
-    "encounter_count": 10,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788694324.8976374,
     "last_practiced": 1788694324.8976374,
@@ -72657,7 +72661,7 @@
   },
   {
     "text": "artificial",
-    "encounter_count": 18,
+    "encounter_count": 22,
     "mastery": 1.0,
     "first_seen": 1788694356.979361,
     "last_practiced": 1788694356.979361,
@@ -72683,7 +72687,7 @@
   },
   {
     "text": "af",
-    "encounter_count": 7,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788694356.979361,
     "last_practiced": 1788694356.979361,
@@ -72692,7 +72696,8 @@
       "do screens search substring ig",
       "what is programming search substring",
       "what is internet search substring",
-      "games search substring ig ig"
+      "games search substring ig ig",
+      "what is science search substring"
     ],
     "sources": [
       "web_search"
@@ -72713,7 +72718,7 @@
   },
   {
     "text": "decod",
-    "encounter_count": 14,
+    "encounter_count": 17,
     "mastery": 1.0,
     "first_seen": 1788694356.9803615,
     "last_practiced": 1788694356.9803615,
@@ -72752,7 +72757,7 @@
   },
   {
     "text": "internet",
-    "encounter_count": 9,
+    "encounter_count": 13,
     "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
@@ -72765,14 +72770,15 @@
   },
   {
     "text": "ad",
-    "encounter_count": 4,
+    "encounter_count": 5,
     "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
     "contexts": [
       "what is internet search substring",
       "what is science search substring",
-      "do robots search substring ig"
+      "do robots search substring ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -72793,7 +72799,7 @@
   },
   {
     "text": "cc",
-    "encounter_count": 6,
+    "encounter_count": 8,
     "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
@@ -72803,7 +72809,8 @@
       "do cars search substring ig",
       "what is artificial intelligence search",
       "what is programming search substring",
-      "do screens search substring ig"
+      "do screens search substring ig",
+      "computers search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -72811,7 +72818,7 @@
   },
   {
     "text": "decodeuricompone",
-    "encounter_count": 4,
+    "encounter_count": 8,
     "mastery": 1.0,
     "first_seen": 1788694418.5023968,
     "last_practiced": 1788694418.5023968,
@@ -72850,7 +72857,7 @@
   },
   {
     "text": "decodeuricomponen",
-    "encounter_count": 16,
+    "encounter_count": 17,
     "mastery": 1.0,
     "first_seen": 1788694566.6979275,
     "last_practiced": 1788694566.6979275,
@@ -72864,7 +72871,7 @@
   },
   {
     "text": "ed",
-    "encounter_count": 8,
+    "encounter_count": 9,
     "mastery": 1.0,
     "first_seen": 1788694933.6082234,
     "last_practiced": 1788694933.6082234,
@@ -72908,7 +72915,7 @@
   },
   {
     "text": "screens",
-    "encounter_count": 9,
+    "encounter_count": 10,
     "mastery": 1.0,
     "first_seen": 1788695987.9082325,
     "last_practiced": 1788695987.9082325,
@@ -72921,7 +72928,7 @@
   },
   {
     "text": "ea",
-    "encounter_count": 4,
+    "encounter_count": 5,
     "mastery": 1.0,
     "first_seen": 1788695987.9082325,
     "last_practiced": 1788695987.9082325,
@@ -73007,7 +73014,7 @@
   },
   {
     "text": "e'",
-    "encounter_count": 6,
+    "encounter_count": 8,
     "mastery": 1.0,
     "first_seen": 1788696049.012684,
     "last_practiced": 1788696049.012684,
@@ -73015,7 +73022,8 @@
       "games search substring ig ig",
       "what is artificial intelligence search",
       "computers search substring ig ig",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is science search substring"
     ],
     "sources": [
       "web_search"
@@ -73075,7 +73083,7 @@
   },
   {
     "text": "ee",
-    "encounter_count": 6,
+    "encounter_count": 8,
     "mastery": 1.0,
     "first_seen": 1788696112.0314054,
     "last_practiced": 1788696112.0314054,
@@ -73083,7 +73091,8 @@
       "what is programming search substring",
       "do robots search substring ig",
       "do cars search substring ig",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "computers search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -73091,7 +73100,7 @@
   },
   {
     "text": "d'",
-    "encounter_count": 5,
+    "encounter_count": 6,
     "mastery": 1.0,
     "first_seen": 1788696112.0314054,
     "last_practiced": 1788696112.0314054,
@@ -73099,7 +73108,8 @@
       "what is programming search substring",
       "do cars search substring ig",
       "what is science search substring",
-      "computers search substring ig ig"
+      "computers search substring ig ig",
+      "what is music search substring"
     ],
     "sources": [
       "web_search"
@@ -73120,7 +73130,7 @@
   },
   {
     "text": "science",
-    "encounter_count": 16,
+    "encounter_count": 18,
     "mastery": 1.0,
     "first_seen": 1788696138.7340095,
     "last_practiced": 1788696138.7340095,
@@ -73133,7 +73143,7 @@
   },
   {
     "text": "ff",
-    "encounter_count": 5,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788696143.1739013,
     "last_practiced": 1788696143.1739013,
@@ -73142,7 +73152,8 @@
       "do cars search substring ig",
       "computers search substring ig ig",
       "what is programming search substring",
-      "games search substring ig ig"
+      "games search substring ig ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -73150,7 +73161,7 @@
   },
   {
     "text": "cb",
-    "encounter_count": 4,
+    "encounter_count": 5,
     "mastery": 1.0,
     "first_seen": 1788696177.563582,
     "last_practiced": 1788696177.563582,
@@ -73192,7 +73203,7 @@
   },
   {
     "text": "c'",
-    "encounter_count": 9,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788696208.5700922,
     "last_practiced": 1788696208.5700922,
@@ -73273,12 +73284,13 @@
   },
   {
     "text": "dff",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788696274.405641,
     "last_practiced": 1788696274.405641,
     "contexts": [
-      "do cars search substring ig"
+      "do cars search substring ig",
+      "what is internet search substring"
     ],
     "sources": [
       "web_search"
@@ -73315,14 +73327,15 @@
   },
   {
     "text": "bd",
-    "encounter_count": 6,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788696295.9038851,
     "last_practiced": 1788696295.9038851,
     "contexts": [
       "do phones search substring ig",
       "what is programming search substring",
-      "what is science search substring"
+      "what is science search substring",
+      "do cars search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73388,14 +73401,16 @@
   },
   {
     "text": "f'",
-    "encounter_count": 4,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788696312.111699,
     "last_practiced": 1788696312.111699,
     "contexts": [
       "what is science search substring",
       "computers search substring ig ig",
-      "do phones search substring ig"
+      "do phones search substring ig",
+      "what is internet search substring",
+      "do robots search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73476,7 +73491,7 @@
   },
   {
     "text": "dc",
-    "encounter_count": 5,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788696337.930005,
     "last_practiced": 1788696337.930005,
@@ -73484,7 +73499,8 @@
       "do cars search substring ig",
       "what is space search substring",
       "do phones search substring ig",
-      "do screens search substring ig"
+      "do screens search substring ig",
+      "what is science search substring"
     ],
     "sources": [
       "web_search"
@@ -73531,13 +73547,14 @@
   },
   {
     "text": "aa",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788696426.4860673,
     "last_practiced": 1788696426.4860673,
     "contexts": [
       "what is space search substring",
-      "what is music search substring"
+      "what is music search substring",
+      "do robots search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73558,14 +73575,15 @@
   },
   {
     "text": "cf",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788696460.6004763,
     "last_practiced": 1788696460.6004763,
     "contexts": [
       "do cars search substring ig",
       "what is artificial intelligence search",
-      "what is music search substring"
+      "what is music search substring",
+      "what is science search substring"
     ],
     "sources": [
       "web_search"
@@ -73586,7 +73604,7 @@
   },
   {
     "text": "fa",
-    "encounter_count": 6,
+    "encounter_count": 7,
     "mastery": 1.0,
     "first_seen": 1788696461.1740131,
     "last_practiced": 1788696461.1740131,
@@ -73595,7 +73613,8 @@
       "what is music search substring",
       "do phones search substring ig",
       "computers search substring ig ig",
-      "what is artificial intelligence search"
+      "what is artificial intelligence search",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -73657,13 +73676,14 @@
   },
   {
     "text": "b'",
-    "encounter_count": 3,
+    "encounter_count": 4,
     "mastery": 1.0,
     "first_seen": 1788696596.6739395,
     "last_practiced": 1788696596.6739395,
     "contexts": [
       "do robots search substring ig",
-      "what is artificial intelligence search"
+      "what is artificial intelligence search",
+      "do screens search substring ig"
     ],
     "sources": [
       "web_search"
@@ -73671,7 +73691,7 @@
   },
   {
     "text": "eb",
-    "encounter_count": 8,
+    "encounter_count": 11,
     "mastery": 1.0,
     "first_seen": 1788696643.5522163,
     "last_practiced": 1788696643.5522163,
@@ -73798,12 +73818,13 @@
   },
   {
     "text": "bfb",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788696802.097075,
     "last_practiced": 1788696802.097075,
     "contexts": [
-      "do cars search substring ig"
+      "do cars search substring ig",
+      "what is artificial intelligence search"
     ],
     "sources": [
       "web_search"
@@ -74297,12 +74318,13 @@
   },
   {
     "text": "fcd",
-    "encounter_count": 1,
-    "mastery": 0.55,
+    "encounter_count": 2,
+    "mastery": 0.9,
     "first_seen": 1788698594.4430473,
     "last_practiced": 1788698594.4430473,
     "contexts": [
-      "what is artificial intelligence search"
+      "what is artificial intelligence search",
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
@@ -74472,6 +74494,123 @@
     "last_practiced": 1788699359.4155934,
     "contexts": [
       "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cef",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788699395.9561644,
+    "last_practiced": 1788699395.9561644,
+    "contexts": [
+      "what is artificial intelligence search"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "ac'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788699542.483032,
+    "last_practiced": 1788699542.483032,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "dcc",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788699622.8798025,
+    "last_practiced": 1788699622.8798025,
+    "contexts": [
+      "do robots search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cde",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788699687.949628,
+    "last_practiced": 1788699687.949628,
+    "contexts": [
+      "games search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "cc'",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788699996.6699188,
+    "last_practiced": 1788699996.6699188,
+    "contexts": [
+      "computers search substring ig ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "aca",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788700032.0218415,
+    "last_practiced": 1788700032.0218415,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "abd",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788700032.0218415,
+    "last_practiced": 1788700032.0218415,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "bae",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788700032.0218415,
+    "last_practiced": 1788700032.0218415,
+    "contexts": [
+      "do cars search substring ig"
+    ],
+    "sources": [
+      "web_search"
+    ]
+  },
+  {
+    "text": "fcfb",
+    "encounter_count": 1,
+    "mastery": 0.55,
+    "first_seen": 1788700149.150076,
+    "last_practiced": 1788700149.150076,
+    "contexts": [
+      "games search substring ig ig"
     ],
     "sources": [
       "web_search"
