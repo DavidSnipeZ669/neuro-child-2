@@ -1,4 +1,70 @@
-neuro_child/memory/strategy_pool.json
+# ── Llama-cpp / GGUF models (HUGE — never commit) ──
+neuro_child/memory/models/
+*.gguf
+models--*
+
+# ── HuggingFace cache (local only) ──
+~/.cache/huggingface/
+
+# ── Python bytecode ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── OS / editor junk ──
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# ── Large text corpora / datasets (local only) ──
+neuro_child/memory/english_corpus.txt
+neuro_child/memory/english_llm.json
+neuro_child/memory/english_llm_v2.json
+neuro_child/memory/language_center_v1.json
+neuro_child/memory/openorca_dialogues.txt
+neuro_child/memory/oasst1_dialogues.txt
+
+# ── Training artifacts ──
+neuro_child/memory/smollm_train.log
+neuro_child/memory/adapter_model.safetensors
+*.safetensors
+smollm_adapter/
+
+# ── Strategy pool (can be enormous — 7.6GB backup seen) ──
 neuro_child/memory/strategy_pool.json
 neuro_child/memory/strategy_pool.json.bak
-neuro_child/memory/openorca_dialogues.txt
+
+# ── Runtime state — rebuilds on launch, never commit ──
+neuro_child/memory/chat.log
+neuro_child/memory/vocabulary.json
+neuro_child/memory/long.json
+neuro_child/memory/knowledge.json
+neuro_child/memory/autonomy_log.json
+neuro_child/memory/learning_queue.json
+neuro_child/memory/youtube_learning.json
+neuro_child/memory/observations.json
+neuro_child/memory/last_screen.png
+neuro_child/memory/last_speech.mp3
+neuro_child/memory/test_voice.mp3
+neuro_child/memory/english_vocab.json
+neuro_child/memory/game_memory/
+neuro_child/memory/game_knowledge/
+neuro_child/game_memory/
+neuro_child/game_knowledge/
+
+# ── Local test scripts (dev tools, not shipped) ──
+test_dual_cortex.py
+test_integration.py
+test_keybinds.py
+clean_memory.py
+
+# ── User-provided reference files (DO NOT MODIFY) ──
+attachments/
+
+# ── Git LFS payloads ──
+*.mp3
+*.png
+*.log
