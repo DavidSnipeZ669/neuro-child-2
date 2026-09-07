@@ -410,8 +410,8 @@ class ConsciousNova:
         self.last_screen_summary = ""
         self.recent_actions: List[Dict[str, Any]] = []
         self.attention_focus: Optional[str] = None
-        self.last_autonomous_ts = 0.0
-        self.autonomy_cooldown = 8.0
+        self._last_autonomous_ts = 0.0
+        # No cooldown — she acts whenever curiosity or any drive pushes her
         self.completed_goals: List[str] = []
 
     def perceive(self, screen_summary: str, cursor_pos: Optional[Sequence[int]] = None) -> None:
@@ -486,17 +486,14 @@ class ConsciousNova:
 
     def should_act_autonomously(self) -> bool:
         now = time.time()
-        if now - self.last_autonomous_ts < self.autonomy_cooldown:
-            return False
         neediest = self.desires.neediest()
-        if neediest.intensity < 0.35:
+        if neediest.intensity < 0.05:
             return False
         if self.state.current_goal:
-            # Continue current goal rather than start something new
             return True
-        if random.random() > (0.35 + self.state.focus * 0.4):
+        if random.random() > (0.05 + self.state.focus * 0.2):
             return False
-        self.last_autonomous_ts = now
+        self._last_autonomous_ts = now
         return True
 
     def decide_next_action(self, screen_summary: str = "") -> Optional[Dict[str, Any]]:

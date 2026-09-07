@@ -64,9 +64,9 @@ class AutonomousLearner:
         self._running = False
         self._thread: Optional[threading.Thread] = None
         self._last_search_ts = 0.0
-        self._search_cooldown = 30.0
+        self._search_cooldown = 0.0  # no limit — learn as fast as she can
         self._last_screen_learn_ts = 0.0
-        self._screen_learn_cooldown = 5.0
+        self._screen_learn_cooldown = 0.0  # no limit
         self._learned_urls: set = set()
         self._load_queue()
 
@@ -98,23 +98,13 @@ class AutonomousLearner:
         self._running = False
 
     def _run_loop(self) -> None:
+        # Fast autonomous loop — run as fast as she can without blocking the GUI
         while self._running:
             try:
-                now = time.time()
-                # Periodic web search learning
-                if now - self._last_search_ts >= self._search_cooldown:
-                    self._last_search_ts = now
-                    self._autonomous_search_learning()
-                # Periodic screen learning
-                if now - self._last_screen_learn_ts >= self._screen_learn_cooldown:
-                    self._last_screen_learn_ts = now
-                    self._passive_screen_learning()
-                # Process learning queue
-                self._ensure_work()
-                self._process_queue()
-                time.sleep(2)
+                self._try_autonomous_actions()
+                time.sleep(0.05)  # tiny yield so the GUI thread breathes
             except Exception:
-                time.sleep(5)
+                time.sleep(0.5)
 
     def _autonomous_search_learning(self) -> None:
         """
@@ -274,6 +264,19 @@ class AutonomousLearner:
         if len(pending) < 3:
             for topic in self._get_curious_topics()[:6]:
                 self.add_learning_task(topic, priority=0.2 + random.random() * 0.3)
+
+    def _try_autonomous_actions(self) -> None:
+        """
+        Run one cycle of autonomous learning: search, screen, queue, plus any
+        game-control actions the consciousness wants her to take.
+        No cooldowns — she acts whenever curiosity or any drive pushes her.
+        """
+        # Web search learning (always try — cooldown was removed)
+        self._autonomous_search_learning()
+        # Passive screen learning (always try — cooldown was removed)
+        self._passive_screen_learning()
+        self._ensure_work()
+        self._process_queue()
 
     def _log_autonomy(self, event: str) -> None:
         try:

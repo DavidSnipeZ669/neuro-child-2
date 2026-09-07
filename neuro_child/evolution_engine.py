@@ -64,31 +64,40 @@ class EvolutionEngine:
         self._running = False
         self._thread: Optional[threading.Thread] = None
         self._last_evolution_ts = 0.0
-        self._evolution_cooldown = 60.0  # evolve every minute
+        # No cooldown — evolve continuously as fast as she can learn
+        # self._evolution_cooldown = 0.0
         self._load_strategies()
 
     def _load_strategies(self) -> None:
         try:
             if STRATEGY_POOL.exists():
-                # Guard against huge/corrupt strategy files that block startup.
+                # Startup guard: if the file is absurdly large (>100MB) or unreadable,
+                # back it up and recover with whatever we can parse — don't wipe
+                # her learned strategies just because the file got big.
                 size = STRATEGY_POOL.stat().st_size
-                if size > 2 * 1024 * 1024:
+                if size > 100 * 1024 * 1024:
                     backup = STRATEGY_POOL.with_suffix(".json.bak")
                     try:
                         STRATEGY_POOL.rename(backup)
                     except Exception:
-                        STRATEGY_POOL.write_text("[]", encoding="utf-8")
+                        pass
                     self.strategies = {}
-                else:
-                    limit = min(size, 1024 * 1024)
-                    raw = STRATEGY_POOL.read_bytes()[:limit]
+                    self._seed_initial_strategies()
+                    return
+                try:
+                    raw = STRATEGY_POOL.read_bytes()
                     data = json.loads(raw.decode("utf-8", "ignore")) if raw else []
-                    if not isinstance(data, list):
-                        data = []
-                    for item in data:
-                        if isinstance(item, dict):
-                            s = Strategy(**item)
-                            self.strategies[s.id] = s
+                except Exception:
+                    # Corrupt file — try a truncated parse as last resort,
+                    # but prefer recovering partial strategies over starting fresh.
+                    raw = STRATEGY_POOL.read_bytes()[:5 * 1024 * 1024]
+                    data = json.loads(raw.decode("utf-8", "ignore")) if raw else []
+                if not isinstance(data, list):
+                    data = []
+                for item in data:
+                    if isinstance(item, dict):
+                        s = Strategy(**item)
+                        self.strategies[s.id] = s
         except Exception:
             self.strategies = {}
         if not self.strategies:
@@ -150,13 +159,14 @@ class EvolutionEngine:
     def _evolution_loop(self) -> None:
         while self._running:
             try:
+                # Evolve on every cycle — no cooldown, learn from every outcome immediately
+                self._evolve()
                 now = time.time()
-                if now - self._last_evolution_ts >= self._evolution_cooldown:
-                    self._last_evolution_ts = now
-                    self._evolve()
-                time.sleep(10)
+                self._last_evolution_ts = now
+                # No arbitrary sleep — yield briefly to stay responsive
+                time.sleep(0.5)
             except Exception:
-                time.sleep(15)
+                time.sleep(1.0)
 
     def record_outcome(self, strategy_id: str, success: bool) -> None:
         with self._lock:

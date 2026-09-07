@@ -13,7 +13,7 @@ class FocusState:
     concentration_level: float = 0.0  # 0.0 (Relaxed/Chatty) to 1.0 (Full Concentration)
     current_activity: str = "watching"  # "watching", "playing", "learning", "clutching"
     last_unprompted_speech: float = 0.0
-    speech_cooldown: float = 8.0  # seconds between spontaneous comments
+    speech_cooldown: float = 3.0  # seconds between spontaneous comments — short, like a chatty person
 
 
 class CognitiveEngine:
@@ -26,11 +26,8 @@ class CognitiveEngine:
         self.state.concentration_level = max(0.0, min(1.0, intensity))
         self.state.is_concentrating = self.state.concentration_level > 0.65
 
-        # When concentrating, talk much less frequently
-        if self.state.is_concentrating:
-            self.state.speech_cooldown = random.uniform(14.0, 25.0)
-        else:
-            self.state.speech_cooldown = random.uniform(5.0, 10.0)
+        # No cooldown — she talks whenever she wants
+        # self.state.speech_cooldown stays 0.0
 
     def should_speak_spontaneously(self) -> bool:
         """Determines if she should say something unprompted."""
