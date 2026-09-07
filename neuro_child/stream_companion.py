@@ -196,7 +196,7 @@ class AutonomousCompanion:
         """Captures local screen for the UI thumbnail."""
         if mss is not None:
             try:
-                with mss.mss() as s:
+                with mss.MSS() as s:
                     shot = s.grab(s.monitors[0])
                     img = Image.frombytes("RGB", shot.size, shot.rgb)
                     img.thumbnail((440, 160))

@@ -301,7 +301,7 @@ class Mouth:
             self._queue.task_done()
 
 
-from neuro_child.consciousness import ConsciousNova
+from neuro_child.consciousness import ConsciousNova, Drive
 from neuro_child.fast_reflex_engine import FastReflexEngine
 from neuro_child.observational_learning import (
     ObservationMemory,
@@ -636,19 +636,22 @@ class Brain:
         reply = ""
         try:
             if hasattr(self, "dual_cortex") and getattr(self.dual_cortex, "is_ready", lambda: False)():
+                # Extract drive values from the DesireSystem (attribute is 'desires', not 'desire_system')
+                ds = getattr(self.consciousness, "desires", None)
+                if ds is not None and hasattr(ds, "drives"):
+                    d = ds.drives
+                    curiosity = float(d.get("curiosity", Drive(0, 0.55, 0, 0, 0, 0)).intensity) if "curiosity" in d else 0.5
+                    play_val = float(d.get("play", Drive(0, 0.55, 0, 0, 0, 0)).intensity) if "play" in d else 0.3
+                    autonomy = float(d.get("autonomy", Drive(0, 0.55, 0, 0, 0, 0)).intensity) if "autonomy" in d else 0.5
+                else:
+                    curiosity, play_val, autonomy = 0.5, 0.3, 0.5
                 bundle = self.dual_cortex.respond(
                     dad_message=user_text,
                     screen_context=screen_text,
                     drives={
-                        "curiosity": float(getattr(self.consciousness.state.drives, "curiosity", 0.5)
-                                          if hasattr(self.consciousness.state.drives, "curiosity")
-                                          else 0.5),
-                        "play": float(getattr(self.consciousness.state.drives, "play", 0.3)
-                                      if hasattr(self.consciousness.state.drives, "play")
-                                      else 0.3),
-                        "autonomy": float(getattr(self.consciousness.state.drives, "autonomy", 0.5)
-                                          if hasattr(self.consciousness.state.drives, "autonomy")
-                                          else 0.5),
+                        "curiosity": curiosity,
+                        "play": play_val,
+                        "autonomy": autonomy,
                     },
                     history=list(self.history)[-6:],
                 )
@@ -659,7 +662,10 @@ class Brain:
                         self.memory.add(bundle.cognitive.lesson_to_save, kind="lesson", importance=0.7)
                     except Exception:
                         pass
-        except Exception:
+        except Exception as e:
+            import traceback as _tb
+            log.warning("dual_cortex pipeline error: %s", e)
+            log.debug("dual_cortex traceback:\n%s", _tb.format_exc())
             reply = ""
 
         # Baby mode: learn language like a human baby

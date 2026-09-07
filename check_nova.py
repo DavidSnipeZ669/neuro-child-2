@@ -84,7 +84,7 @@ except ImportError:
 print("\n[5/6] Screen capture (mss)...")
 try:
     import mss
-    with mss.mss() as s:
+    with mss.MSS() as s:
         shot = s.grab(s.monitors[0])
         print(f"  OK - captured screen: {shot.size}")
 except Exception as e:

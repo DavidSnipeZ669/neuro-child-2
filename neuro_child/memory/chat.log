@@ -1,6 +1,10 @@
 [
   {
     "user": "Hello",
-    "assistant": "1<x^~PKH.^i\"|QCOly_8p[+i-cBR"
+    "assistant": "How's it going?"
+  },
+  {
+    "user": "It's good, how are you?",
+    "assistant": "I'm doing great, thanks! Just thinking about how we learned the alphabet together."
   }
 ]

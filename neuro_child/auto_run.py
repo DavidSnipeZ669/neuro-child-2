@@ -86,7 +86,7 @@ class ReflexEngine60FPS:
         self.running = False
 
     def _loop(self):
-        with mss.mss() as sct:
+        with mss.MSS() as sct:
             monitor = sct.monitors[1]
             while self.running:
                 start_t = time.perf_counter()
