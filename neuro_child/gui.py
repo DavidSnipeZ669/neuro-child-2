@@ -373,8 +373,12 @@ class Brain:
         self.system_integration = SystemIntegration()
         self.autonomous_learner = AutonomousLearner(self.language, self.memory, getattr(self, "smollm", None))
         self.game_player = SimpleGamePlayer()
+        # Dual-cortex: LLM 1 (language) + LLM 2 (cognitive/memory)
         self.dual_cortex = NovaDualCortex(personality, memory)
         self.dual_cortex.initialize()
+        # Gameplay dependencies — must be ready before GameplayLearner
+        self.computer_control = ComputerControl(MEMORY_DIR)
+        self.game_state_analyzer = GameStateAnalyzer(MEMORY_DIR)
         # Gameplay learning — she can detect, learn, and play any game
         self.gameplay_learner = GameplayLearner(
             memory_dir=str(MEMORY_DIR.parent / "game_memory"),
@@ -384,7 +388,6 @@ class Brain:
             personality=personality,
         )
         self.gameplay_learner.import_standard_controls()
-        self.game_state_analyzer = GameStateAnalyzer(self.memory.memory_dir)
         self._first_launch_trained = False
         if hasattr(self, "smollm") and hasattr(self.smollm, "start_background_load"):
             try:
@@ -985,7 +988,6 @@ class ChildGUI:
         self.mouth = Mouth()
         self.brain = Brain(self.memory, self.personality, self.eyes, self.hands, self.mouth)
         self.consciousness = self.brain.consciousness
-        self.computer_control = ComputerControl(self.memory.memory_dir)
         self.name = self.personality.name
         self._listening = False
         self._voice_enabled = True
