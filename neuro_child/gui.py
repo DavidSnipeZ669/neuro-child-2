@@ -303,6 +303,7 @@ class Mouth:
 
 from neuro_child.consciousness import ConsciousNova, Drive
 from neuro_child.fast_reflex_engine import FastReflexEngine
+from neuro_child.computer_control import ComputerControl
 from neuro_child.observational_learning import (
     ObservationMemory,
     SpeechPatternLearner,
@@ -326,6 +327,9 @@ from neuro_child.game_player import SimpleGamePlayer
 from neuro_child.media_learning import MediaLearningEngine, MediaLearningResult
 from neuro_child.smollm_brain import SmolLMBrain, SmolLMConfig
 from neuro_child.dual_cortex import NovaDualCortex
+from neuro_child.game_state_understanding import GameStateAnalyzer
+from neuro_child.gameplay_learner import GameplayLearner
+from neuro_child.minecraft_keybinds import MinecraftKeybindParser
 
 
 class Brain:
@@ -371,6 +375,16 @@ class Brain:
         self.game_player = SimpleGamePlayer()
         self.dual_cortex = NovaDualCortex(personality, memory)
         self.dual_cortex.initialize()
+        # Gameplay learning — she can detect, learn, and play any game
+        self.gameplay_learner = GameplayLearner(
+            memory_dir=str(MEMORY_DIR.parent / "game_memory"),
+            game_state_analyzer=self.game_state_analyzer,
+            computer_control=self.computer_control,
+            brain=self,
+            personality=personality,
+        )
+        self.gameplay_learner.import_standard_controls()
+        self.game_state_analyzer = GameStateAnalyzer(self.memory.memory_dir)
         self._first_launch_trained = False
         if hasattr(self, "smollm") and hasattr(self.smollm, "start_background_load"):
             try:
@@ -971,12 +985,13 @@ class ChildGUI:
         self.mouth = Mouth()
         self.brain = Brain(self.memory, self.personality, self.eyes, self.hands, self.mouth)
         self.consciousness = self.brain.consciousness
+        self.computer_control = ComputerControl(self.memory.memory_dir)
         self.name = self.personality.name
         self._listening = False
         self._voice_enabled = True
-        self._screen_update_interval = 2.0
+        self._screen_update_interval = 0.4  # fast screen refresh — she watches in real time
         self._last_screen_update = 0.0
-        self._autonomous_interval = 6000  # ms
+        self._autonomous_interval = 300  # ms — check autonomy ~3x per second, like a human reacting
         self._last_autonomous_action: Dict[str, Any] = {}
         self._last_autonomous_chat: Dict[str, float] = {}
         self.audio_capture = SystemAudioCapture()
@@ -1294,6 +1309,37 @@ class ChildGUI:
                                         self.brain.language.encounter_text(text_sample, source="screen")
                                 except Exception:
                                     pass
+                        
+                        # === GAME DETECTION — notice when a game is running ===
+                        if hasattr(self, "gameplay_learner") and self.gameplay_learner is not None:
+                            try:
+                                game_info = self.gameplay_learner.detect_running_game()
+                                if game_info and self._last_detected_game != game_info["name"]:
+                                    self._last_detected_game = game_info["name"]
+                                    # Import keybinds immediately when game starts
+                                    self.gameplay_learner.import_keybinds_for_game(game_info["name"])
+                                    # Update consciousness goal
+                                    self.consciousness.desires.drives["mastery"].stimulate(0.2)
+                                    self.consciousness.desires.drives["curiosity"].stimulate(0.1)
+                            except Exception:
+                                pass
+                        
+                        # === GAME STATE OBSERVATION — build her understanding of what's happening ===
+                        if hasattr(self, "gameplay_learner") and self.gameplay_learner is not None:
+                            try:
+                                g = self.gameplay_learner.get_active_game()
+                                if g and g.get("running"):
+                                    state = self.gameplay_learner.get_state()
+                                    if state and state.get("screen_text"):
+                                        # Learn game vocabulary from HUD text
+                                        for word in state["screen_text"].split():
+                                            if len(word) > 2 and word.isalnum():
+                                                try:
+                                                    self.brain.language.encounter_text(word, source="game")
+                                                except Exception:
+                                                    pass
+                            except Exception:
+                                pass
                     except Exception:
                         pass
             except Exception:
@@ -1329,11 +1375,13 @@ class ChildGUI:
                 self._refresh_memory()
         except Exception:
             pass
-        self.root.after(3000, self._update_consciousness_loop)
+        # Fast consciousness refresh — ~7 updates/sec like a human mind
+        self.root.after(140, self._update_consciousness_loop)
 
     def _autonomous_loop(self) -> None:
         try:
-            max_steps = 1
+            # NO LIMIT on steps — keep going until she has nothing left to do this cycle
+            max_steps = 50
             steps_done = 0
             while steps_done < max_steps and self.consciousness.should_act_autonomously():
                 action = self.consciousness.decide_next_action()
@@ -1341,12 +1389,7 @@ class ChildGUI:
                     break
                 text = action.get("text", "")
                 drive = action.get("drive", "")
-                if text and action.get("speak"):
-                    now = time.time()
-                    last = self._last_autonomous_chat.get(text, 0.0)
-                    if now - last < 600:
-                        break
-                    self._last_autonomous_chat[text] = now
+                # No throttle on autonomous speech — she talks when she thinks
                 result = self._execute_autonomous_action(action)
                 # NEVER post autonomous actions to chat - they are silent internal processes
                 # Log internally only for the activity panel
@@ -1354,12 +1397,12 @@ class ChildGUI:
                 if result:
                     log_msg += f" -> {result}"
                 self._autonomous_activity_log.append(log_msg)
-                if len(self._autonomous_activity_log) > 200:
-                    self._autonomous_activity_log = self._autonomous_activity_log[-200:]
+                if len(self._autonomous_activity_log) > 500:
+                    self._autonomous_activity_log = self._autonomous_activity_log[-500:]
                 self._last_autonomous_action = action
                 steps_done += 1
-            # Periodic evolution cycle
-            if hasattr(self, "evolution_engine") and random.random() < 0.15:
+            # Continuous evolution — always evolve, never random-gated
+            if hasattr(self, "evolution_engine"):
                 try:
                     self.evolution_engine._evolve()
                 except Exception:
@@ -1424,6 +1467,47 @@ class ChildGUI:
                 self.consciousness.desires.drives["autonomy"].satisfy(0.15)
                 result = f"practiced {len(summary.get('top_words', []))} words"
                 return result
+            # === GAME PLAYING — she plays games when she decides to ===
+            if "play the game" in text or "play game" in text or "play minecraft" in text or "play a game" in text:
+                try:
+                    # Detect what game is running
+                    game_info = self.gameplay_learner.detect_running_game()
+                    if game_info:
+                        game_name = game_info["name"]
+                        self.consciousness.desires.drives["mastery"].stimulate(0.3)
+                        self.consciousness.desires.drives["autonomy"].satisfy(0.2)
+                        # Import keybinds if known (returns None — keybinds stored internally)
+                        self.gameplay_learner.import_keybinds_for_game(game_name)
+                        # Play one cycle
+                        result = self.gameplay_learner.play()
+                        return (result or f"playing {game_name}")
+                except Exception:
+                    pass
+            if "learn this game" in text or "understand this game" in text or "study this game" in text:
+                try:
+                    game_info = self.gameplay_learner.detect_running_game()
+                    if game_info:
+                        game_name = game_info["name"]
+                        self.gameplay_learner.import_keybinds_for_game(game_name)
+                        self.consciousness.desires.drives["mastery"].stimulate(0.2)
+                        self.consciousness.desires.drives["curiosity"].satisfy(0.3)
+                        # Do a thorough observation + knowledge import
+                        result = self.gameplay_learner.learn_about_game(game_name)
+                        return result or "learned game"
+                except Exception:
+                    pass
+            if "complete this modpack" in text or "complete the quest" in text or "do the quest" in text:
+                try:
+                    game_info = self.gameplay_learner.detect_running_game()
+                    if game_info:
+                        game_name = game_info["name"]
+                        self.gameplay_learner.import_keybinds_for_game(game_name)
+                        self.consciousness.desires.drives["mastery"].stimulate(0.5)
+                        self.consciousness.desires.drives["autonomy"].satisfy(0.3)
+                        result = self.gameplay_learner.play(goal_oriented=True)
+                        return result or "working on quest"
+                except Exception:
+                    pass
             if "improve my own reply templates" in text:
                 if hasattr(self, "evolution_engine"):
                     try:

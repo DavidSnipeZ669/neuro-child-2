@@ -1,0 +1,27 @@
+{
+  "games": {
+    "minecraft": {
+      "game_name": "minecraft",
+      "first_seen": 1788819906.6173208,
+      "last_played": 1788819906.6173208,
+      "total_play_time": 0.0,
+      "play_count": 0,
+      "quests": {},
+      "active_quest_id": null,
+      "completed_quest_ids": [],
+      "controls": {},
+      "instance_keybinds": {},
+      "active_instance": null,
+      "instance_source": null,
+      "instance_source_type": null,
+      "facts": [],
+      "strategies": [],
+      "failures": [],
+      "action_history": [],
+      "knowledge_dataset": {},
+      "current_state": "unknown",
+      "current_goal": "",
+      "stuck_count": 0
+    }
+  }
+}
