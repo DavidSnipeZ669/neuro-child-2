@@ -12,8 +12,12 @@ echo.
 REM Kill any previous Nova backend by window title (safe)
 taskkill /FI "WINDOWTITLE eq Nova Backend*" /T /F >nul 2>&1
 
+REM Write API key to a file Electron reads directly (more reliable than env vars through start)
+echo nova-e2e-test > "%APPDATA%\nova-api-key.txt"
+
 REM Launch backend in its own console window with distinctive title
-start "Nova Backend" /B python nova_server.py --no-speech --port 8009 --api-key nova-e2e-test --log-level info > "C:\Users\david\AppData\Local\Temp\nova_backend.log" 2>&1
+REM Use >> (append) to avoid "file in use" conflict with previous backend's log
+start "Nova Backend" /B python nova_server.py --no-speech --port 8009 --api-key nova-e2e-test --log-level info >> "C:\Users\david\AppData\Local\Temp\nova_backend.log" 2>&1
 
 echo    Backend launched. Waiting for it to become ready...
 
@@ -37,8 +41,12 @@ REM Kill any previous Nova Electron by window title (safe)
 taskkill /FI "WINDOWTITLE eq Nova Electron*" /F >nul 2>&1
 timeout /t 1 /nobreak >nul 2>&1
 
-REM Use cmd /c to reliably pass environment variables through start
-start "" cmd /c "set NOVA_HOST=127.0.0.1&& set NOVA_PORT=8009&& set NOVA_API_KEY=nova-e2e-test&& electron\node_modules\electron\dist\electron.exe electron --api-key nova-e2e-test"
+REM Set environment variables directly in this shell session and launch Electron
+REM (no cmd /c needed — start launches electron.exe directly, which inherits env vars)
+set NOVA_HOST=127.0.0.1
+set NOVA_PORT=8009
+set NOVA_API_KEY=nova-e2e-test
+start "" electron\node_modules\electron\dist\electron.exe electron --api-key nova-e2e-test
 
 echo    Electron launched (with API key via CLI arg).
 echo.

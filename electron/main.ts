@@ -2,8 +2,9 @@
 import { app, BrowserWindow, ipcMain, shell, dialog } from "electron";
 import path from "path";
 import log from "electron-log/main";
+import fs from "fs";
 
-// Parse CLI args (needed so API key survives `start` via cmd /c)
+// Parse CLI args
 let cliApiKey = "";
 const cliArgs = process.argv.slice(1);
 for (let i = 0; i < cliArgs.length; i++) {
@@ -11,6 +12,22 @@ for (let i = 0; i < cliArgs.length; i++) {
     cliApiKey = cliArgs[i + 1];
     i++;
   }
+}
+
+// Read API key from file (100% reliable — written by launch_nova.bat)
+function readApiKeyFile(): string {
+  try {
+    const keyPath = path.join(process.env.APPDATA || "", "nova-api-key.txt");
+    const content = fs.readFileSync(keyPath, "utf-8");
+    const trimmed = content.trim();
+    if (trimmed) {
+      log.info("API key loaded from file: %s", trimmed.slice(0, 4) + "…");
+      return trimmed;
+    }
+  } catch {
+    // File doesn't exist or can't be read — fallback to other methods
+  }
+  return "";
 }
 
 // Logging is ready to use immediately (electron-log default export is the logger)
@@ -24,8 +41,8 @@ const CONFIG = {
   // Nova server — override via CLI arg, env, or default
   novaHost: process.env.NOVA_HOST || "127.0.0.1",
   novaPort: parseInt(process.env.NOVA_PORT || "8009", 10),
-  // CLI arg takes priority, then env, then empty (auth disabled)
-  novaApiKey: cliApiKey || process.env.NOVA_API_KEY || "",
+  // CLI arg takes priority, then file, then env, then empty (auth disabled)
+  novaApiKey: cliApiKey || readApiKeyFile() || process.env.NOVA_API_KEY || "",
   // Whether to use Tailscale hostname if available
   useTailscale: process.env.NOVA_USE_TAILSCALE === "1",
   tailscaleHostname: process.env.NOVA_TAILSCALE_HOST || "",
