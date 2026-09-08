@@ -40,8 +40,9 @@ import secrets
 import sys
 import time
 import threading
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, Dict, List, Optional
 
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect
@@ -67,29 +68,25 @@ API_KEY: Optional[str] = None
 
 def _generate_default_key() -> str:
     raw = secrets.token_urlsafe(32)
-    # Make it look like a sensible API key
     return f"nk_{raw}"
 
 
 def set_api_key(key: str) -> None:
     global API_KEY
     API_KEY = key
-    # Also mask it for logging
     masked = key[:4] + "…" + key[-4:] if len(key) > 8 else "****"
     log.info("Nova API key set (masked: %s)", masked)
 
 
 def verify_api_key(request: Request) -> None:
-    """Raise 401 if the request doesn't present a valid API key."""
     if not API_KEY:
-        return  # no auth configured (dev mode)
+        return
     header = request.headers.get("X-API-Key", "")
     if header != API_KEY:
         raise HTTPException(status_code=401, detail="Invalid or missing API key")
 
 
 def verify_api_key_ws(websocket: WebSocket) -> bool:
-    """Return True if the WS client presented a valid key; close otherwise."""
     if not API_KEY:
         return True
     key = websocket.headers.get("X-API-Key", "")
@@ -105,28 +102,26 @@ def verify_api_key_ws(websocket: WebSocket) -> bool:
 # ---------------------------------------------------------------------------
 class ChatMessage(BaseModel):
     message: str = Field(..., min_length=1, max_length=4000)
-    # Optional context a client might send (e.g. current screen description)
     context: Optional[str] = None
     session_id: Optional[str] = None
 
 
 class ChatReply(BaseModel):
     reply: str
-    audio: Optional[str] = None  # base64-encoded MP3 when speech is enabled
+    audio: Optional[str] = None
     thinking: Optional[str] = None
     mood: Optional[dict] = None
     drives: Optional[dict] = None
 
 
 class StateSnapshot(BaseModel):
-    """What the Electron frontend asks for on poll / WS push."""
     mood: Optional[dict] = None
     drives: Optional[dict] = None
     thoughts: Optional[str] = None
     goals: Optional[list] = None
     lessons: Optional[list] = None
     vocabulary: Optional[list] = None
-    screen_base64: Optional[str] = None  # latest screen capture (PNG)
+    screen_base64: Optional[str] = None
     speaking: Optional[bool] = None
     listening: Optional[bool] = None
     timestamp: Optional[float] = None
@@ -139,6 +134,157 @@ class GoalSubmit(BaseModel):
 class CommandRequest(BaseModel):
     action: str
     params: Optional[dict] = None
+
+
+# ---------------------------------------------------------------------------
+# Stub objects — used when real imports (eyes, mouth, hands, consciousness)
+# fail. These exist so Brain.respond() (from gui.py) never crashes on None.
+# ---------------------------------------------------------------------------
+
+@dataclass
+class _StubDrive:
+    intensity: float = 0.5
+    min: float = 0
+    max: float = 1
+
+
+@dataclass
+class _StubConsciousState:
+    """Stand-in for neuro_child.consciousness.ConsciousState.
+
+    gui.py's _conscious_reply() reads ``self.consciousness.state.mood``
+    (gui.py:747-748), so the stub must expose ``state`` with a ``mood``
+    attribute.
+    """
+    mood: str = "curious"
+    emotional_valence: float = 0.5
+    arousal: float = 0.3
+    focus: float = 0.3
+    last_thought: str = ""
+
+
+class _ConsciousnessStub:
+    """Minimal stub for consciousness when real import fails.
+
+    Must provide:
+      - state property (ConsciousState-like, with ``mood``)
+      - interact(user_text, outcome)
+      - perceive(screen_text, cursor_pos)
+      - get_mood() -> dict
+      - get_drives() -> dict  (with "curiosity", "play", "autonomy" keys)
+      - get_thoughts() -> str
+      - get_goals() -> list
+      - get_lessons() -> list
+      - get_vocabulary() -> list
+      - desires attribute (with .drives dict for dual_cortex drive extraction
+        at gui.py:657-664)
+    """
+
+    def __init__(self) -> None:
+        self._drives = {
+            "curiosity": _StubDrive(0.5),
+            "play": _StubDrive(0.3),
+            "autonomy": _StubDrive(0.5),
+        }
+
+    @property
+    def state(self) -> _StubConsciousState:
+        return _StubConsciousState()
+
+    @property
+    def desires(self):
+        # dual_cortex reads self.consciousness.desires.drives (gui.py:657)
+        return type("Desires", (), {"drives": self._drives})()
+
+    def interact(self, user_text: str, outcome: str = "success") -> None:
+        pass
+
+    def perceive(self, screen_text: str, cursor_pos: Optional[List[int]] = None) -> None:
+        pass
+
+    def get_mood(self) -> Dict[str, Any]:
+        return {"label": "neutral", "value": 0.5}
+
+    def get_drives(self) -> Dict[str, Any]:
+        return {
+            "curiosity": {"intensity": 0.5, "min": 0, "max": 1},
+            "play": {"intensity": 0.3, "min": 0, "max": 1},
+            "autonomy": {"intensity": 0.5, "min": 0, "max": 1},
+        }
+
+    def get_thoughts(self) -> str:
+        return ""
+
+    def get_goals(self) -> list:
+        return []
+
+    def get_lessons(self) -> list:
+        return []
+
+    def get_vocabulary(self) -> list:
+        return []
+
+
+class _EyesStub:
+    """Stub so Brain.respond() doesn't crash when real Eyes import fails.
+
+    gui.py:625  -> self.eyes.observe() -> dict with "text", "screenshot", "window"
+    gui.py:775  -> self.eyes.observe().get("text", "")
+    """
+
+    def __init__(self) -> None:
+        self.last_text: str = ""
+        self.last_screenshot: Optional[str] = None
+        self.last_window: str = ""
+
+    def observe(self) -> Dict[str, Any]:
+        return {
+            "text": "no screen data (screen capture unavailable)",
+            "screenshot": None,
+            "window": self.last_window,
+        }
+
+
+class _MouthStub:
+    """Stub so Brain.chat() doesn't crash when real Mouth import fails.
+
+    gui.py chat() calls self._mouth.say(reply) (optional) and reads
+    self._mouth.last_audio_path.
+    """
+
+    def __init__(self) -> None:
+        self.last_audio_path: Optional[str] = None
+        self._enabled: bool = False
+
+    def say(self, text: str) -> Optional[str]:
+        self.last_audio_path = None
+        return None
+
+    def save(self, text: str, path: str) -> None:
+        self.last_audio_path = None
+
+
+class _HandsStub:
+    """Stub so Brain.respond() / reflexes don't crash when real Hands import fails.
+
+    gui.py reflexes + tool handlers call:
+      self.hands.press(key)
+      self.hands.perform_action(action_name)
+      self.hands.type_text(text)
+      self.hands.click(x, y)
+    """
+
+    def press(self, key: str) -> str:
+        return f"pressed: {key}"
+
+    def perform_action(self, action_name: str) -> str:
+        return f"Tried action: {action_name}"
+
+    def type_text(self, text: str) -> str:
+        return f"typed: {text}"
+
+    def click(self, x: int = 0, y: int = 0) -> str:
+        return f"clicked: {x},{y}"
 
 
 # ---------------------------------------------------------------------------
@@ -166,7 +312,6 @@ class NovaBackend:
         self._personality: Any = None
         self._memory: Any = None
         self._stop_event = threading.Event()
-        self._chat_queue: list[tuple[str, Optional[str], Optional[str]]] = []
         self._last_reply: Optional[str] = None
         self._last_mood: Optional[dict] = None
         self._last_drives: Optional[dict] = None
@@ -180,7 +325,7 @@ class NovaBackend:
         self._lock = threading.Lock()
         # Config knobs
         self.speech_enabled: bool = kwargs.get("speech_enabled", True)
-        self.screen_refresh_hz: float = kwargs.get("screen_refresh_hz", 0.5)  # 2s
+        self.screen_refresh_hz: float = kwargs.get("screen_refresh_hz", 0.5)
         self.autonomous_interval_s: float = kwargs.get("autonomous_interval_s", 600)
 
     # ------------------------------------------------------------------
@@ -206,18 +351,19 @@ class NovaBackend:
             log.error("Could not import neuro_child.gui: %s", e)
             raise
 
-        self._memory = Memory()  # uses MEMORY_DIR internally
+        self._memory = Memory()
         self._personality = Personality(self._memory.profile)
 
-        # Consciousness (drives, mood, self-model) — same as gui.py
+        # Consciousness
         try:
             from neuro_child.consciousness import Consciousness
             self._consciousness = Consciousness(
                 memory_dir=self.memory_dir / "consciousness",
             )
+            log.info("Consciousness loaded")
         except Exception as e:
-            log.warning("Could not load consciousness: %s — continuing without it", e)
-            self._consciousness = None
+            log.warning("Could not load consciousness: %s — using stub", e)
+            self._consciousness = _ConsciousnessStub()
 
         # Mouth (TTS via edge-tts)
         try:
@@ -226,9 +372,10 @@ class NovaBackend:
                 memory_dir=self.memory_dir / "mouth",
                 enabled=self.speech_enabled,
             )
+            log.info("Mouth loaded")
         except Exception as e:
-            log.warning("Could not load mouth: %s — speech disabled", e)
-            self._mouth = None
+            log.warning("Could not load mouth: %s — speech disabled (stub)", e)
+            self._mouth = _MouthStub()
 
         # Eyes (screen capture via mss)
         try:
@@ -236,9 +383,10 @@ class NovaBackend:
             self._eyes = Eyes(
                 memory_dir=self.memory_dir / "eyes",
             )
+            log.info("Eyes loaded")
         except Exception as e:
-            log.warning("Could not load eyes: %s — screen capture disabled", e)
-            self._eyes = None
+            log.warning("Could not load eyes: %s — screen capture stub", e)
+            self._eyes = _EyesStub()
 
         # Hands (pyautogui control)
         try:
@@ -246,9 +394,10 @@ class NovaBackend:
             self._hands = Hands(
                 memory_dir=self.memory_dir / "hands",
             )
+            log.info("Hands loaded")
         except Exception as e:
-            log.warning("Could not load hands: %s — control disabled", e)
-            self._hands = None
+            log.warning("Could not load hands: %s — control stub", e)
+            self._hands = _HandsStub()
 
         # Brain — the canonical one used by gui.py (positional args, exact match)
         try:
@@ -292,8 +441,6 @@ class NovaBackend:
         if not self._started:
             raise RuntimeError("Backend not started")
 
-        # Run Brain.respond in a thread so we don't block the event loop
-        # if it does any long-running inference.
         import asyncio
 
         loop = asyncio.get_running_loop()
@@ -312,7 +459,7 @@ class NovaBackend:
         audio_b64 = None
         if self.speech_enabled and self._mouth and reply:
             try:
-                audio_path = self._mouth.say(reply)
+                audio_path = self._mouth.say(reply) if hasattr(self._mouth, "say") else None
                 if audio_path and Path(audio_path).exists():
                     b64 = base64.b64encode(Path(audio_path).read_bytes()).decode()
                     audio_b64 = f"data:audio/mp3;base64,{b64}"
@@ -335,11 +482,10 @@ class NovaBackend:
     def snapshot(self) -> StateSnapshot:
         """Return a current state snapshot (called by polling + WS push)."""
         with self._lock:
-            # Grab latest screen if available
             screen_b64 = None
             if self._eyes:
                 try:
-                    img = self._eyes.capture()
+                    img = self._eyes.capture() if hasattr(self._eyes, "capture") else None
                     if img:
                         import io
                         buf = io.BytesIO()
@@ -374,10 +520,9 @@ class NovaBackend:
     # Background loops (daemon threads)
     # ------------------------------------------------------------------
     def _screen_loop(self) -> None:
-        """Periodically refresh the last screen capture."""
         while not self._stop_event.is_set():
             try:
-                if self._eyes:
+                if self._eyes and hasattr(self._eyes, "capture"):
                     img = self._eyes.capture()
                     if img:
                         import io
@@ -390,12 +535,10 @@ class NovaBackend:
             self._stop_event.wait(1.0 / self.screen_refresh_hz)
 
     def _autonomous_loop(self) -> None:
-        """Run autonomous actions on a timer (gameplay, learning, etc.)."""
         while not self._stop_event.is_set():
             try:
                 if self._brain and hasattr(self._brain, "autonomous_tick"):
                     self._brain.autonomous_tick()
-                # Update snapshot caches from consciousness if available
                 if self._consciousness:
                     with self._lock:
                         self._last_thoughts = self._consciousness.get_thoughts()
@@ -407,7 +550,6 @@ class NovaBackend:
             self._stop_event.wait(self.autonomous_interval_s)
 
     def _consciousness_loop(self) -> None:
-        """Update mood/drives snapshots periodically."""
         while not self._stop_event.is_set():
             try:
                 if self._consciousness:
@@ -429,13 +571,12 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Electron app is local; phone browser needs this
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Global backend instance (started on startup, stopped on shutdown)
 backend: Optional[NovaBackend] = None
 
 
@@ -444,13 +585,11 @@ backend: Optional[NovaBackend] = None
 # ------------------------------------------------------------------
 @app.get("/health")
 async def health(request: Request):
-    """Liveness check. No auth required."""
     return {"status": "ok", "backend_started": backend is not None and backend._started}
 
 
 @app.get("/api/key/status")
 async def key_status(request: Request):
-    """Whether auth is enabled and a masked version of the key."""
     verify_api_key(request)
     if not API_KEY:
         return {"auth_enabled": False, "masked": None}
@@ -460,7 +599,6 @@ async def key_status(request: Request):
 
 @app.post("/api/chat", response_model=ChatReply)
 async def chat(req: ChatMessage, request: Request):
-    """Send Nova a message; get a reply (text + optional audio)."""
     verify_api_key(request)
     if not backend or not backend._started:
         raise HTTPException(status_code=503, detail="Nova backend not started")
@@ -469,7 +607,6 @@ async def chat(req: ChatMessage, request: Request):
 
 @app.get("/api/state", response_model=StateSnapshot)
 async def state_snapshot(request: Request):
-    """Get a current state snapshot (mood, drives, screen, etc.)."""
     verify_api_key(request)
     if not backend:
         raise HTTPException(status_code=503, detail="Nova backend not started")
@@ -478,7 +615,6 @@ async def state_snapshot(request: Request):
 
 @app.post("/api/command")
 async def command(req: CommandRequest, request: Request):
-    """Send a high-level command to Nova (e.g. 'launch game', 'remember')."""
     verify_api_key(request)
     if not backend or not backend._started:
         raise HTTPException(status_code=503, detail="Nova backend not started")
@@ -500,7 +636,6 @@ async def command(req: CommandRequest, request: Request):
 
 @app.get("/api/screen")
 async def screen(request: Request):
-    """Get the latest screen capture as base64 PNG."""
     verify_api_key(request)
     if not backend:
         raise HTTPException(status_code=503, detail="Nova backend not started")
@@ -512,7 +647,6 @@ async def screen(request: Request):
 
 @app.get("/api/audio/last")
 async def last_audio(request: Request):
-    """Download the last generated speech MP3 (if any)."""
     verify_api_key(request)
     if not backend or not backend._mouth:
         raise HTTPException(status_code=503, detail="Speech not available")
@@ -533,7 +667,6 @@ async def last_audio(request: Request):
 # WebSocket — real-time state push + chat
 # ------------------------------------------------------------------
 async def websocket_chat_iterator(websocket: WebSocket):
-    """Yield messages from the WS client as they arrive."""
     while True:
         try:
             data = await websocket.receive_text()
@@ -548,14 +681,12 @@ async def websocket_chat_iterator(websocket: WebSocket):
 
 @app.websocket("/api/ws")
 async def websocket_endpoint(websocket: WebSocket):
-    """Bidirectional WS: client pushes chat messages, server pushes state."""
     if not verify_api_key_ws(websocket):
         return
 
     await websocket.accept()
     log.info("WS client connected from %s", websocket.client)
 
-    # Send initial state
     if backend and backend._started:
         await websocket.send_json({"type": "state", "data": backend.snapshot().model_dump()})
     else:
@@ -571,11 +702,10 @@ async def websocket_endpoint(websocket: WebSocket):
                 reply = await backend.chat(msg.get("message", ""), msg.get("context"))
                 await websocket.send_json({"type": "reply", "data": reply.model_dump()})
             elif msg_type == "subscribe":
-                # Client can request state pushes at a given interval (ms)
                 interval_ms = msg.get("interval_ms", 2000)
                 interval_s = interval_ms / 1000.0
                 try:
-                    while not websocket.client_state.value == 3:  # CLOSED
+                    while not websocket.client_state.value == 3:
                         if backend and backend._started:
                             await websocket.send_json(
                                 {"type": "state", "data": backend.snapshot().model_dump()}
@@ -586,7 +716,7 @@ async def websocket_endpoint(websocket: WebSocket):
                 except WebSocketDisconnect:
                     pass
             elif msg_type == "unsubscribe":
-                pass  # stop pushing — client can reconnect
+                pass
             else:
                 await websocket.send_json({"type": "error", "data": f"Unknown msg type: {msg_type}"})
     except WebSocketDisconnect:
@@ -602,7 +732,6 @@ async def websocket_endpoint(websocket: WebSocket):
 async def on_startup():
     global backend
     log.info("Nova server starting up…")
-    # Determine memory dir
     project_root = Path(__file__).parent
     memory_dir = project_root / "neuro_child" / "memory"
     if not memory_dir.exists():
@@ -625,28 +754,14 @@ async def on_shutdown():
 # ------------------------------------------------------------------
 def main() -> None:
     parser = argparse.ArgumentParser(description="Nova Server — FastAPI backend")
-    parser.add_argument(
-        "--host", default="0.0.0.0", help="Bind host (default: 0.0.0.0)"
-    )
-    parser.add_argument(
-        "--port", type=int, default=8000, help="Bind port (default: 8000)"
-    )
-    parser.add_argument(
-        "--api-key", default=None, help="API key for authentication (if unset, one is generated)"
-    )
-    parser.add_argument(
-        "--no-speech", action="store_true", help="Disable TTS speech"
-    )
-    parser.add_argument(
-        "--screen-hz", type=float, default=0.5, help="Screen capture refresh rate (default: 0.5 = 2s)"
-    )
-    parser.add_argument(
-        "--autonomous-interval", type=float, default=600,
-        help="Autonomous tick interval in seconds (default: 600)"
-    )
-    parser.add_argument(
-        "--log-level", default="info", choices=["debug", "info", "warning", "error"]
-    )
+    parser.add_argument("--host", default="0.0.0.0", help="Bind host")
+    parser.add_argument("--port", type=int, default=8000, help="Bind port")
+    parser.add_argument("--api-key", default=None, help="API key (if unset, one is generated)")
+    parser.add_argument("--no-speech", action="store_true", help="Disable TTS speech")
+    parser.add_argument("--screen-hz", type=float, default=0.5, help="Screen refresh rate")
+    parser.add_argument("--autonomous-interval", type=float, default=600,
+                        help="Autonomous tick interval (seconds)")
+    parser.add_argument("--log-level", default="info", choices=["debug", "info", "warning", "error"])
     args = parser.parse_args()
 
     logging.getLogger().setLevel(getattr(logging, args.log_level.upper()))
