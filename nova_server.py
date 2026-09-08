@@ -207,7 +207,7 @@ class NovaBackend:
             raise
 
         self._memory = Memory()  # uses MEMORY_DIR internally
-        self._personality = Personality()
+        self._personality = Personality(self._memory.profile)
 
         # Consciousness (drives, mood, self-model) — same as gui.py
         try:
