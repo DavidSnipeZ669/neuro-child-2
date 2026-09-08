@@ -40,7 +40,7 @@ import secrets
 import sys
 import time
 import threading
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -136,16 +136,19 @@ class CommandRequest(BaseModel):
     params: Optional[dict] = None
 
 
-# ---------------------------------------------------------------------------
-# Stub objects — used when real imports (eyes, mouth, hands, consciousness)
-# fail. These exist so Brain.respond() (from gui.py) never crashes on None.
-# ---------------------------------------------------------------------------
-
-@dataclass
-class _StubDrive:
-    intensity: float = 0.5
-    min: float = 0
-    max: float = 1
+# ===========================================================================
+# STUB OBJECTS — used when real imports (eyes, mouth, hands, consciousness)
+# fail. These exist at MODULE LEVEL so NovaBackend.start() can assign them
+# to self._eyes / self._mouth / self._hands / self._consciousness.
+#
+# Without these, Brain.respond() (from gui.py) crashes on None:
+#   gui.py:625  self.eyes.observe()       -> None.observe() = AttributeError
+#   gui.py:647  self.consciousness.interact() -> None.interact()
+#   gui.py:648  self.consciousness.perceive() -> None.perceive()
+#   gui.py:657  self.consciousness.desires.drives -> None.desires
+#   gui.py:747  self.consciousness.state.mood -> None.state
+#   gui.py:775  self.eyes.observe().get("text") -> None.observe()
+# ===========================================================================
 
 
 @dataclass
@@ -163,21 +166,28 @@ class _StubConsciousState:
     last_thought: str = ""
 
 
+@dataclass
+class _StubDrive:
+    intensity: float = 0.5
+    min: float = 0
+    max: float = 1
+
+
 class _ConsciousnessStub:
     """Minimal stub for consciousness when real import fails.
 
     Must provide:
       - state property (ConsciousState-like, with ``mood``)
+      - desires property (with .drives dict for dual_cortex drive extraction
+        at gui.py:657-664: curiosity, play, autonomy)
       - interact(user_text, outcome)
       - perceive(screen_text, cursor_pos)
       - get_mood() -> dict
-      - get_drives() -> dict  (with "curiosity", "play", "autonomy" keys)
+      - get_drives() -> dict
       - get_thoughts() -> str
       - get_goals() -> list
       - get_lessons() -> list
       - get_vocabulary() -> list
-      - desires attribute (with .drives dict for dual_cortex drive extraction
-        at gui.py:657-664)
     """
 
     def __init__(self) -> None:
@@ -246,9 +256,9 @@ class _EyesStub:
 
 
 class _MouthStub:
-    """Stub so Brain.chat() doesn't crash when real Mouth import fails.
+    """Stub so Brain doesn't crash when real Mouth import fails.
 
-    gui.py chat() calls self._mouth.say(reply) (optional) and reads
+    Brain methods call self._mouth.say(reply) (optional) and read
     self._mouth.last_audio_path.
     """
 
@@ -265,7 +275,7 @@ class _MouthStub:
 
 
 class _HandsStub:
-    """Stub so Brain.respond() / reflexes don't crash when real Hands import fails.
+    """Stub so Brain / reflexes don't crash when real Hands import fails.
 
     gui.py reflexes + tool handlers call:
       self.hands.press(key)
@@ -287,9 +297,9 @@ class _HandsStub:
         return f"clicked: {x},{y}"
 
 
-# ---------------------------------------------------------------------------
+# ===========================================================================
 # Nova backend wrapper
-# ---------------------------------------------------------------------------
+# ===========================================================================
 class NovaBackend:
     """Wires up the same components gui.py would, but with no Tkinter.
 
@@ -332,7 +342,10 @@ class NovaBackend:
     # Startup / shutdown
     # ------------------------------------------------------------------
     async def start(self) -> None:
-        """Import and initialise the same stack gui.py uses."""
+        """Import and initialise the same stack gui.py uses.
+
+        Uses stub objects when real imports fail, so Brain never gets None.
+        """
         if self._started:
             return
         log.info("Starting Nova backend…")
@@ -354,7 +367,7 @@ class NovaBackend:
         self._memory = Memory()
         self._personality = Personality(self._memory.profile)
 
-        # Consciousness
+        # Consciousness — try real, fall back to stub
         try:
             from neuro_child.consciousness import Consciousness
             self._consciousness = Consciousness(
@@ -459,7 +472,11 @@ class NovaBackend:
         audio_b64 = None
         if self.speech_enabled and self._mouth and reply:
             try:
-                audio_path = self._mouth.say(reply) if hasattr(self._mouth, "say") else None
+                audio_path = (
+                    self._mouth.say(reply)
+                    if hasattr(self._mouth, "say")
+                    else None
+                )
                 if audio_path and Path(audio_path).exists():
                     b64 = base64.b64encode(Path(audio_path).read_bytes()).decode()
                     audio_b64 = f"data:audio/mp3;base64,{b64}"
@@ -483,9 +500,9 @@ class NovaBackend:
         """Return a current state snapshot (called by polling + WS push)."""
         with self._lock:
             screen_b64 = None
-            if self._eyes:
+            if self._eyes and hasattr(self._eyes, "capture"):
                 try:
-                    img = self._eyes.capture() if hasattr(self._eyes, "capture") else None
+                    img = self._eyes.capture()
                     if img:
                         import io
                         buf = io.BytesIO()
@@ -561,9 +578,9 @@ class NovaBackend:
             self._stop_event.wait(5.0)
 
 
-# ---------------------------------------------------------------------------
+# ===========================================================================
 # FastAPI app
-# ---------------------------------------------------------------------------
+# ===========================================================================
 app = FastAPI(
     title="Nova API",
     description="Backend for Nova AI companion — talk to her, see her state.",
@@ -598,7 +615,7 @@ async def key_status(request: Request):
 
 
 @app.post("/api/chat", response_model=ChatReply)
-async def chat(req: ChatMessage, request: Request):
+async def chat_endpoint(req: ChatMessage, request: Request):
     verify_api_key(request)
     if not backend or not backend._started:
         raise HTTPException(status_code=503, detail="Nova backend not started")
@@ -627,7 +644,11 @@ async def command(req: CommandRequest, request: Request):
         elif hasattr(brain, "handle_command"):
             result = brain.handle_command(req.action, req.params or {})
         else:
-            result = getattr(brain, req.action)(**req.params) if req.params else getattr(brain, req.action)()
+            result = (
+                getattr(brain, req.action)(**req.params)
+                if req.params
+                else getattr(brain, req.action)()
+            )
         return {"status": "ok", "result": str(result)}
     except Exception as e:
         log.exception("Command %s failed", req.action)
@@ -759,9 +780,12 @@ def main() -> None:
     parser.add_argument("--api-key", default=None, help="API key (if unset, one is generated)")
     parser.add_argument("--no-speech", action="store_true", help="Disable TTS speech")
     parser.add_argument("--screen-hz", type=float, default=0.5, help="Screen refresh rate")
-    parser.add_argument("--autonomous-interval", type=float, default=600,
-                        help="Autonomous tick interval (seconds)")
-    parser.add_argument("--log-level", default="info", choices=["debug", "info", "warning", "error"])
+    parser.add_argument(
+        "--autonomous-interval", type=float, default=600,
+        help="Autonomous tick interval (seconds)",
+    )
+    parser.add_argument("--log-level", default="info",
+                        choices=["debug", "info", "warning", "error"])
     args = parser.parse_args()
 
     logging.getLogger().setLevel(getattr(logging, args.log_level.upper()))
