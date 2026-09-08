@@ -62,9 +62,14 @@ test_integration.py
 test_keybinds.py
 clean_memory.py
 
+# ── Electron project (Frontend Phase 1) ──
+electron/node_modules/
+electron/dist-electron/
+electron/dist-renderer/
+electron/*.tsbuildinfo
+
+# ── Leftover from earlier failed frontend attempt ──
+nova_frontend/
+
 # ── User-provided reference files (DO NOT MODIFY) ──
 attachments/
-
-# ── Git LFS payloads (only large media in attachments/) ──
-attachments/*.mp3
-attachments/*.png

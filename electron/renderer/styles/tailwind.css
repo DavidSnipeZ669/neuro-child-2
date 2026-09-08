@@ -1,0 +1,259 @@
+/**
+ * @fileoverview Tailwind v4 CSS entry for Nova Electron renderer.
+ *
+ * Structure:
+ *  - Custom theme tokens (dark/light via @theme blocks)
+ *  - Tailwind imports for forms, typography
+ *  - Component classes for Nova's UI parts
+ *
+ * To override the theme at runtime (light/dark/system), the renderer
+ * applies data-theme="light|dark" on <html> and Tailwind's
+ * prefers-color-scheme / attribute selectors handle the rest.
+ */
+
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+ * Theme tokens — light mode (default)
+ * --------------------------------------------------------------------------- */
+@theme {
+  /* Core surfaces */
+  --color-bg: oklch(0.98 0 0);
+  --color-bg-elevated: oklch(1 0 0);
+  --color-bg-muted: oklch(0.96 0 0);
+  --color-bg-subtle: oklch(0.94 0 0);
+
+  /* Foreground */
+  --color-fg: oklch(0.15 0 0);
+  --color-fg-muted: oklch(0.4 0 0);
+  --color-fg-subtle: oklch(0.55 0 0);
+  --color-fg-inverse: oklch(1 0 0);
+
+  /* Accent — Nova's signature purple/cyan */
+  --color-accent: oklch(0.65 0.15 280); /* purple */
+  --color-accent-hover: oklch(0.6 0.18 280);
+  --color-accent-foreground: oklch(1 0 0);
+  --color-accent-muted: oklch(0.75 0.1 280);
+
+  /* Semantic */
+  --color-primary: oklch(0.65 0.15 280);
+  --color-secondary: oklch(0.7 0.1 260);
+  --color-muted: oklch(0.94 0 0);
+  --color-border: oklch(0.9 0 0);
+  --color-border-muted: oklch(0.85 0 0);
+  --color-ring: oklch(0.65 0.15 280);
+
+  /* Status */
+  --color-success: oklch(0.6 0.15 140);
+  --color-warning: oklch(0.7 0.18 85);
+  --color-error: oklch(0.6 0.2 25);
+  --color-info: oklch(0.6 0.12 230);
+
+  /* Spacing / radii */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Font */
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
+}
+
+/* ---------------------------------------------------------------------------
+ * Dark mode overrides (Tailwind attribute selector)
+ * --------------------------------------------------------------------------- */
+[data-theme="dark"] {
+  --color-bg: oklch(0.1 0.01 280);
+  --color-bg-elevated: oklch(0.14 0.01 280);
+  --color-bg-muted: oklch(0.12 0.01 280);
+  --color-bg-subtle: oklch(0.16 0.01 280);
+
+  --color-fg: oklch(0.95 0.01 280);
+  --color-fg-muted: oklch(0.7 0.01 280);
+  --color-fg-subtle: oklch(0.55 0.01 280);
+  --color-fg-inverse: oklch(0.1 0.01 280);
+
+  --color-accent: oklch(0.7 0.18 280);
+  --color-accent-hover: oklch(0.75 0.2 280);
+  --color-accent-foreground: oklch(0.1 0.01 280);
+  --color-accent-muted: oklch(0.55 0.14 280);
+
+  --color-primary: oklch(0.7 0.18 280);
+  --color-secondary: oklch(0.65 0.14 260);
+  --color-muted: oklch(0.16 0.01 280);
+  --color-border: oklch(0.25 0.01 280);
+  --color-border-muted: oklch(0.2 0.01 280);
+  --color-ring: oklch(0.7 0.18 280);
+
+  --color-success: oklch(0.65 0.16 140);
+  --color-warning: oklch(0.7 0.18 85);
+  --color-error: oklch(0.65 0.2 25);
+  --color-info: oklch(0.65 0.14 230);
+}
+
+/* ---------------------------------------------------------------------------
+ * System preference (when data-theme="system" — JS toggles this class)
+ * --------------------------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  [data-theme="system"] {
+    --color-bg: oklch(0.1 0.01 280);
+    --color-bg-elevated: oklch(0.14 0.01 280);
+    --color-bg-muted: oklch(0.12 0.01 280);
+    --color-bg-subtle: oklch(0.16 0.01 280);
+
+    --color-fg: oklch(0.95 0.01 280);
+    --color-fg-muted: oklch(0.7 0.01 280);
+    --color-fg-subtle: oklch(0.55 0.01 280);
+    --color-fg-inverse: oklch(0.1 0.01 280);
+
+    --color-accent: oklch(0.7 0.18 280);
+    --color-accent-hover: oklch(0.75 0.2 280);
+    --color-accent-foreground: oklch(0.1 0.01 280);
+    --color-accent-muted: oklch(0.55 0.14 280);
+
+    --color-primary: oklch(0.7 0.18 280);
+    --color-secondary: oklch(0.65 0.14 260);
+    --color-muted: oklch(0.16 0.01 280);
+    --color-border: oklch(0.25 0.01 280);
+    --color-border-muted: oklch(0.2 0.01 280);
+    --color-ring: oklch(0.7 0.18 280);
+
+    --color-success: oklch(0.65 0.16 140);
+    --color-warning: oklch(0.7 0.18 85);
+    --color-error: oklch(0.65 0.2 25);
+    --color-info: oklch(0.65 0.14 230);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Base reset + Nova-specific component utilities
+ * --------------------------------------------------------------------------- */
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+/* Nova accent colour variants for Tailwind */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-all
+         bg-[var(--color-primary)] text-[var(--color-accent-foreground)]
+         hover:bg-[var(--color-accent-hover)] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed
+         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)] focus-visible:ring-offset-2
+         focus-visible:ring-offset-[var(--color-bg)];
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center rounded-md px-3 py-1.5 text-sm text-[var(--color-fg-muted)]
+         hover:bg-[var(--color-bg-muted)] hover:text-[var(--color-fg)] transition-colors
+         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)]
+         disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-icon {
+  @apply inline-flex items-center justify-center rounded-md w-8 h-8 text-[var(--color-fg-muted)]
+         hover:bg-[var(--color-bg-muted)] hover:text-[var(--color-fg)] transition-colors
+         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)]
+         disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.card {
+  @apply rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-elevated)] p-4 shadow-sm;
+}
+
+.card-muted {
+  @apply rounded-lg border border-[var(--color-border-muted)] bg-[var(--color-bg-muted)] p-4;
+}
+
+.input {
+  @apply flex h-10 w-full rounded-md border border-[var(--color-border)] bg-[var(--color-bg-elevated)]
+         px-3 py-2 text-sm text-[var(--color-fg)] placeholder:text-[var(--color-fg-subtle)]
+         focus:outline-none focus:ring-2 focus:ring-[var(--color-ring)] focus:border-transparent
+         disabled:cursor-not-allowed disabled:opacity-50 transition-shadow;
+}
+
+.textarea {
+  @apply flex min-h-[80px] w-full rounded-md border border-[var(--color-border)] bg-[var(--color-bg-elevated)]
+         px-3 py-2 text-sm text-[var(--color-fg)] placeholder:text-[var(--color-fg-subtle)]
+         focus:outline-none focus:ring-2 focus:ring-[var(--color-ring)] focus:border-transparent
+         disabled:cursor-not-allowed disabled:opacity-50 transition-shadow resize-y;
+}
+
+.avatar {
+  @apply inline-flex items-center justify-center rounded-full bg-[var(--color-accent)] text-[var(--color-accent-foreground)]
+         font-bold text-sm shrink-0;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-[var(--color-accent-muted)]
+         text-[var(--color-accent)];
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--color-fg-subtle);
+}
+
+/* Chat bubbles */
+.chat-bubble-user {
+  @apply max-w-[85%] rounded-2xl rounded-br-md px-4 py-2.5
+         bg-[var(--color-primary)] text-[var(--color-accent-foreground)];
+}
+
+.chat-bubble-nova {
+  @apply max-w-[85%] rounded-2xl rounded-bl-md px-4 py-2.5
+         bg-[var(--color-bg-muted)] text-[var(--color-fg)] border border-[var(--color-border)];
+}
+
+.chat-system {
+  @apply text-center text-xs text-[var(--color-fg-subtle)] py-1;
+}
+
+/* Drive bar */
+.drive-bar {
+  @apply h-2 w-full rounded-full bg-[var(--color-bg-subtle)] overflow-hidden;
+}
+
+.drive-bar-fill {
+  @apply h-full rounded-full transition-all duration-500 ease-out;
+}
+
+/* Screen preview */
+.screen-preview {
+  @apply rounded-lg border border-[var(--color-border)] bg-black overflow-hidden
+         w-full h-full object-cover;
+}
+
+/* Mood indicator */
+.mood-dot {
+  @apply inline-block w-3 h-3 rounded-full;
+}
