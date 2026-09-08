@@ -3,6 +3,16 @@ import { app, BrowserWindow, ipcMain, shell, dialog } from "electron";
 import path from "path";
 import log from "electron-log/main";
 
+// Parse CLI args (needed so API key survives `start` via cmd /c)
+let cliApiKey = "";
+const cliArgs = process.argv.slice(1);
+for (let i = 0; i < cliArgs.length; i++) {
+  if (cliArgs[i] === "--api-key" && i + 1 < cliArgs.length) {
+    cliApiKey = cliArgs[i + 1];
+    i++;
+  }
+}
+
 // Logging is ready to use immediately (electron-log default export is the logger)
 log.transports.file.level = "info";
 log.transports.console.level = "debug";
@@ -11,10 +21,11 @@ log.transports.console.level = "debug";
 // Config
 // ---------------------------------------------------------------------------
 const CONFIG = {
-  // Nova server — override via env or command line
+  // Nova server — override via CLI arg, env, or default
   novaHost: process.env.NOVA_HOST || "127.0.0.1",
   novaPort: parseInt(process.env.NOVA_PORT || "8009", 10),
-  novaApiKey: process.env.NOVA_API_KEY || "",
+  // CLI arg takes priority, then env, then empty (auth disabled)
+  novaApiKey: cliApiKey || process.env.NOVA_API_KEY || "",
   // Whether to use Tailscale hostname if available
   useTailscale: process.env.NOVA_USE_TAILSCALE === "1",
   tailscaleHostname: process.env.NOVA_TAILSCALE_HOST || "",

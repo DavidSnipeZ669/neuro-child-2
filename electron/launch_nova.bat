@@ -9,7 +9,7 @@ cd /d "B:\Hermes\neuro-child-2"
 echo [1/2] Starting Nova backend (takes ~45s to load AI models)...
 echo.
 
-REM Kill any previous Nova backend by window title (safe — won't touch agent's python)
+REM Kill any previous Nova backend by window title (safe)
 taskkill /FI "WINDOWTITLE eq Nova Backend*" /T /F >nul 2>&1
 
 REM Launch backend in its own console window with distinctive title
@@ -33,12 +33,14 @@ echo.
 echo [2/2] Launching Nova Electron app...
 echo.
 
-REM Kill any previous Nova Electron by window title
+REM Kill any previous Nova Electron by window title (safe)
 taskkill /FI "WINDOWTITLE eq Nova Electron*" /F >nul 2>&1
 timeout /t 1 /nobreak >nul 2>&1
 
-start "" electron\node_modules\electron\dist\electron.exe electron
-echo    Electron launched.
+REM Use cmd /c to reliably pass environment variables through start
+start "" cmd /c "set NOVA_HOST=127.0.0.1&& set NOVA_PORT=8009&& set NOVA_API_KEY=nova-e2e-test&& electron\node_modules\electron\dist\electron.exe electron --api-key nova-e2e-test"
+
+echo    Electron launched (with API key via CLI arg).
 echo.
 echo ============================================
 echo  Nova AI is now running!
