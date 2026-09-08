@@ -299,7 +299,7 @@ class NovaBackend:
         loop = asyncio.get_running_loop()
         reply = await loop.run_in_executor(
             None,
-            lambda: self._brain.respond(message, context=context)
+            lambda: self._brain.respond(message)
             if hasattr(self._brain, "respond")
             else str(self._brain.chat(message))
             if hasattr(self._brain, "chat")
