@@ -524,8 +524,33 @@ class ComputerControl:
         """
         lower = action_text.lower().strip()
 
-        # Launch an app/game
-        if any(x in lower for x in ["launch", "open", "start ", "run "]):
+        # Strip inline comment from action strings like "press w  # forward"
+        if "  #" in lower:
+            lower = lower.split("  #")[0].strip()
+
+        # Key/button press — check this FIRST so actions like
+        # "press F1  # openManual" don't accidentally match "open" and
+        # get routed to launch_app.
+        if lower.startswith("press ") or lower.startswith("hit ") or lower.startswith("tap "):
+            key = lower.replace("press", "").replace("hit", "").replace("tap", "").strip()
+            if key:
+                return self.press_key(key)
+
+        # Hold key
+        if "hold " in lower or "hold down" in lower:
+            key = re.sub(r'hold\s*(down\s*)?', '', lower).strip()
+            if key:
+                return self.hold_key(key)
+
+        # Release key
+        if "release " in lower:
+            key = re.sub(r'release\s*', '', lower).strip()
+            if key:
+                return self.release_key(key)
+
+        # Launch an app/game — check AFTER press so "press F1  # openManual"
+        # doesn't accidentally route here.
+        if any(x in lower for x in ["launch", "open ", "start ", "run "]):
             app = lower.replace("launch", "").replace("open", "").replace("start", "").replace("run", "").strip()
             if app:
                 result = self.launch_app(app)
@@ -536,14 +561,12 @@ class ComputerControl:
             url_match = re.search(r'https?://[^\s]+', action_text)
             if url_match:
                 url = url_match.group(0)
-                # Use BrowserTools if available
                 try:
                     from neuro_child.world_tools import BrowserTools
                     browser = BrowserTools(local=True)
                     browser.goto(url)
                     return f"opened browser to {url}"
                 except Exception:
-                    # Fallback: open default browser
                     try:
                         subprocess.Popen(f'start "" "{url}"', shell=True)
                         return f"opened browser to {url}"
@@ -584,6 +607,9 @@ class ComputerControl:
         # Press key
         if lower.startswith("press ") or lower.startswith("hit ") or lower.startswith("tap "):
             key = lower.replace("press", "").replace("hit", "").replace("tap", "").strip()
+            # strip inline comment like "press w  # forward"
+            if "  #" in key:
+                key = key.split("  #")[0].strip()
             if key:
                 return self.press_key(key)
 
