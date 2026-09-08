@@ -13,7 +13,7 @@ log.transports.console.level = "debug";
 const CONFIG = {
   // Nova server — override via env or command line
   novaHost: process.env.NOVA_HOST || "127.0.0.1",
-  novaPort: parseInt(process.env.NOVA_PORT || "8000", 10),
+  novaPort: parseInt(process.env.NOVA_PORT || "8009", 10),
   novaApiKey: process.env.NOVA_API_KEY || "",
   // Whether to use Tailscale hostname if available
   useTailscale: process.env.NOVA_USE_TAILSCALE === "1",
