@@ -52,6 +52,7 @@ neuro_child/memory/test_voice.mp3
 neuro_child/memory/english_vocab.json
 neuro_child/memory/game_memory/
 neuro_child/memory/game_knowledge/
+neuro_child/memory/game_state_understanding.json
 neuro_child/game_memory/
 neuro_child/game_knowledge/
 
@@ -64,7 +65,6 @@ clean_memory.py
 # ── User-provided reference files (DO NOT MODIFY) ──
 attachments/
 
-# ── Git LFS payloads ──
-*.mp3
-*.png
-*.log
+# ── Git LFS payloads (only large media in attachments/) ──
+attachments/*.mp3
+attachments/*.png

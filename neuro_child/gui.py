@@ -381,7 +381,7 @@ class Brain:
         self.game_state_analyzer = GameStateAnalyzer(MEMORY_DIR)
         # Gameplay learning — she can detect, learn, and play any game
         self.gameplay_learner = GameplayLearner(
-            memory_dir=str(MEMORY_DIR.parent / "game_memory"),
+            memory_dir=MEMORY_DIR.parent / "game_memory",
             game_state_analyzer=self.game_state_analyzer,
             computer_control=self.computer_control,
             brain=self,
