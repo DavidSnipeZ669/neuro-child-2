@@ -129,8 +129,7 @@ function createMainWindow(): BrowserWindow {
   mainWindow = win;
 
   // Load the React app (built by Vite into dist-renderer/)
-  // In dev mode we still load the built files directly — no Vite dev server needed.
-  win.loadFile(path.join(__dirname, "../renderer/index.html"));
+  win.loadFile(path.join(__dirname, "../dist-renderer/index.html"));
 
   win.once("ready-to-show", () => {
     // Apply theme before showing
@@ -160,28 +159,18 @@ function createMainWindow(): BrowserWindow {
 // Theme application
 // ---------------------------------------------------------------------------
 function applyTheme(win: BrowserWindow, theme: string): void {
-  let cssVar;
-  if (theme === "system") {
-    const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)")?.matches;
-    cssVar = prefersDark ? "dark" : "light";
-  } else {
-    cssVar = theme;
-  }
-  // Send to renderer
+  // Pass the theme through to the renderer. For "system", the renderer
+  // (which has window.matchMedia) resolves the actual preference.
   if (win.webContents) {
-    win.webContents.send("theme-change", cssVar);
+    win.webContents.send("theme-change", theme);
   }
 }
 
-// Listen for system theme changes
-if (typeof window !== "undefined" && window.matchMedia) {
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-    if (store.get("theme") === "system") {
-      const theme = e.matches ? "dark" : "light";
-      if (mainWindow) applyTheme(mainWindow, theme);
-    }
-  });
-}
+// System theme changes are handled by the renderer (which has access to
+// window.matchMedia). The main process just listens for the renderer's
+// notification via IPC and applies the resolved theme.
+// (See renderer/src/components/SettingsPanel.tsx or App.tsx for the
+//  matchMedia listener that sends "system-theme-changed" to main.)
 
 // ---------------------------------------------------------------------------
 // IPC Handlers
