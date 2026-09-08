@@ -2,10 +2,8 @@
 import { app, BrowserWindow, ipcMain, shell, dialog } from "electron";
 import path from "path";
 import log from "electron-log/main";
-import { init as logInit } from "electron-log/main";
 
-// Init logging
-logInit();
+// Logging is ready to use immediately (electron-log default export is the logger)
 log.transports.file.level = "info";
 log.transports.console.level = "debug";
 
@@ -130,14 +128,9 @@ function createMainWindow(): BrowserWindow {
 
   mainWindow = win;
 
-  // Load the React app (built by Vite)
-  if (app.isPackaged) {
-    win.loadFile(path.join(__dirname, "../renderer/index.html"));
-  } else {
-    // Dev mode: load from Vite dev server
-    win.loadURL("http://localhost:5173");
-    win.webContents.openDevTools();
-  }
+  // Load the React app (built by Vite into dist-renderer/)
+  // In dev mode we still load the built files directly — no Vite dev server needed.
+  win.loadFile(path.join(__dirname, "../renderer/index.html"));
 
   win.once("ready-to-show", () => {
     // Apply theme before showing
