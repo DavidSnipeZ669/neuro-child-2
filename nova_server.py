@@ -250,15 +250,15 @@ class NovaBackend:
             log.warning("Could not load hands: %s — control disabled", e)
             self._hands = None
 
-        # Brain — the canonical one used by gui.py
+        # Brain — the canonical one used by gui.py (positional args, exact match)
         try:
-            from neuro_child.brain import Brain
+            from neuro_child.gui import Brain
             self._brain = Brain(
-                memory=self._memory,
-                personality=self._personality,
-                eyes=self._eyes,
-                hands=self._hands,
-                mouth=self._mouth,
+                self._memory,
+                self._personality,
+                self._eyes,
+                self._hands,
+                self._mouth,
             )
             log.info("Brain loaded in %.1fs", time.time() - t0)
         except Exception as e:
@@ -266,10 +266,7 @@ class NovaBackend:
             # Try the legacy smollm_brain as fallback
             try:
                 from neuro_child.smollm_brain import SmolLMBrain
-                self._brain = SmolLMBrain(
-                    memory=self._memory,
-                    personality=self._personality,
-                )
+                self._brain = SmolLMBrain()
                 log.info("Fallback SmolLMBrain loaded in %.1fs", time.time() - t0)
             except Exception as e2:
                 log.error("Fallback brain also failed: %s", e2)
